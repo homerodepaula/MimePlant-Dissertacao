@@ -1,0 +1,122 @@
+
+===== 2026-09-19 20:08:22 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/hpo_rl.py --study tpe_r3_b --sampler tpe --n-fre 32 --orcamento 1000000 --seed-sampler 1002 --n-startup 5 --paralelo --trabalhador 0 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+Traceback (most recent call last):
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: table studies already exists
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\hpo\hpo_rl.py", line 322, in <module>
+    sys.exit(main())
+  File "C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\hpo\hpo_rl.py", line 166, in main
+    study = optuna.create_study(study_name=args.study, storage=storage, direction='maximize',
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\optuna\_convert_positional_args.py", line 127, in converter_wrapper
+    return func(**kwargs)  # type: ignore[call-arg]
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\optuna\study\study.py", line 1295, in create_study
+    storage = storages.get_storage(storage)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\optuna\storages\__init__.py", line 49, in get_storage
+    return _CachedStorage(RDBStorage(storage))
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\optuna\storages\_rdb\storage.py", line 241, in __init__
+    models.BaseModel.metadata.create_all(self.engine)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\sql\schema.py", line 5931, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 3268, in _run_ddl_visitor
+    conn._run_ddl_visitor(visitorcallable, element, **kwargs)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 2467, in _run_ddl_visitor
+    ).traverse_single(element)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\sql\ddl.py", line 984, in visit_metadata
+    self.traverse_single(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\sql\ddl.py", line 1022, in visit_table
+    )._invoke_with(self.connection)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\sql\ddl.py", line 321, in _invoke_with
+    return bind.execute(self)
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\sql\ddl.py", line 187, in _execute_on_connection
+    return connection._execute_ddl(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 1530, in _execute_ddl
+    ret = self._execute_context(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Homer\.venvs\mimeplant\lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) table studies already exists
+[SQL: 
+CREATE TABLE studies (
+	study_id INTEGER NOT NULL, 
+	study_name VARCHAR(512) NOT NULL, 
+	PRIMARY KEY (study_id)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+===== 2026-09-19 20:09:22 lançamento 2: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/hpo_rl.py --study tpe_r3_b --sampler tpe --n-fre 32 --orcamento 1000000 --seed-sampler 1002 --n-startup 5 --paralelo --trabalhador 0 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+[I 2026-09-19 20:09:25,110] Using an existing study with name 'tpe_r3_b' instead of creating a new one.
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\optuna\_experimental.py:33: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\optuna\_experimental.py:33: ExperimentalWarning: Argument ``group`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\optuna\_experimental.py:33: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+[20:09:25] amostrador tpe com semente 2002 (base 1002 + 1000 x 1 trials já no banco)
+[20:09:25] study tpe_r3_b | sampler tpe | poda hyperband | N=1000000 | alvo 32.0 FRE | já consumidos 0.00 FRE em 1 trials | dispositivo cuda:NVIDIA GeForce RTX 4060
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\torch\nn\modules\rnn.py:1124: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1412.)
+  result = _VF.lstm(
+[21:14:07] trial 1: objetivo 0.947 | professor T=2.096305998783205 β=0.003467410204070937 lr=9.3e-05 ent=2.0e-03 | 1.00 FRE | 3881s
+[I 2026-09-19 21:14:07,464] Trial 1 finished with value: 0.9472916163234534 and parameters: {'lr': 9.263948974199806e-05, 'clip': 0.15945667660173984, 'c_ent': 0.001984868882084974, 'gamma': 0.99, 'lambda_gae': 0.9595704025014968, 'n_epocas': 2, 'minilote_seqs': 30, 'beta_kl0': 0.003467410204070937, 'beta_kl_decay': 0.9480226444965617, 'escala': 50.0, 'k_aquec': 11, 'temperatura_inicial': 2.096305998783205}. Best is trial 1 with value: 0.9472916163234534.
+[21:34:00] trial 2: PODADO em 337260 passos (0.34 FRE) | professor | 1193s
+[I 2026-09-19 21:34:00,687] Trial 2 pruned. 
+[21:55:10] trial 4: PODADO em 337260 passos (0.34 FRE) | professor | 1270s
+[I 2026-09-19 21:55:10,948] Trial 4 pruned. 
+[23:11:46] trial 5: objetivo 0.908 | professor T=4.351512549252462 β=0.09122208580408878 lr=1.2e-04 ent=1.1e-03 | 1.00 FRE | 4595s
+[I 2026-09-19 23:11:46,766] Trial 5 finished with value: 0.9075501746887306 and parameters: {'lr': 0.0001158075339398519, 'clip': 0.24181542547629248, 'c_ent': 0.0010705221625000585, 'gamma': 0.99, 'lambda_gae': 0.9200285445856258, 'n_epocas': 6, 'minilote_seqs': 10, 'beta_kl0': 0.09122208580408878, 'beta_kl_decay': 0.9366975582287772, 'escala': 100.0, 'k_aquec': 5, 'temperatura_inicial': 4.351512549252462}. Best is trial 1 with value: 0.9472916163234534.
+[23:50:25] trial 7: PODADO em 337260 passos (0.34 FRE) | professor | 2318s
+[I 2026-09-19 23:50:25,547] Trial 7 pruned. 
+[01:50:28] trial 8: objetivo 0.940 | professor T=1.8667405587846633 β=0.006399008241414691 lr=2.0e-04 ent=2.7e-03 | 1.00 FRE | 7202s
+[I 2026-09-20 01:50:28,318] Trial 8 finished with value: 0.9400572511111042 and parameters: {'lr': 0.00020301325954386366, 'clip': 0.19716453221801344, 'c_ent': 0.0027308266615875655, 'gamma': 0.99, 'lambda_gae': 0.9064174014323979, 'n_epocas': 2, 'minilote_seqs': 30, 'beta_kl0': 0.006399008241414691, 'beta_kl_decay': 0.9543215245229099, 'escala': 50.0, 'k_aquec': 10, 'temperatura_inicial': 1.8667405587846633}. Best is trial 1 with value: 0.9472916163234534.
+[03:46:17] trial 10: objetivo 0.960 | professor T=2.743337735719302 β=0.03369115814992547 lr=1.4e-05 ent=3.5e-03 | 1.00 FRE | 6949s
+[I 2026-09-20 03:46:17,354] Trial 10 finished with value: 0.9600139388829154 and parameters: {'lr': 1.4003200280702326e-05, 'clip': 0.18264108003225457, 'c_ent': 0.0035219796361831398, 'gamma': 0.99, 'lambda_gae': 0.9291092935308651, 'n_epocas': 2, 'minilote_seqs': 30, 'beta_kl0': 0.03369115814992547, 'beta_kl_decay': 0.9305310354281818, 'escala': 50.0, 'k_aquec': 15, 'temperatura_inicial': 2.743337735719302}. Best is trial 10 with value: 0.9600139388829154.
+[04:23:26] trial 14: PODADO em 337260 passos (0.34 FRE) | professor | 2229s
+[I 2026-09-20 04:23:26,387] Trial 14 pruned. 
+[06:18:50] trial 15: objetivo 0.945 | professor T=3.4862219395077507 β=0.12216534708471949 lr=1.3e-05 ent=9.0e-04 | 1.00 FRE | 6924s
+[I 2026-09-20 06:18:50,671] Trial 15 finished with value: 0.9451179768185526 and parameters: {'lr': 1.2967403171931815e-05, 'clip': 0.1794709945649998, 'c_ent': 0.0008994327447459298, 'gamma': 0.99, 'lambda_gae': 0.9374154213175081, 'n_epocas': 2, 'minilote_seqs': 30, 'beta_kl0': 0.12216534708471949, 'beta_kl_decay': 0.9665724376963988, 'escala': 50.0, 'k_aquec': 16, 'temperatura_inicial': 3.4862219395077507}. Best is trial 10 with value: 0.9600139388829154.
+[08:13:31] trial 18: objetivo 0.944 | professor T=1.3664004243889425 β=0.1436452161257263 lr=1.4e-05 ent=1.0e-03 | 1.00 FRE | 6880s
+[I 2026-09-20 08:13:31,506] Trial 18 finished with value: 0.9439505102640334 and parameters: {'lr': 1.3952748494925038e-05, 'clip': 0.14350107537534385, 'c_ent': 0.0010159302532294617, 'gamma': 0.99, 'lambda_gae': 0.9148175326818537, 'n_epocas': 2, 'minilote_seqs': 20, 'beta_kl0': 0.1436452161257263, 'beta_kl_decay': 0.9152090898731893, 'escala': 100.0, 'k_aquec': 14, 'temperatura_inicial': 1.3664004243889425}. Best is trial 10 with value: 0.9600139388829154.
+[08:51:49] trial 20: PODADO em 337260 passos (0.34 FRE) | professor | 2297s
+[I 2026-09-20 08:51:49,209] Trial 20 pruned. 
+[10:47:32] trial 21: objetivo 0.951 | professor T=1.0397181622779823 β=0.11493074853174354 lr=2.6e-05 ent=8.4e-03 | 1.00 FRE | 6942s
+[I 2026-09-20 10:47:32,162] Trial 21 finished with value: 0.950970170915034 and parameters: {'lr': 2.5657625557857554e-05, 'clip': 0.19299135421622993, 'c_ent': 0.008383481097576886, 'gamma': 0.99, 'lambda_gae': 0.9536831469492816, 'n_epocas': 2, 'minilote_seqs': 30, 'beta_kl0': 0.11493074853174354, 'beta_kl_decay': 0.9136855212141516, 'escala': 50.0, 'k_aquec': 17, 'temperatura_inicial': 1.0397181622779823}. Best is trial 10 with value: 0.9600139388829154.
+[12:47:30] trial 24: objetivo 0.959 | professor T=1.2330655846693703 β=0.5542267948525199 lr=1.5e-05 ent=8.2e-03 | 1.00 FRE | 7198s
+[I 2026-09-20 12:47:30,437] Trial 24 finished with value: 0.9592452893408248 and parameters: {'lr': 1.5288771268956026e-05, 'clip': 0.17243327544066098, 'c_ent': 0.008226335383078941, 'gamma': 0.99, 'lambda_gae': 0.9521373003208805, 'n_epocas': 3, 'minilote_seqs': 30, 'beta_kl0': 0.5542267948525199, 'beta_kl_decay': 0.9162113800100191, 'escala': 50.0, 'k_aquec': 15, 'temperatura_inicial': 1.2330655846693703}. Best is trial 10 with value: 0.9600139388829154.
+[15:01:09] trial 26: objetivo 0.966 | professor T=2.304365604018901 β=0.005854697824982758 lr=7.3e-05 ent=2.9e-03 | 1.00 FRE | 8019s
+[I 2026-09-20 15:01:09,442] Trial 26 finished with value: 0.965996711337982 and parameters: {'lr': 7.312987715036582e-05, 'clip': 0.10437134175679805, 'c_ent': 0.002946930955358999, 'gamma': 0.995, 'lambda_gae': 0.9272431849134476, 'n_epocas': 3, 'minilote_seqs': 10, 'beta_kl0': 0.005854697824982758, 'beta_kl_decay': 0.9321578902928628, 'escala': 100.0, 'k_aquec': 13, 'temperatura_inicial': 2.304365604018901}. Best is trial 26 with value: 0.965996711337982.
+[17:02:39] trial 28: objetivo 0.967 | professor T=1.5768570403932998 β=0.001793266872437194 lr=1.1e-05 ent=1.6e-02 | 1.00 FRE | 7290s
+[I 2026-09-20 17:02:39,606] Trial 28 finished with value: 0.9674941758337213 and parameters: {'lr': 1.1160297669356483e-05, 'clip': 0.2736716597231163, 'c_ent': 0.01593160470016449, 'gamma': 0.995, 'lambda_gae': 0.9672779853004078, 'n_epocas': 4, 'minilote_seqs': 20, 'beta_kl0': 0.001793266872437194, 'beta_kl_decay': 0.9273504452114767, 'escala': 50.0, 'k_aquec': 12, 'temperatura_inicial': 1.5768570403932998}. Best is trial 27 with value: 0.9775577149370166.
+[19:13:15] trial 30: objetivo 0.930 | professor T=1.799318872435926 β=0.001217069226288573 lr=1.0e-05 ent=1.7e-02 | 1.00 FRE | 7836s
+[I 2026-09-20 19:13:15,820] Trial 30 finished with value: 0.9298470882188865 and parameters: {'lr': 1.0123331731770938e-05, 'clip': 0.27048220965284847, 'c_ent': 0.016567618232614885, 'gamma': 0.995, 'lambda_gae': 0.9662455007571594, 'n_epocas': 3, 'minilote_seqs': 20, 'beta_kl0': 0.001217069226288573, 'beta_kl_decay': 0.9379389961628823, 'escala': 50.0, 'k_aquec': 10, 'temperatura_inicial': 1.799318872435926}. Best is trial 27 with value: 0.9775577149370166.
+[21:24:43] trial 32: objetivo 0.960 | professor T=1.731458586676147 β=0.008635344037554747 lr=1.0e-05 ent=4.9e-03 | 1.00 FRE | 7887s
+[I 2026-09-20 21:24:43,349] Trial 32 finished with value: 0.9600144429207441 and parameters: {'lr': 1.0171914461066256e-05, 'clip': 0.2805302454341762, 'c_ent': 0.0048705253590537135, 'gamma': 0.995, 'lambda_gae': 0.951977724897411, 'n_epocas': 2, 'minilote_seqs': 10, 'beta_kl0': 0.008635344037554747, 'beta_kl_decay': 0.9039655150971476, 'escala': 50.0, 'k_aquec': 20, 'temperatura_inicial': 1.731458586676147}. Best is trial 27 with value: 0.9775577149370166.
+[23:46:50] trial 36: objetivo 0.929 | professor T=2.422134710616503 β=0.003630536554937984 lr=1.6e-04 ent=2.1e-03 | 1.00 FRE | 8526s
+[I 2026-09-20 23:46:50,268] Trial 36 finished with value: 0.9294372660126249 and parameters: {'lr': 0.0001594625374163008, 'clip': 0.1335689332044841, 'c_ent': 0.0021013239572315622, 'gamma': 0.995, 'lambda_gae': 0.9316994202301785, 'n_epocas': 4, 'minilote_seqs': 20, 'beta_kl0': 0.003630536554937984, 'beta_kl_decay': 0.9388448917857573, 'escala': 100.0, 'k_aquec': 15, 'temperatura_inicial': 2.422134710616503}. Best is trial 27 with value: 0.9775577149370166.
+[00:28:41] trial 38: PODADO em 337260 passos (0.34 FRE) | professor | 2511s
+[I 2026-09-21 00:28:41,621] Trial 38 pruned. 
+[01:52:10] trial 40: objetivo 0.928 | professor T=3.5680604365783246 β=0.1783063338060661 lr=2.2e-05 ent=2.2e-02 | 1.00 FRE | 5009s
+[I 2026-09-21 01:52:10,788] Trial 40 finished with value: 0.9282199087281389 and parameters: {'lr': 2.2419215329335553e-05, 'clip': 0.23789513454489933, 'c_ent': 0.02196026162279906, 'gamma': 0.99, 'lambda_gae': 0.9745759187751959, 'n_epocas': 6, 'minilote_seqs': 20, 'beta_kl0': 0.1783063338060661, 'beta_kl_decay': 0.9053451225719774, 'escala': 200.0, 'k_aquec': 14, 'temperatura_inicial': 3.5680604365783246}. Best is trial 27 with value: 0.9775577149370166.
+[02:53:33] trial 42: objetivo 0.972 | professor T=1.784837614054498 β=0.02290314639837393 lr=1.2e-05 ent=9.3e-03 | 1.00 FRE | 3682s
+[I 2026-09-21 02:53:33,238] Trial 42 finished with value: 0.9717438660879645 and parameters: {'lr': 1.2398999395727904e-05, 'clip': 0.2700507412156024, 'c_ent': 0.00929926701921979, 'gamma': 0.995, 'lambda_gae': 0.9350202412830239, 'n_epocas': 4, 'minilote_seqs': 20, 'beta_kl0': 0.02290314639837393, 'beta_kl_decay': 0.909984813222858, 'escala': 50.0, 'k_aquec': 15, 'temperatura_inicial': 1.784837614054498}. Best is trial 27 with value: 0.9775577149370166.
+[02:53:33] fim: 28 concluídos, 15 podados, 33.14 FRE | melhor: {'numero': 27, 'valor': 0.9775577149370166, 'params': {'lr': 1.5543231853040375e-05, 'clip': 0.2582344449795854, 'c_ent': 0.012564483383048641, 'gamma': 0.995, 'lambda_gae': 0.9670811219986399, 'n_epocas': 4, 'minilote_seqs': 10, 'beta_kl0': 0.23901025858323754, 'beta_kl_decay': 0.9138227667095421, 'escala': 50.0, 'k_aquec': 18, 'temperatura_inicial': 1.678280545936528}}

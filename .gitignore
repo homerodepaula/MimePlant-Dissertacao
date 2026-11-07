@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+*.pt
+trajetorias_especialista.json
+results/_smoke/
+*.db
+results/_smoke*
+perfil_maquina.log
+results/**/parciais/
+
+# Resultados publicados: os bancos dos estudos de HPO entram
+!Resultados/**/*.db
+!Resultados/**/parciais/
+
+# Saidas da rodada 3 das suas execucoes (os resultados publicados ficam em Resultados/); ignorar evita git_sujo = true
+results/rodada3/

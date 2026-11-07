@@ -1,0 +1,25 @@
+
+===== 2026-09-19 20:07:49 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 bakeoff.py --bracos ppo_il ppo_zero --seeds 42 123 2024 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+[20:07:56] bake-off: braços ['ppo_il', 'ppo_zero'] | sementes [42, 123, 2024, 7, 1337] | orçamento 1000000 | dispositivo cuda:NVIDIA GeForce RTX 4060 | refs ok
+[20:07:56] === ppo_il | seed 42 ===
+[20:07:56] ppo_il seed 42: já concluído
+[20:07:56] === ppo_il | seed 123 ===
+[20:07:56] ppo_il seed 123: já concluído
+[20:07:56] === ppo_il | seed 2024 ===
+[20:07:56] ppo_il seed 2024: já concluído
+[20:07:56] === ppo_il | seed 7 ===
+[20:07:56] ppo_il seed 7: já concluído
+[20:07:56] === ppo_il | seed 1337 ===
+[20:07:56] ppo_il seed 1337: já concluído
+[20:07:56] === ppo_zero | seed 42 ===
+[20:07:56] ppo_zero seed 42: já concluído
+[20:07:56] === ppo_zero | seed 123 ===
+[20:07:56] ppo_zero seed 123: já concluído
+[20:07:56] === ppo_zero | seed 2024 ===
+[20:07:56] ppo_zero seed 2024: já concluído
+[20:07:56] === ppo_zero | seed 7 ===
+[20:07:56] ppo_zero seed 7: já concluído
+[20:07:56] === ppo_zero | seed 1337 ===
+[20:07:56] ppo_zero seed 1337: já concluído
+[20:07:56]   ppo_il    IQM 0.9469257038606989 | média 0.9383648833282013 ± 0.027830063919560104 (n=5)
+[20:07:56]   ppo_zero  IQM 0.9451368646713575 | média 0.9410731981980195 ± 0.02398005382948386 (n=5)

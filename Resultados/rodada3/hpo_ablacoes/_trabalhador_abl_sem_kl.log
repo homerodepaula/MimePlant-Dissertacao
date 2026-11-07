@@ -1,0 +1,52 @@
+[21:45:36] trabalhador abl_sem_kl | base rs_r3_a_trial54 | sementes [42, 123, 2024, 7, 1337]
+[23:06:17]     [validacao_objetivo] in_dist  média  5569.0 ±  213.8 IQM  5600.2 norm 1.024 | ocioso 16%
+[23:07:16]     [validacao_objetivo] dry      média  2871.2 ±  105.0 IQM  2874.5 norm 0.972 | ocioso 6%
+[23:08:18]     [validacao_objetivo] humid    média  5289.3 ±  290.5 IQM  5344.0 norm 0.991 | ocioso 13%
+[23:09:59]     [teste             ] in_dist  média  5597.0 ±  242.0 IQM  5633.8 norm 1.032 | ocioso 16%
+[23:11:35]     [teste             ] dry      média  2853.1 ±  105.7 IQM  2867.4 norm 0.966 | ocioso 6%
+[23:13:20]     [teste             ] humid    média  5361.8 ±  172.0 IQM  5394.6 norm 1.008 | ocioso 15%
+[23:14:57]     [teste (argmax)     ] in_dist  média  5158.6 ±  349.7 IQM  5241.9 norm 0.939 | ocioso 28%
+[23:16:30]     [teste (argmax)     ] dry      média  2527.7 ±  115.6 IQM  2516.1 norm 0.842 | ocioso 10%
+[23:18:10]     [teste (argmax)     ] humid    média  5080.0 ±  291.9 IQM  5145.0 norm 0.942 | ocioso 18%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_ablacoes\abl_sem_kl\seed_42\modelo_final.pt
+[00:34:37]     [validacao_objetivo] in_dist  média  5488.0 ±  326.1 IQM  5574.0 norm 1.007 | ocioso 16%
+[00:35:34]     [validacao_objetivo] dry      média  2754.4 ±  165.2 IQM  2776.0 norm 0.93 | ocioso 3%
+[00:36:37]     [validacao_objetivo] humid    média  5323.1 ±  150.1 IQM  5335.6 norm 0.999 | ocioso 19%
+[00:38:18]     [teste             ] in_dist  média  5575.2 ±  222.3 IQM  5634.5 norm 1.027 | ocioso 15%
+[00:39:55]     [teste             ] dry      média  2777.2 ±  120.3 IQM  2790.7 norm 0.937 | ocioso 3%
+[00:41:39]     [teste             ] humid    média  5316.3 ±  150.8 IQM  5332.5 norm 0.997 | ocioso 19%
+[00:43:15]     [teste (argmax)     ] in_dist  média  4479.2 ±  440.2 IQM  4546.4 norm 0.794 | ocioso 31%
+[00:44:47]     [teste (argmax)     ] dry      média  2395.4 ±  213.8 IQM  2380.5 norm 0.792 | ocioso 7%
+[00:46:24]     [teste (argmax)     ] humid    média  3354.5 ±  582.5 IQM  3250.5 norm 0.542 | ocioso 41%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_ablacoes\abl_sem_kl\seed_123\modelo_final.pt
+[02:03:00]     [validacao_objetivo] in_dist  média  5441.0 ±  291.3 IQM  5487.0 norm 0.997 | ocioso 7%
+[02:03:58]     [validacao_objetivo] dry      média  2920.0 ±  120.9 IQM  2934.6 norm 0.99 | ocioso 2%
+[02:05:01]     [validacao_objetivo] humid    média  5361.1 ±  136.2 IQM  5374.1 norm 1.008 | ocioso 9%
+[02:06:43]     [teste             ] in_dist  média  5444.2 ±  289.4 IQM  5506.9 norm 0.999 | ocioso 6%
+[02:08:17]     [teste             ] dry      média  2944.3 ±   88.5 IQM  2945.7 norm 1.001 | ocioso 2%
+[02:10:00]     [teste             ] humid    média  5417.8 ±  140.6 IQM  5430.3 norm 1.021 | ocioso 10%
+[02:11:37]     [teste (argmax)     ] in_dist  média  4616.0 ±  392.4 IQM  4626.6 norm 0.823 | ocioso 14%
+[02:13:12]     [teste (argmax)     ] dry      média  2646.8 ±  111.9 IQM  2657.1 norm 0.887 | ocioso 0%
+[02:14:53]     [teste (argmax)     ] humid    média  4234.0 ±  506.1 IQM  4255.1 norm 0.746 | ocioso 28%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_ablacoes\abl_sem_kl\seed_2024\modelo_final.pt
+[03:31:47]     [validacao_objetivo] in_dist  média  5541.7 ±  174.8 IQM  5564.2 norm 1.018 | ocioso 11%
+[03:32:45]     [validacao_objetivo] dry      média  2743.3 ±  117.0 IQM  2751.5 norm 0.926 | ocioso 5%
+[03:33:47]     [validacao_objetivo] humid    média  5265.2 ±  207.0 IQM  5311.0 norm 0.986 | ocioso 11%
+[03:35:27]     [teste             ] in_dist  média  5431.9 ±  255.2 IQM  5489.4 norm 0.997 | ocioso 11%
+[03:37:02]     [teste             ] dry      média  2742.3 ±  117.3 IQM  2736.3 norm 0.924 | ocioso 5%
+[03:38:46]     [teste             ] humid    média  5285.4 ±  197.5 IQM  5315.8 norm 0.99 | ocioso 11%
+[03:40:24]     [teste (argmax)     ] in_dist  média  5008.1 ±  363.4 IQM  5048.3 norm 0.906 | ocioso 25%
+[03:41:58]     [teste (argmax)     ] dry      média  2184.1 ±  152.6 IQM  2206.9 norm 0.712 | ocioso 15%
+[03:43:41]     [teste (argmax)     ] humid    média  4783.5 ±  387.4 IQM  4872.7 norm 0.874 | ocioso 25%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_ablacoes\abl_sem_kl\seed_7\modelo_final.pt
+[04:59:42]     [validacao_objetivo] in_dist  média  5523.2 ±  282.3 IQM  5573.1 norm 1.014 | ocioso 10%
+[05:00:33]     [validacao_objetivo] dry      média  2823.5 ±   82.0 IQM  2811.5 norm 0.955 | ocioso 2%
+[05:01:28]     [validacao_objetivo] humid    média  5335.8 ±  225.7 IQM  5382.4 norm 1.002 | ocioso 12%
+[05:03:01]     [teste             ] in_dist  média  5589.7 ±  214.0 IQM  5612.8 norm 1.03 | ocioso 10%
+[05:04:28]     [teste             ] dry      média  2789.5 ±   96.9 IQM  2795.8 norm 0.942 | ocioso 2%
+[05:06:03]     [teste             ] humid    média  5372.8 ±  195.2 IQM  5401.9 norm 1.01 | ocioso 12%
+[05:07:32]     [teste (argmax)     ] in_dist  média  5403.2 ±  290.4 IQM  5479.8 norm 0.991 | ocioso 18%
+[05:08:57]     [teste (argmax)     ] dry      média  2610.6 ±  183.7 IQM  2631.9 norm 0.874 | ocioso 1%
+[05:10:23]     [teste (argmax)     ] humid    média  4782.2 ±  392.9 IQM  4797.3 norm 0.873 | ocioso 23%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_ablacoes\abl_sem_kl\seed_1337\modelo_final.pt
+[05:10:23] trabalhador abl_sem_kl concluído

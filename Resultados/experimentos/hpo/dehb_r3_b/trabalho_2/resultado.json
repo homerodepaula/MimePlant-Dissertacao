@@ -1,0 +1,36 @@
+{
+ "impressao": "53fbe983140258b86dd91dfc72f2e25dffc31d0c83f995f3a4b7f10154af3a8d",
+ "id": 2,
+ "aptidao": -0.9913229261616209,
+ "objetivo": null,
+ "indicador": 0.9913229261616209,
+ "passos": 337260,
+ "fre": 0.33726,
+ "inicio": "2026-09-23T05:12:03.031",
+ "fim": "2026-09-23T05:50:28.602",
+ "tempo_s": 2305.5717396736145,
+ "curva": [
+  {
+   "passos": 113880,
+   "proxy_norm": 0.9574809934314613
+  },
+  {
+   "passos": 223380,
+   "proxy_norm": 0.9680557095142188
+  },
+  {
+   "passos": 337260,
+   "proxy_norm": 0.9913229261616209
+  }
+ ],
+ "hash_git": "aae16a6",
+ "versoes": {
+  "python": "3.10.11",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.2.6",
+  "gymnasium": "1.2.3",
+  "optuna": "4.8.0",
+  "scipy": "1.15.3"
+ },
+ "dispositivo": "cuda:NVIDIA GeForce RTX 4060"
+}

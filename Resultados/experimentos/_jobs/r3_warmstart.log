@@ -1,0 +1,425 @@
+
+===== 2026-09-19 15:09:14 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 treinar_warmstart_il.py --seeds 42 123 2024 7 1337 --config lr_alto --saida results\rodada3\il_warmstart --retomar
+[15:09:23] 200 demos (73000 transições) | config lr_alto {'lr': 0.001, 'dim_lstm': 512, 'len_seq': 32, 'nome': 'lr_alto'} | dispositivo cuda:NVIDIA GeForce RTX 4060
+[15:09:23] === seed 42 ===
+[rede] 3,925,774 parâmetros | dispositivo: cuda
+[norm] obs_dim=176 | média global=0.412 | std global=0.179 | 3 dims no piso (0.01)
+
+--------------------------------------------------------------
+  BEHAVIORAL CLONING — 100 épocas
+  Sequências: 2400 × 32 passos | batch: 64 | LR: 1e-03
+--------------------------------------------------------------
+  Época   1/100 | Perda: 1.0225 | Acur: 64.1% | LR: 1.00e-03 | Ep: 0.7s | Total: 1s
+  Época   5/100 | Perda: 0.3085 | Acur: 89.3% | LR: 9.94e-04 | Ep: 0.5s | Total: 2s
+  Época  10/100 | Perda: 0.2062 | Acur: 92.2% | LR: 9.76e-04 | Ep: 0.4s | Total: 5s
+  Época  15/100 | Perda: 0.1437 | Acur: 94.4% | LR: 9.46e-04 | Ep: 0.5s | Total: 7s
+  Época  20/100 | Perda: 0.0979 | Acur: 96.3% | LR: 9.05e-04 | Ep: 0.4s | Total: 9s
+  Época  25/100 | Perda: 0.0577 | Acur: 97.9% | LR: 8.55e-04 | Ep: 0.4s | Total: 11s
+  Época  30/100 | Perda: 0.0376 | Acur: 98.7% | LR: 7.96e-04 | Ep: 0.4s | Total: 14s
+  Época  35/100 | Perda: 0.0171 | Acur: 99.4% | LR: 7.30e-04 | Ep: 0.5s | Total: 16s
+  Época  40/100 | Perda: 0.0089 | Acur: 99.7% | LR: 6.58e-04 | Ep: 0.4s | Total: 18s
+  Época  45/100 | Perda: 0.0095 | Acur: 99.7% | LR: 5.82e-04 | Ep: 0.4s | Total: 20s
+  Época  50/100 | Perda: 0.0021 | Acur: 99.9% | LR: 5.05e-04 | Ep: 0.4s | Total: 23s
+  Época  55/100 | Perda: 0.0010 | Acur: 100.0% | LR: 4.28e-04 | Ep: 0.4s | Total: 25s
+  Época  60/100 | Perda: 0.0009 | Acur: 100.0% | LR: 3.52e-04 | Ep: 0.4s | Total: 27s
+  Época  65/100 | Perda: 0.0008 | Acur: 100.0% | LR: 2.80e-04 | Ep: 0.4s | Total: 29s
+  Época  70/100 | Perda: 0.0004 | Acur: 100.0% | LR: 2.14e-04 | Ep: 0.4s | Total: 31s
+  Época  75/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.55e-04 | Ep: 0.5s | Total: 34s
+  Época  80/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.05e-04 | Ep: 0.5s | Total: 36s
+  Época  85/100 | Perda: 0.0003 | Acur: 100.0% | LR: 6.40e-05 | Ep: 0.4s | Total: 38s
+  Época  90/100 | Perda: 0.0003 | Acur: 100.0% | LR: 3.42e-05 | Ep: 0.4s | Total: 40s
+  Época  95/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.61e-05 | Ep: 0.4s | Total: 43s
+  Época 100/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.00e-05 | Ep: 0.5s | Total: 45s
+
+  BC concluído em 44.8s (0.7 min)
+  Acurácia final: 100.0% | Perda: 0.0003
+[15:10:33]   [BC] 46s | acurácia 100.0% | validação-rollback 5192.0
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_42\modelo_bc.pt
+
+--------------------------------------------------------------
+  DAGGER — 7 rounds × 3650 passos/round
+  Épocas/round: 10 | LR: 1e-04 | beta: 0.5→0.0
+--------------------------------------------------------------
+
+  -- Round 1/7 (beta=0.50) --
+     Coleta: 3650 transições em 14.9s | acumulado: 76650
+     Treino (10 épocas): perda=0.0056 acur=99.9% em 5.0s
+[15:11:17]     rodada 1: validação-rollback 5229.3 (melhor: rodada 1 = 5229.3)
+
+  -- Round 2/7 (beta=0.42) --
+     Coleta: 3650 transições em 14.7s | acumulado: 80300
+     Treino (10 épocas): perda=0.0061 acur=99.9% em 5.3s
+[15:12:02]     rodada 2: validação-rollback 5206.2 (melhor: rodada 1 = 5229.3)
+
+  -- Round 3/7 (beta=0.33) --
+     Coleta: 3650 transições em 14.7s | acumulado: 83950
+     Treino (10 épocas): perda=0.0080 acur=99.8% em 5.4s
+[15:12:46]     rodada 3: validação-rollback 5112.3 (melhor: rodada 1 = 5229.3)
+
+  -- Round 4/7 (beta=0.25) --
+     Coleta: 3650 transições em 14.3s | acumulado: 87600
+     Treino (10 épocas): perda=0.0083 acur=99.8% em 5.6s
+[15:13:30]     rodada 4: validação-rollback 5359.2 (melhor: rodada 4 = 5359.2)
+
+  -- Round 5/7 (beta=0.17) --
+     Coleta: 3650 transições em 14.0s | acumulado: 91250
+     Treino (10 épocas): perda=0.0093 acur=99.8% em 5.6s
+[15:14:14]     rodada 5: validação-rollback 5202.3 (melhor: rodada 4 = 5359.2)
+
+  -- Round 6/7 (beta=0.08) --
+     Coleta: 3650 transições em 14.2s | acumulado: 94900
+     Treino (10 épocas): perda=0.0105 acur=99.8% em 5.7s
+[15:14:58]     rodada 6: validação-rollback 5256.3 (melhor: rodada 4 = 5359.2)
+
+  -- Round 7/7 (beta=0.00) --
+     Coleta: 3650 transições em 14.5s | acumulado: 98550
+     Treino (10 épocas): perda=0.0115 acur=99.7% em 6.0s
+[15:15:43]     rodada 7: validação-rollback 5216.8 (melhor: rodada 4 = 5359.2)
+
+  DAgger concluído em 310.1s (5.2 min)
+[15:15:43]   [DAgger] 310s | melhor rodada = 4 (5359.2 em validação-rollback)
+[15:16:18]     [validacao_objetivo] in_dist  média  5351.6 ±  294.7 IQM  5425.1 | esperar 36%
+[15:16:53]     [validacao_objetivo] dry      média  2548.1 ±  142.1 IQM  2557.2 | esperar 19%
+[15:17:30]     [validacao_objetivo] humid    média  4888.2 ±  435.3 IQM  4983.8 | esperar 41%
+[15:18:29]     [teste             ] in_dist  média  5294.9 ±  350.9 IQM  5358.1 | esperar 37%
+[15:19:27]     [teste             ] dry      média  2557.7 ±  138.6 IQM  2566.9 | esperar 19%
+[15:20:23]     [teste             ] humid    média  4975.3 ±  345.0 IQM  5004.9 | esperar 41%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_42\modelo_final.pt
+[15:20:23] === seed 123 ===
+[rede] 3,925,774 parâmetros | dispositivo: cuda
+[norm] obs_dim=176 | média global=0.412 | std global=0.179 | 3 dims no piso (0.01)
+
+--------------------------------------------------------------
+  BEHAVIORAL CLONING — 100 épocas
+  Sequências: 2400 × 32 passos | batch: 64 | LR: 1e-03
+--------------------------------------------------------------
+  Época   1/100 | Perda: 0.9796 | Acur: 65.7% | LR: 1.00e-03 | Ep: 0.4s | Total: 0s
+  Época   5/100 | Perda: 0.3043 | Acur: 89.4% | LR: 9.94e-04 | Ep: 0.4s | Total: 2s
+  Época  10/100 | Perda: 0.2104 | Acur: 92.0% | LR: 9.76e-04 | Ep: 0.4s | Total: 4s
+  Época  15/100 | Perda: 0.1439 | Acur: 94.4% | LR: 9.46e-04 | Ep: 0.4s | Total: 7s
+  Época  20/100 | Perda: 0.1004 | Acur: 96.1% | LR: 9.05e-04 | Ep: 0.4s | Total: 9s
+  Época  25/100 | Perda: 0.0582 | Acur: 97.8% | LR: 8.55e-04 | Ep: 0.4s | Total: 11s
+  Época  30/100 | Perda: 0.0388 | Acur: 98.6% | LR: 7.96e-04 | Ep: 0.4s | Total: 13s
+  Época  35/100 | Perda: 0.0226 | Acur: 99.2% | LR: 7.30e-04 | Ep: 0.4s | Total: 15s
+  Época  40/100 | Perda: 0.0073 | Acur: 99.8% | LR: 6.58e-04 | Ep: 0.4s | Total: 18s
+  Época  45/100 | Perda: 0.0037 | Acur: 99.9% | LR: 5.82e-04 | Ep: 0.4s | Total: 20s
+  Época  50/100 | Perda: 0.0017 | Acur: 100.0% | LR: 5.05e-04 | Ep: 0.4s | Total: 22s
+  Época  55/100 | Perda: 0.0024 | Acur: 99.9% | LR: 4.28e-04 | Ep: 0.4s | Total: 24s
+  Época  60/100 | Perda: 0.0006 | Acur: 100.0% | LR: 3.52e-04 | Ep: 0.4s | Total: 26s
+  Época  65/100 | Perda: 0.0004 | Acur: 100.0% | LR: 2.80e-04 | Ep: 0.5s | Total: 29s
+  Época  70/100 | Perda: 0.0004 | Acur: 100.0% | LR: 2.14e-04 | Ep: 0.4s | Total: 31s
+  Época  75/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.55e-04 | Ep: 0.4s | Total: 33s
+  Época  80/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.05e-04 | Ep: 0.4s | Total: 35s
+  Época  85/100 | Perda: 0.0003 | Acur: 100.0% | LR: 6.40e-05 | Ep: 0.4s | Total: 37s
+  Época  90/100 | Perda: 0.0003 | Acur: 100.0% | LR: 3.42e-05 | Ep: 0.4s | Total: 39s
+  Época  95/100 | Perda: 0.0002 | Acur: 100.0% | LR: 1.61e-05 | Ep: 0.4s | Total: 41s
+  Época 100/100 | Perda: 0.0002 | Acur: 100.0% | LR: 1.00e-05 | Ep: 0.4s | Total: 44s
+
+  BC concluído em 43.5s (0.7 min)
+  Acurácia final: 100.0% | Perda: 0.0002
+[15:21:28]   [BC] 44s | acurácia 100.0% | validação-rollback 5243.0
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_123\modelo_bc.pt
+
+--------------------------------------------------------------
+  DAGGER — 7 rounds × 3650 passos/round
+  Épocas/round: 10 | LR: 1e-04 | beta: 0.5→0.0
+--------------------------------------------------------------
+
+  -- Round 1/7 (beta=0.50) --
+     Coleta: 3650 transições em 12.2s | acumulado: 76650
+     Treino (10 épocas): perda=0.0039 acur=99.9% em 4.3s
+[15:22:06]     rodada 1: validação-rollback 5280.9 (melhor: rodada 1 = 5280.9)
+
+  -- Round 2/7 (beta=0.42) --
+     Coleta: 3650 transições em 12.3s | acumulado: 80300
+     Treino (10 épocas): perda=0.0063 acur=99.9% em 4.5s
+[15:22:48]     rodada 2: validação-rollback 5217.1 (melhor: rodada 1 = 5280.9)
+
+  -- Round 3/7 (beta=0.33) --
+     Coleta: 3650 transições em 13.6s | acumulado: 83950
+     Treino (10 épocas): perda=0.0068 acur=99.9% em 5.3s
+[15:23:30]     rodada 3: validação-rollback 5241.5 (melhor: rodada 1 = 5280.9)
+
+  -- Round 4/7 (beta=0.25) --
+     Coleta: 3650 transições em 13.4s | acumulado: 87600
+     Treino (10 épocas): perda=0.0074 acur=99.8% em 5.5s
+[15:24:11]     rodada 4: validação-rollback 5255.8 (melhor: rodada 1 = 5280.9)
+
+  -- Round 5/7 (beta=0.17) --
+     Coleta: 3650 transições em 13.3s | acumulado: 91250
+     Treino (10 épocas): perda=0.0095 acur=99.8% em 5.6s
+[15:24:53]     rodada 5: validação-rollback 5255.2 (melhor: rodada 1 = 5280.9)
+
+  -- Round 6/7 (beta=0.08) --
+     Coleta: 3650 transições em 12.3s | acumulado: 94900
+     Treino (10 épocas): perda=0.0110 acur=99.8% em 5.4s
+[15:25:32]     rodada 6: validação-rollback 5088.2 (melhor: rodada 1 = 5280.9)
+
+  -- Round 7/7 (beta=0.00) --
+     Coleta: 3650 transições em 13.4s | acumulado: 98550
+     Treino (10 épocas): perda=0.0144 acur=99.7% em 6.1s
+[15:26:14]     rodada 7: validação-rollback 5354.5 (melhor: rodada 7 = 5354.5)
+
+  DAgger concluído em 286.4s (4.8 min)
+[15:26:14]   [DAgger] 286s | melhor rodada = 7 (5354.5 em validação-rollback)
+[15:26:48]     [validacao_objetivo] in_dist  média  5368.0 ±  287.9 IQM  5425.6 | esperar 35%
+[15:27:24]     [validacao_objetivo] dry      média  2421.6 ±  218.8 IQM  2444.1 | esperar 16%
+[15:28:01]     [validacao_objetivo] humid    média  4794.4 ±  452.5 IQM  4818.9 | esperar 39%
+[15:29:02]     [teste             ] in_dist  média  5241.5 ±  363.4 IQM  5310.1 | esperar 35%
+[15:30:01]     [teste             ] dry      média  2348.9 ±  200.0 IQM  2341.8 | esperar 17%
+[15:31:00]     [teste             ] humid    média  4771.8 ±  476.0 IQM  4829.2 | esperar 41%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_123\modelo_final.pt
+[15:31:00] === seed 2024 ===
+[rede] 3,925,774 parâmetros | dispositivo: cuda
+[norm] obs_dim=176 | média global=0.412 | std global=0.179 | 3 dims no piso (0.01)
+
+--------------------------------------------------------------
+  BEHAVIORAL CLONING — 100 épocas
+  Sequências: 2400 × 32 passos | batch: 64 | LR: 1e-03
+--------------------------------------------------------------
+  Época   1/100 | Perda: 1.0140 | Acur: 64.5% | LR: 1.00e-03 | Ep: 0.4s | Total: 0s
+  Época   5/100 | Perda: 0.3082 | Acur: 89.2% | LR: 9.94e-04 | Ep: 0.4s | Total: 2s
+  Época  10/100 | Perda: 0.2051 | Acur: 92.3% | LR: 9.76e-04 | Ep: 0.4s | Total: 4s
+  Época  15/100 | Perda: 0.1485 | Acur: 94.3% | LR: 9.46e-04 | Ep: 0.4s | Total: 7s
+  Época  20/100 | Perda: 0.1043 | Acur: 96.0% | LR: 9.05e-04 | Ep: 0.4s | Total: 9s
+  Época  25/100 | Perda: 0.0593 | Acur: 97.8% | LR: 8.55e-04 | Ep: 0.4s | Total: 11s
+  Época  30/100 | Perda: 0.0314 | Acur: 98.9% | LR: 7.96e-04 | Ep: 0.4s | Total: 13s
+  Época  35/100 | Perda: 0.0210 | Acur: 99.3% | LR: 7.30e-04 | Ep: 0.4s | Total: 15s
+  Época  40/100 | Perda: 0.0110 | Acur: 99.6% | LR: 6.58e-04 | Ep: 0.4s | Total: 18s
+  Época  45/100 | Perda: 0.0051 | Acur: 99.8% | LR: 5.82e-04 | Ep: 0.4s | Total: 20s
+  Época  50/100 | Perda: 0.0023 | Acur: 99.9% | LR: 5.05e-04 | Ep: 0.4s | Total: 22s
+  Época  55/100 | Perda: 0.0009 | Acur: 100.0% | LR: 4.28e-04 | Ep: 0.4s | Total: 24s
+  Época  60/100 | Perda: 0.0005 | Acur: 100.0% | LR: 3.52e-04 | Ep: 0.4s | Total: 26s
+  Época  65/100 | Perda: 0.0005 | Acur: 100.0% | LR: 2.80e-04 | Ep: 0.5s | Total: 28s
+  Época  70/100 | Perda: 0.0004 | Acur: 100.0% | LR: 2.14e-04 | Ep: 0.5s | Total: 30s
+  Época  75/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.55e-04 | Ep: 0.5s | Total: 33s
+  Época  80/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.05e-04 | Ep: 0.5s | Total: 35s
+  Época  85/100 | Perda: 0.0003 | Acur: 100.0% | LR: 6.40e-05 | Ep: 0.5s | Total: 37s
+  Época  90/100 | Perda: 0.0003 | Acur: 100.0% | LR: 3.42e-05 | Ep: 0.5s | Total: 40s
+  Época  95/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.61e-05 | Ep: 0.4s | Total: 42s
+  Época 100/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.00e-05 | Ep: 0.4s | Total: 44s
+
+  BC concluído em 44.0s (0.7 min)
+  Acurácia final: 100.0% | Perda: 0.0003
+[15:32:09]   [BC] 44s | acurácia 100.0% | validação-rollback 5260.8
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_2024\modelo_bc.pt
+
+--------------------------------------------------------------
+  DAGGER — 7 rounds × 3650 passos/round
+  Épocas/round: 10 | LR: 1e-04 | beta: 0.5→0.0
+--------------------------------------------------------------
+
+  -- Round 1/7 (beta=0.50) --
+     Coleta: 3650 transições em 15.4s | acumulado: 76650
+     Treino (10 épocas): perda=0.0062 acur=99.9% em 5.1s
+[15:32:54]     rodada 1: validação-rollback 5219.6 (melhor: rodada 0 = 5260.8)
+
+  -- Round 2/7 (beta=0.42) --
+     Coleta: 3650 transições em 15.2s | acumulado: 80300
+     Treino (10 épocas): perda=0.0049 acur=99.9% em 5.7s
+[15:33:40]     rodada 2: validação-rollback 5154.4 (melhor: rodada 0 = 5260.8)
+
+  -- Round 3/7 (beta=0.33) --
+     Coleta: 3650 transições em 14.4s | acumulado: 83950
+     Treino (10 épocas): perda=0.0068 acur=99.9% em 5.8s
+[15:34:26]     rodada 3: validação-rollback 5277.5 (melhor: rodada 3 = 5277.5)
+
+  -- Round 4/7 (beta=0.25) --
+     Coleta: 3650 transições em 15.4s | acumulado: 87600
+     Treino (10 épocas): perda=0.0082 acur=99.8% em 5.9s
+[15:35:13]     rodada 4: validação-rollback 5181.6 (melhor: rodada 3 = 5277.5)
+
+  -- Round 5/7 (beta=0.17) --
+     Coleta: 3650 transições em 14.5s | acumulado: 91250
+     Treino (10 épocas): perda=0.0115 acur=99.7% em 5.9s
+[15:35:57]     rodada 5: validação-rollback 5249.9 (melhor: rodada 3 = 5277.5)
+
+  -- Round 6/7 (beta=0.08) --
+     Coleta: 3650 transições em 12.3s | acumulado: 94900
+     Treino (10 épocas): perda=0.0143 acur=99.7% em 5.0s
+[15:36:38]     rodada 6: validação-rollback 5287.3 (melhor: rodada 6 = 5287.3)
+
+  -- Round 7/7 (beta=0.00) --
+     Coleta: 3650 transições em 12.6s | acumulado: 98550
+     Treino (10 épocas): perda=0.0121 acur=99.7% em 6.0s
+[15:37:19]     rodada 7: validação-rollback 5223.8 (melhor: rodada 6 = 5287.3)
+
+  DAgger concluído em 310.0s (5.2 min)
+[15:37:19]   [DAgger] 310s | melhor rodada = 6 (5287.3 em validação-rollback)
+[15:37:54]     [validacao_objetivo] in_dist  média  5380.3 ±  327.0 IQM  5421.9 | esperar 35%
+[15:38:31]     [validacao_objetivo] dry      média  2558.8 ±  154.5 IQM  2569.9 | esperar 15%
+[15:39:10]     [validacao_objetivo] humid    média  4911.1 ±  401.0 IQM  4948.7 | esperar 36%
+[15:40:10]     [teste             ] in_dist  média  5338.7 ±  273.9 IQM  5385.4 | esperar 36%
+[15:41:05]     [teste             ] dry      média  2609.8 ±   93.4 IQM  2614.7 | esperar 15%
+[15:42:01]     [teste             ] humid    média  4758.5 ±  468.2 IQM  4809.9 | esperar 39%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_2024\modelo_final.pt
+[15:42:01] === seed 7 ===
+[rede] 3,925,774 parâmetros | dispositivo: cuda
+[norm] obs_dim=176 | média global=0.412 | std global=0.179 | 3 dims no piso (0.01)
+
+--------------------------------------------------------------
+  BEHAVIORAL CLONING — 100 épocas
+  Sequências: 2400 × 32 passos | batch: 64 | LR: 1e-03
+--------------------------------------------------------------
+  Época   1/100 | Perda: 1.0019 | Acur: 64.6% | LR: 1.00e-03 | Ep: 0.5s | Total: 0s
+  Época   5/100 | Perda: 0.3045 | Acur: 89.3% | LR: 9.94e-04 | Ep: 0.5s | Total: 2s
+  Época  10/100 | Perda: 0.2148 | Acur: 91.8% | LR: 9.76e-04 | Ep: 0.5s | Total: 5s
+  Época  15/100 | Perda: 0.1482 | Acur: 94.2% | LR: 9.46e-04 | Ep: 0.4s | Total: 7s
+  Época  20/100 | Perda: 0.1032 | Acur: 96.0% | LR: 9.05e-04 | Ep: 0.4s | Total: 9s
+  Época  25/100 | Perda: 0.0600 | Acur: 97.7% | LR: 8.55e-04 | Ep: 0.5s | Total: 11s
+  Época  30/100 | Perda: 0.0383 | Acur: 98.6% | LR: 7.96e-04 | Ep: 0.5s | Total: 13s
+  Época  35/100 | Perda: 0.0266 | Acur: 99.1% | LR: 7.30e-04 | Ep: 0.4s | Total: 16s
+  Época  40/100 | Perda: 0.0142 | Acur: 99.5% | LR: 6.58e-04 | Ep: 0.4s | Total: 18s
+  Época  45/100 | Perda: 0.0049 | Acur: 99.8% | LR: 5.82e-04 | Ep: 0.4s | Total: 20s
+  Época  50/100 | Perda: 0.0020 | Acur: 99.9% | LR: 5.05e-04 | Ep: 0.4s | Total: 22s
+  Época  55/100 | Perda: 0.0012 | Acur: 100.0% | LR: 4.28e-04 | Ep: 0.4s | Total: 24s
+  Época  60/100 | Perda: 0.0005 | Acur: 100.0% | LR: 3.52e-04 | Ep: 0.4s | Total: 27s
+  Época  65/100 | Perda: 0.0004 | Acur: 100.0% | LR: 2.80e-04 | Ep: 0.4s | Total: 29s
+  Época  70/100 | Perda: 0.0004 | Acur: 100.0% | LR: 2.14e-04 | Ep: 0.4s | Total: 31s
+  Época  75/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.55e-04 | Ep: 0.5s | Total: 33s
+  Época  80/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.05e-04 | Ep: 0.4s | Total: 35s
+  Época  85/100 | Perda: 0.0003 | Acur: 100.0% | LR: 6.40e-05 | Ep: 0.5s | Total: 38s
+  Época  90/100 | Perda: 0.0003 | Acur: 100.0% | LR: 3.42e-05 | Ep: 0.4s | Total: 40s
+  Época  95/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.61e-05 | Ep: 0.4s | Total: 42s
+  Época 100/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.00e-05 | Ep: 0.5s | Total: 44s
+
+  BC concluído em 44.5s (0.7 min)
+  Acurácia final: 100.0% | Perda: 0.0003
+[15:43:09]   [BC] 45s | acurácia 100.0% | validação-rollback 5351.1
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_7\modelo_bc.pt
+
+--------------------------------------------------------------
+  DAGGER — 7 rounds × 3650 passos/round
+  Épocas/round: 10 | LR: 1e-04 | beta: 0.5→0.0
+--------------------------------------------------------------
+
+  -- Round 1/7 (beta=0.50) --
+     Coleta: 3650 transições em 13.9s | acumulado: 76650
+     Treino (10 épocas): perda=0.0061 acur=99.9% em 4.7s
+[15:43:50]     rodada 1: validação-rollback 5299.4 (melhor: rodada 0 = 5351.1)
+
+  -- Round 2/7 (beta=0.42) --
+     Coleta: 3650 transições em 13.5s | acumulado: 80300
+     Treino (10 épocas): perda=0.0071 acur=99.8% em 4.9s
+[15:44:32]     rodada 2: validação-rollback 5362.4 (melhor: rodada 2 = 5362.4)
+
+  -- Round 3/7 (beta=0.33) --
+     Coleta: 3650 transições em 13.1s | acumulado: 83950
+     Treino (10 épocas): perda=0.0079 acur=99.9% em 5.1s
+[15:45:13]     rodada 3: validação-rollback 5291.5 (melhor: rodada 2 = 5362.4)
+
+  -- Round 4/7 (beta=0.25) --
+     Coleta: 3650 transições em 13.6s | acumulado: 87600
+     Treino (10 épocas): perda=0.0104 acur=99.8% em 5.4s
+[15:45:55]     rodada 4: validação-rollback 5354.7 (melhor: rodada 2 = 5362.4)
+
+  -- Round 5/7 (beta=0.17) --
+     Coleta: 3650 transições em 13.5s | acumulado: 91250
+     Treino (10 épocas): perda=0.0111 acur=99.8% em 5.5s
+[15:46:36]     rodada 5: validação-rollback 5183.4 (melhor: rodada 2 = 5362.4)
+
+  -- Round 6/7 (beta=0.08) --
+     Coleta: 3650 transições em 13.1s | acumulado: 94900
+     Treino (10 épocas): perda=0.0135 acur=99.7% em 5.8s
+[15:47:18]     rodada 6: validação-rollback 5225.5 (melhor: rodada 2 = 5362.4)
+
+  -- Round 7/7 (beta=0.00) --
+     Coleta: 3650 transições em 13.4s | acumulado: 98550
+     Treino (10 épocas): perda=0.0144 acur=99.7% em 6.0s
+[15:48:01]     rodada 7: validação-rollback 5195.4 (melhor: rodada 2 = 5362.4)
+
+  DAgger concluído em 292.1s (4.9 min)
+[15:48:01]   [DAgger] 292s | melhor rodada = 2 (5362.4 em validação-rollback)
+[15:48:34]     [validacao_objetivo] in_dist  média  5411.0 ±  232.0 IQM  5434.9 | esperar 37%
+[15:49:07]     [validacao_objetivo] dry      média  2592.3 ±  126.0 IQM  2613.0 | esperar 18%
+[15:49:42]     [validacao_objetivo] humid    média  4921.9 ±  432.8 IQM  5005.3 | esperar 40%
+[15:50:38]     [teste             ] in_dist  média  5404.8 ±  181.6 IQM  5411.5 | esperar 37%
+[15:51:33]     [teste             ] dry      média  2631.3 ±  116.3 IQM  2640.5 | esperar 18%
+[15:52:30]     [teste             ] humid    média  5038.2 ±  343.1 IQM  5082.4 | esperar 39%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_7\modelo_final.pt
+[15:52:30] === seed 1337 ===
+[rede] 3,925,774 parâmetros | dispositivo: cuda
+[norm] obs_dim=176 | média global=0.412 | std global=0.179 | 3 dims no piso (0.01)
+
+--------------------------------------------------------------
+  BEHAVIORAL CLONING — 100 épocas
+  Sequências: 2400 × 32 passos | batch: 64 | LR: 1e-03
+--------------------------------------------------------------
+  Época   1/100 | Perda: 0.9846 | Acur: 65.4% | LR: 1.00e-03 | Ep: 0.5s | Total: 0s
+  Época   5/100 | Perda: 0.3025 | Acur: 89.4% | LR: 9.94e-04 | Ep: 0.4s | Total: 2s
+  Época  10/100 | Perda: 0.2091 | Acur: 92.1% | LR: 9.76e-04 | Ep: 0.5s | Total: 5s
+  Época  15/100 | Perda: 0.1455 | Acur: 94.3% | LR: 9.46e-04 | Ep: 0.4s | Total: 7s
+  Época  20/100 | Perda: 0.1029 | Acur: 96.1% | LR: 9.05e-04 | Ep: 0.4s | Total: 9s
+  Época  25/100 | Perda: 0.0699 | Acur: 97.4% | LR: 8.55e-04 | Ep: 0.5s | Total: 11s
+  Época  30/100 | Perda: 0.0341 | Acur: 98.7% | LR: 7.96e-04 | Ep: 0.4s | Total: 14s
+  Época  35/100 | Perda: 0.0453 | Acur: 98.6% | LR: 7.30e-04 | Ep: 0.5s | Total: 16s
+  Época  40/100 | Perda: 0.0112 | Acur: 99.7% | LR: 6.58e-04 | Ep: 0.5s | Total: 18s
+  Época  45/100 | Perda: 0.0058 | Acur: 99.8% | LR: 5.82e-04 | Ep: 0.4s | Total: 20s
+  Época  50/100 | Perda: 0.0023 | Acur: 99.9% | LR: 5.05e-04 | Ep: 0.5s | Total: 23s
+  Época  55/100 | Perda: 0.0010 | Acur: 100.0% | LR: 4.28e-04 | Ep: 0.4s | Total: 25s
+  Época  60/100 | Perda: 0.0007 | Acur: 100.0% | LR: 3.52e-04 | Ep: 0.4s | Total: 27s
+  Época  65/100 | Perda: 0.0006 | Acur: 100.0% | LR: 2.80e-04 | Ep: 0.5s | Total: 29s
+  Época  70/100 | Perda: 0.0004 | Acur: 100.0% | LR: 2.14e-04 | Ep: 0.4s | Total: 32s
+  Época  75/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.55e-04 | Ep: 0.5s | Total: 34s
+  Época  80/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.05e-04 | Ep: 0.4s | Total: 36s
+  Época  85/100 | Perda: 0.0003 | Acur: 100.0% | LR: 6.40e-05 | Ep: 0.5s | Total: 38s
+  Época  90/100 | Perda: 0.0003 | Acur: 100.0% | LR: 3.42e-05 | Ep: 0.4s | Total: 41s
+  Época  95/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.61e-05 | Ep: 0.5s | Total: 43s
+  Época 100/100 | Perda: 0.0003 | Acur: 100.0% | LR: 1.00e-05 | Ep: 0.5s | Total: 45s
+
+  BC concluído em 45.2s (0.8 min)
+  Acurácia final: 100.0% | Perda: 0.0003
+[15:53:38]   [BC] 45s | acurácia 100.0% | validação-rollback 5320.3
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_1337\modelo_bc.pt
+
+--------------------------------------------------------------
+  DAGGER — 7 rounds × 3650 passos/round
+  Épocas/round: 10 | LR: 1e-04 | beta: 0.5→0.0
+--------------------------------------------------------------
+
+  -- Round 1/7 (beta=0.50) --
+     Coleta: 3650 transições em 13.6s | acumulado: 76650
+     Treino (10 épocas): perda=0.0059 acur=99.9% em 4.8s
+[15:54:20]     rodada 1: validação-rollback 5184.9 (melhor: rodada 0 = 5320.3)
+
+  -- Round 2/7 (beta=0.42) --
+     Coleta: 3650 transições em 13.7s | acumulado: 80300
+     Treino (10 épocas): perda=0.0062 acur=99.9% em 4.9s
+[15:55:01]     rodada 2: validação-rollback 5281.5 (melhor: rodada 0 = 5320.3)
+
+  -- Round 3/7 (beta=0.33) --
+     Coleta: 3650 transições em 13.4s | acumulado: 83950
+     Treino (10 épocas): perda=0.0069 acur=99.9% em 5.1s
+[15:55:41]     rodada 3: validação-rollback 5107.4 (melhor: rodada 0 = 5320.3)
+
+  -- Round 4/7 (beta=0.25) --
+     Coleta: 3650 transições em 13.5s | acumulado: 87600
+     Treino (10 épocas): perda=0.0094 acur=99.8% em 5.4s
+[15:56:23]     rodada 4: validação-rollback 5246.9 (melhor: rodada 0 = 5320.3)
+
+  -- Round 5/7 (beta=0.17) --
+     Coleta: 3650 transições em 13.6s | acumulado: 91250
+     Treino (10 épocas): perda=0.0105 acur=99.8% em 5.5s
+[15:57:05]     rodada 5: validação-rollback 5209.4 (melhor: rodada 0 = 5320.3)
+
+  -- Round 6/7 (beta=0.08) --
+     Coleta: 3650 transições em 14.0s | acumulado: 94900
+     Treino (10 épocas): perda=0.0113 acur=99.7% em 6.0s
+[15:57:48]     rodada 6: validação-rollback 5349.7 (melhor: rodada 6 = 5349.7)
+
+  -- Round 7/7 (beta=0.00) --
+     Coleta: 3650 transições em 13.7s | acumulado: 98550
+     Treino (10 épocas): perda=0.0126 acur=99.7% em 6.1s
+[15:58:30]     rodada 7: validação-rollback 5188.6 (melhor: rodada 6 = 5349.7)
+
+  DAgger concluído em 291.4s (4.9 min)
+[15:58:30]   [DAgger] 291s | melhor rodada = 6 (5349.7 em validação-rollback)
+[15:59:04]     [validacao_objetivo] in_dist  média  5350.7 ±  352.9 IQM  5420.0 | esperar 36%
+[15:59:37]     [validacao_objetivo] dry      média  2282.1 ±  444.3 IQM  2355.0 | esperar 17%
+[16:00:12]     [validacao_objetivo] humid    média  4540.6 ±  646.9 IQM  4626.5 | esperar 45%
+[16:01:08]     [teste             ] in_dist  média  5326.3 ±  282.5 IQM  5366.0 | esperar 36%
+[16:02:05]     [teste             ] dry      média  2140.6 ±  474.5 IQM  2168.3 | esperar 17%
+[16:03:03]     [teste             ] humid    média  4467.8 ±  537.7 IQM  4491.1 | esperar 45%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\il_warmstart\seed_1337\modelo_final.pt
+[16:03:04] validacao_objetivo: in_dist 5372 ± 22 | dry 2481 ± 115 | humid 4811 ± 143
+[16:03:04] teste: in_dist 5321 ± 54 | dry 2458 ± 187 | humid 4802 ± 200

@@ -1,0 +1,47 @@
+2026-09-24 22:55:17 | inicio | sampler=tpe n_fre=32.0 N=1000000
+2026-09-24 22:55:32 | inicio | sampler=tpe n_fre=32.0 N=1000000
+2026-09-24 22:55:52 | inicio | sampler=tpe n_fre=32.0 N=1000000
+2026-09-24 23:32:25 | trial_2 | estado=PRUNED fre=0.337
+2026-09-25 00:59:42 | trial_1 | estado=COMPLETE fre=1.34
+2026-09-25 01:01:06 | trial_0 | estado=COMPLETE fre=2.343
+2026-09-25 01:42:51 | trial_3 | estado=COMPLETE fre=3.346
+2026-09-25 02:23:24 | trial_6 | estado=PRUNED fre=3.684
+2026-09-25 03:09:33 | trial_4 | estado=COMPLETE fre=4.687
+2026-09-25 03:15:43 | trial_5 | estado=COMPLETE fre=5.69
+2026-09-25 03:50:25 | trial_8 | estado=PRUNED fre=6.027
+2026-09-25 03:56:09 | trial_9 | estado=PRUNED fre=6.364
+2026-09-25 04:35:01 | trial_7 | estado=COMPLETE fre=7.367
+2026-09-25 06:01:02 | trial_10 | estado=COMPLETE fre=8.37
+2026-09-25 06:06:39 | trial_11 | estado=COMPLETE fre=9.373
+2026-09-25 06:46:44 | trial_12 | estado=COMPLETE fre=10.376
+2026-09-25 07:27:49 | trial_15 | estado=PRUNED fre=10.713
+2026-09-25 08:14:58 | trial_13 | estado=COMPLETE fre=11.716
+2026-09-25 08:20:09 | trial_14 | estado=COMPLETE fre=12.72
+2026-09-25 09:00:42 | trial_18 | estado=PRUNED fre=13.057
+2026-09-25 09:41:50 | trial_16 | estado=COMPLETE fre=14.06
+2026-09-25 09:42:43 | trial_19 | estado=PRUNED fre=14.397
+2026-09-25 10:23:34 | trial_21 | estado=PRUNED fre=14.734
+2026-09-25 10:25:28 | trial_17 | estado=COMPLETE fre=15.737
+2026-09-25 11:54:42 | trial_20 | estado=COMPLETE fre=16.74
+2026-09-25 12:34:24 | trial_22 | estado=COMPLETE fre=17.743
+2026-09-25 12:38:00 | trial_23 | estado=COMPLETE fre=18.746
+2026-09-25 14:08:34 | trial_24 | estado=COMPLETE fre=19.749
+2026-09-25 14:46:44 | trial_26 | estado=COMPLETE fre=20.752
+2026-09-25 14:47:45 | trial_25 | estado=COMPLETE fre=21.755
+2026-09-25 15:24:45 | trial_28 | estado=PRUNED fre=22.093
+2026-09-25 16:02:59 | trial_30 | estado=PRUNED fre=22.43
+2026-09-25 16:13:16 | trial_27 | estado=COMPLETE fre=23.433
+2026-09-25 16:49:33 | trial_29 | estado=COMPLETE fre=24.436
+2026-09-25 18:06:37 | trial_31 | estado=COMPLETE fre=25.439
+2026-09-25 18:19:36 | trial_32 | estado=COMPLETE fre=26.442
+2026-09-25 18:45:02 | trial_34 | estado=PRUNED fre=26.779
+2026-09-25 18:57:31 | trial_33 | estado=COMPLETE fre=27.782
+2026-09-25 18:58:03 | trial_35 | estado=PRUNED fre=28.12
+2026-09-25 19:23:37 | trial_36 | estado=PRUNED fre=28.457
+2026-09-25 21:03:31 | trial_38 | estado=COMPLETE fre=29.46
+2026-09-25 21:05:52 | trial_37 | estado=COMPLETE fre=30.463
+2026-09-25 21:32:32 | trial_39 | estado=COMPLETE fre=31.466
+2026-09-25 21:42:39 | trial_40 | estado=PRUNED fre=31.803
+2026-09-25 23:06:36 | trial_41 | estado=COMPLETE fre=32.806
+2026-09-25 23:25:50 | trial_42 | estado=COMPLETE fre=33.809
+2026-09-25 23:32:45 | trial_43 | estado=COMPLETE fre=34.812

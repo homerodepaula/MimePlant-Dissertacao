@@ -1,0 +1,62 @@
+{
+ "pid_encadeador": 19352,
+ "inicio": "2026-09-24 22:55:10",
+ "parametros": {
+  "orcamento": 1000000,
+  "n_fre": 32,
+  "n_startup": 5,
+  "seed_hpo": 1001,
+  "trabalhadores": 3,
+  "k": 1,
+  "espaco": "8 hiperparâmetros"
+ },
+ "ctrl_tpe_zero_r3_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-25 23:07:01"
+ },
+ "ctrl_tpe_zero_r3_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-25 23:26:01"
+ },
+ "ctrl_tpe_zero_r3_w2": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-25 23:33:01"
+ },
+ "ctrl_rs_zero_r3_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-25 23:39:01"
+ },
+ "ctrl_rs_zero_r3_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-25 23:20:01"
+ },
+ "ctrl_rs_zero_r3_w2": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-25 22:30:01"
+ },
+ "ctrl_reavaliacao": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-26 04:04:03"
+ },
+ "ctrl_comparacao": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-26 04:05:03"
+ },
+ "fim": "ok 2026-09-26 04:05:03"
+}

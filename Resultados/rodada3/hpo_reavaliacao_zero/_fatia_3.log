@@ -1,0 +1,23 @@
+[23:39:12] 2 candidatos × 5 sementes | orçamento 1000000 | dispositivo cuda:NVIDIA GeForce RTX 4060
+[23:39:12] === [fatia 3/4] tpe_zero_r3_trial41 | seed 7
+[00:58:27]     [validacao_objetivo] in_dist  média  5459.8 ±  261.0 IQM  5487.9 norm 1.001 | ocioso 6%
+[00:59:26]     [validacao_objetivo] dry      média  2830.3 ±   82.2 IQM  2834.1 norm 0.957 | ocioso 1%
+[01:00:32]     [validacao_objetivo] humid    média  5188.9 ±  183.4 IQM  5225.2 norm 0.968 | ocioso 8%
+[01:02:16]     [teste             ] in_dist  média  5448.7 ±  286.6 IQM  5516.1 norm 1.0 | ocioso 7%
+[01:03:54]     [teste             ] dry      média  2801.9 ±  101.1 IQM  2804.8 norm 0.946 | ocioso 1%
+[01:05:42]     [teste             ] humid    média  5231.3 ±  196.7 IQM  5246.7 norm 0.978 | ocioso 9%
+[01:07:24]     [teste (argmax)     ] in_dist  média  3754.8 ±  379.2 IQM  3744.3 norm 0.639 | ocioso 14%
+[01:09:00]     [teste (argmax)     ] dry      média  2132.6 ±  132.4 IQM  2123.2 norm 0.692 | ocioso 0%
+[01:10:45]     [teste (argmax)     ] humid    média  3814.9 ±  444.5 IQM  3765.9 norm 0.649 | ocioso 16%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao_zero\tpe_zero_r3_trial41\seed_7\modelo_final.pt
+[01:10:45] === [fatia 3/4] rs_zero_r3_trial29 | seed 2024
+[02:29:51]     [validacao_objetivo] in_dist  média  4615.9 ±  237.9 IQM  4633.5 norm 0.825 | ocioso 20%
+[02:30:51]     [validacao_objetivo] dry      média  2344.2 ±  105.7 IQM  2361.5 norm 0.78 | ocioso 5%
+[02:31:56]     [validacao_objetivo] humid    média  4566.6 ±  294.8 IQM  4611.2 norm 0.827 | ocioso 22%
+[02:33:41]     [teste             ] in_dist  média  4660.0 ±  298.0 IQM  4693.4 norm 0.832 | ocioso 19%
+[02:35:20]     [teste             ] dry      média  2287.0 ±  119.0 IQM  2286.2 norm 0.751 | ocioso 5%
+[02:37:09]     [teste             ] humid    média  4605.2 ±  281.6 IQM  4701.2 norm 0.832 | ocioso 22%
+[02:38:49]     [teste (argmax)     ] in_dist  média  2320.6 ±  141.6 IQM  2315.7 norm 0.333 | ocioso 31%
+[02:40:23]     [teste (argmax)     ] dry      média  1563.8 ±   80.3 IQM  1574.9 norm 0.476 | ocioso 7%
+[02:41:57]     [teste (argmax)     ] humid    média  2111.2 ±  171.8 IQM  2091.8 norm 0.253 | ocioso 52%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao_zero\rs_zero_r3_trial29\seed_2024\modelo_final.pt

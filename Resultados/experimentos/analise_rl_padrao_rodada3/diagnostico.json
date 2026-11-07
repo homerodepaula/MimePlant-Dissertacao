@@ -1,0 +1,125 @@
+{
+ "n_execucoes_com_blocos": 10,
+ "melhor_e_ultimo": 4,
+ "normalizado": true,
+ "referencias_rollback_in_dist": [
+  777.7343806454653,
+  5422.75341956665
+ ],
+ "por_braco": {
+  "ppo_il": {
+   "123": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 670140,
+    "melhor_e_ultimo": false,
+    "melhor_valor": 5455.045339499308,
+    "inicio": 5354.505050871173,
+    "ultimo": 5318.116868554951,
+    "ganho_ultimo_terco_pct_do_total": -136.19263761098748
+   },
+   "1337": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 670140,
+    "melhor_e_ultimo": false,
+    "melhor_valor": 5459.8630320626835,
+    "inicio": 5349.653228073898,
+    "ultimo": 5404.614407027731,
+    "ganho_ultimo_terco_pct_do_total": -50.13040858014241
+   },
+   "2024": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 1003020,
+    "melhor_e_ultimo": true,
+    "melhor_valor": 5371.417776641226,
+    "inicio": 5287.300190940949,
+    "ultimo": 5371.417776641226,
+    "ganho_ultimo_terco_pct_do_total": 137.77342933120576
+   },
+   "42": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 779640,
+    "melhor_e_ultimo": false,
+    "melhor_valor": 5448.415759476215,
+    "inicio": 5359.171436298238,
+    "ultimo": 5325.467265756835,
+    "ganho_ultimo_terco_pct_do_total": -7.354472037164517
+   },
+   "7": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 1003020,
+    "melhor_e_ultimo": true,
+    "melhor_valor": 5473.712919509702,
+    "inicio": 5362.441482011981,
+    "ultimo": 5473.712919509702,
+    "ganho_ultimo_terco_pct_do_total": 114.70887339061333
+   }
+  },
+  "ppo_zero": {
+   "123": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 670140,
+    "melhor_e_ultimo": false,
+    "melhor_valor": 5422.411257120168,
+    "inicio": 3457.3568627299173,
+    "ultimo": 5401.001338073683,
+    "ganho_ultimo_terco_pct_do_total": -1.0895331502071894
+   },
+   "1337": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 779640,
+    "melhor_e_ultimo": false,
+    "melhor_valor": 5284.18710895394,
+    "inicio": 3585.5088556880414,
+    "ultimo": 5266.9140670986335,
+    "ganho_ultimo_terco_pct_do_total": 0.1465234611626004
+   },
+   "2024": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 779640,
+    "melhor_e_ultimo": false,
+    "melhor_valor": 5226.177913250473,
+    "inicio": 3765.6960717231495,
+    "ultimo": 5103.902541826722,
+    "ganho_ultimo_terco_pct_do_total": 12.427770801295724
+   },
+   "42": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 1003020,
+    "melhor_e_ultimo": true,
+    "melhor_valor": 5354.398251933004,
+    "inicio": 3526.4177196932296,
+    "ultimo": 5354.398251933004,
+    "ganho_ultimo_terco_pct_do_total": 7.776445664306046
+   },
+   "7": {
+    "concluido": true,
+    "n_blocos": 9,
+    "passos_ultimo": 1003020,
+    "melhor_passos": 1003020,
+    "melhor_e_ultimo": true,
+    "melhor_valor": 5412.925551763497,
+    "inicio": 3686.0813972866404,
+    "ultimo": 5412.925551763497,
+    "ganho_ultimo_terco_pct_do_total": 16.074268537576405
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+
+===== 2026-09-24 22:56:50 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/hpo_rl.py --study rs_zero_r3 --sampler random --n-fre 32 --orcamento 1000000 --inicializacao zero --seed-sampler 1001 --paralelo --trabalhador 2 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+[I 2026-09-24 22:56:53,185] Using an existing study with name 'rs_zero_r3' instead of creating a new one.
+[22:56:53] amostrador random com semente 3001 (base 1001 + 1000 x 2 trials já no banco)
+[22:56:53] study rs_zero_r3 | sampler random | poda hyperband | N=1000000 | alvo 32.0 FRE | já consumidos 0.00 FRE em 2 trials | dispositivo cuda:NVIDIA GeForce RTX 4060
+[01:03:01] trial 2: objetivo 0.874 | zero T=- β=- lr=2.4e-05 ent=2.4e-02 | 1.00 FRE | 7568s
+[I 2026-09-25 01:03:01,621] Trial 2 finished with value: 0.8739209518387653 and parameters: {'lr': 2.3951131684064455e-05, 'clip': 0.10750380814742864, 'c_ent': 0.024170868999143048, 'gamma': 0.99, 'lambda_gae': 0.9524813564350573, 'n_epocas': 2, 'minilote_seqs': 30, 'escala': 100.0}. Best is trial 2 with value: 0.8739209518387653.
+[03:13:21] trial 4: objetivo 0.842 | zero T=- β=- lr=2.9e-05 ent=1.7e-04 | 1.00 FRE | 7819s
+[I 2026-09-25 03:13:21,299] Trial 4 finished with value: 0.8415372907600377 and parameters: {'lr': 2.8757259344104015e-05, 'clip': 0.22708926427705092, 'c_ent': 0.0001705017030467675, 'gamma': 0.99, 'lambda_gae': 0.9696350172689991, 'n_epocas': 2, 'minilote_seqs': 10, 'escala': 50.0}. Best is trial 3 with value: 0.9506154346810226.
+[03:54:01] trial 7: PODADO em 337260 passos (0.34 FRE) | zero | 2440s
+[I 2026-09-25 03:54:01,684] Trial 7 pruned. 
+[04:36:06] trial 10: PODADO em 337260 passos (0.34 FRE) | zero | 2524s
+[I 2026-09-25 04:36:06,585] Trial 10 pruned. 
+[05:16:04] trial 11: PODADO em 337260 passos (0.34 FRE) | zero | 2398s
+[I 2026-09-25 05:16:04,632] Trial 11 pruned. 
+[07:30:41] trial 12: objetivo 0.945 | zero T=- β=- lr=1.2e-05 ent=6.5e-04 | 1.00 FRE | 8076s
+[I 2026-09-25 07:30:41,050] Trial 12 finished with value: 0.9446695100624075 and parameters: {'lr': 1.151943190164565e-05, 'clip': 0.10752708535776503, 'c_ent': 0.0006468705863728947, 'gamma': 0.98, 'lambda_gae': 0.9539643942482164, 'n_epocas': 6, 'minilote_seqs': 20, 'escala': 50.0}. Best is trial 3 with value: 0.9506154346810226.
+[08:10:39] trial 15: PODADO em 337260 passos (0.34 FRE) | zero | 2398s
+[I 2026-09-25 08:10:39,282] Trial 15 pruned. 
+[10:27:06] trial 17: objetivo 0.750 | zero T=- β=- lr=2.2e-04 ent=2.9e-04 | 1.00 FRE | 8187s
+[I 2026-09-25 10:27:06,780] Trial 17 finished with value: 0.7504178198709702 and parameters: {'lr': 0.00022324251373183037, 'clip': 0.24436713359852472, 'c_ent': 0.0002940471749352978, 'gamma': 0.99, 'lambda_gae': 0.9189101517387659, 'n_epocas': 5, 'minilote_seqs': 10, 'escala': 50.0}. Best is trial 14 with value: 0.9526522680104227.
+[12:43:48] trial 20: objetivo 0.926 | zero T=- β=- lr=4.4e-05 ent=9.0e-04 | 1.00 FRE | 8201s
+[I 2026-09-25 12:43:48,587] Trial 20 finished with value: 0.9260078202760152 and parameters: {'lr': 4.382292756132737e-05, 'clip': 0.1815651094292059, 'c_ent': 0.0008990155445846486, 'gamma': 0.99, 'lambda_gae': 0.9518589856472007, 'n_epocas': 3, 'minilote_seqs': 20, 'escala': 50.0}. Best is trial 14 with value: 0.9526522680104227.
+[14:49:48] trial 23: objetivo 0.829 | zero T=- β=- lr=2.7e-04 ent=1.6e-03 | 1.00 FRE | 7559s
+[I 2026-09-25 14:49:48,086] Trial 23 finished with value: 0.8287502614663792 and parameters: {'lr': 0.0002726243591068436, 'clip': 0.17139193769552233, 'c_ent': 0.001590387970013961, 'gamma': 0.98, 'lambda_gae': 0.9629889337265484, 'n_epocas': 2, 'minilote_seqs': 30, 'escala': 200.0}. Best is trial 14 with value: 0.9526522680104227.
+[16:57:41] trial 29: objetivo 0.981 | zero T=- β=- lr=3.7e-05 ent=2.8e-04 | 1.00 FRE | 7673s
+[I 2026-09-25 16:57:41,693] Trial 29 finished with value: 0.9812166587193323 and parameters: {'lr': 3.746173581749261e-05, 'clip': 0.2781350963238248, 'c_ent': 0.0002795540021667546, 'gamma': 0.995, 'lambda_gae': 0.9173213973003969, 'n_epocas': 4, 'minilote_seqs': 30, 'escala': 50.0}. Best is trial 29 with value: 0.9812166587193323.
+[17:37:06] trial 33: PODADO em 337260 passos (0.34 FRE) | zero | 2364s
+[I 2026-09-25 17:37:06,586] Trial 33 pruned. 
+[18:16:12] trial 35: PODADO em 337260 passos (0.34 FRE) | zero | 2345s
+[I 2026-09-25 18:16:12,303] Trial 35 pruned. 
+[20:24:06] trial 38: objetivo 0.939 | zero T=- β=- lr=1.8e-05 ent=4.3e-03 | 1.00 FRE | 7674s
+[I 2026-09-25 20:24:06,619] Trial 38 finished with value: 0.9387344405436497 and parameters: {'lr': 1.7596048289284168e-05, 'clip': 0.14155025459920262, 'c_ent': 0.004331274936792528, 'gamma': 0.995, 'lambda_gae': 0.9300345543951383, 'n_epocas': 3, 'minilote_seqs': 10, 'escala': 200.0}. Best is trial 29 with value: 0.9812166587193323.
+[22:29:40] trial 41: objetivo 0.936 | zero T=- β=- lr=1.5e-05 ent=2.4e-02 | 1.00 FRE | 7534s
+[I 2026-09-25 22:29:40,933] Trial 41 finished with value: 0.9361595811837403 and parameters: {'lr': 1.4951348927973913e-05, 'clip': 0.26378235343637707, 'c_ent': 0.02414236775070282, 'gamma': 0.995, 'lambda_gae': 0.9666414104594544, 'n_epocas': 4, 'minilote_seqs': 10, 'escala': 100.0}. Best is trial 29 with value: 0.9812166587193323.
+[22:29:41] fim: 27 concluídos, 16 podados, 32.48 FRE | melhor: {'numero': 29, 'valor': 0.9812166587193323, 'params': {'lr': 3.746173581749261e-05, 'clip': 0.2781350963238248, 'c_ent': 0.0002795540021667546, 'gamma': 0.995, 'lambda_gae': 0.9173213973003969, 'n_epocas': 4, 'minilote_seqs': 30, 'escala': 50.0}}

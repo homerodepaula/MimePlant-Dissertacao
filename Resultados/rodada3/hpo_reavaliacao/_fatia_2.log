@@ -1,0 +1,86 @@
+[08:45:00] 8 candidatos × 5 sementes | orçamento 1000000 | dispositivo cuda:NVIDIA GeForce RTX 4060
+[08:45:00] === [fatia 2/4] tpe_r3_a_trial33 | seed 2024
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\torch\nn\modules\rnn.py:1124: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1412.)
+  result = _VF.lstm(
+[10:01:38]     [validacao_objetivo] in_dist  média  5526.2 ±  304.2 IQM  5591.5 norm 1.015 | ocioso 19%
+[10:02:44]     [validacao_objetivo] dry      média  2792.4 ±  159.1 IQM  2815.5 norm 0.944 | ocioso 10%
+[10:03:56]     [validacao_objetivo] humid    média  5344.7 ±  161.0 IQM  5367.2 norm 1.004 | ocioso 15%
+[10:05:49]     [teste             ] in_dist  média  5549.7 ±  224.5 IQM  5575.4 norm 1.022 | ocioso 20%
+[10:07:40]     [teste             ] dry      média  2824.5 ±   87.7 IQM  2824.2 norm 0.955 | ocioso 10%
+[10:09:37]     [teste             ] humid    média  5358.3 ±  126.7 IQM  5360.0 norm 1.007 | ocioso 15%
+[10:11:29]     [teste (argmax)     ] in_dist  média  5497.7 ±  233.7 IQM  5532.3 norm 1.011 | ocioso 28%
+[10:13:18]     [teste (argmax)     ] dry      média  2627.5 ±  200.7 IQM  2661.6 norm 0.88 | ocioso 13%
+[10:15:10]     [teste (argmax)     ] humid    média  5242.9 ±  197.8 IQM  5266.3 norm 0.98 | ocioso 28%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao\tpe_r3_a_trial33\seed_2024\modelo_final.pt
+[10:15:11] === [fatia 2/4] tpe_r3_b_trial27 | seed 123
+[11:35:13]     [validacao_objetivo] in_dist  média  5345.4 ±  308.4 IQM  5403.7 norm 0.977 | ocioso 20%
+[11:36:16]     [validacao_objetivo] dry      média  2428.0 ±  234.6 IQM  2407.3 norm 0.81 | ocioso 7%
+[11:37:25]     [validacao_objetivo] humid    média  4958.9 ±  387.4 IQM  5050.5 norm 0.916 | ocioso 12%
+[11:39:14]     [teste             ] in_dist  média  5358.1 ±  284.4 IQM  5388.0 norm 0.981 | ocioso 21%
+[11:40:59]     [teste             ] dry      média  2466.5 ±  235.9 IQM  2456.5 norm 0.819 | ocioso 7%
+[11:42:54]     [teste             ] humid    média  5018.5 ±  310.6 IQM  5074.6 norm 0.928 | ocioso 15%
+[11:44:39]     [teste (argmax)     ] in_dist  média  5425.4 ±  250.2 IQM  5478.2 norm 0.995 | ocioso 24%
+[11:46:22]     [teste (argmax)     ] dry      média  2299.0 ±  258.8 IQM  2258.8 norm 0.755 | ocioso 6%
+[11:48:13]     [teste (argmax)     ] humid    média  4872.3 ±  423.1 IQM  4943.5 norm 0.894 | ocioso 18%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao\tpe_r3_b_trial27\seed_123\modelo_final.pt
+[11:48:13] === [fatia 2/4] tpe_r3_c_trial26 | seed 42
+[13:17:15]     [validacao_objetivo] in_dist  média  5553.7 ±  217.6 IQM  5593.9 norm 1.021 | ocioso 19%
+[13:18:23]     [validacao_objetivo] dry      média  2921.5 ±  106.4 IQM  2925.6 norm 0.991 | ocioso 7%
+[13:19:34]     [validacao_objetivo] humid    média  5404.2 ±  132.6 IQM  5416.8 norm 1.017 | ocioso 18%
+[13:21:29]     [teste             ] in_dist  média  5526.4 ±  255.9 IQM  5588.5 norm 1.017 | ocioso 18%
+[13:23:19]     [teste             ] dry      média  2906.3 ±   99.8 IQM  2903.4 norm 0.986 | ocioso 7%
+[13:25:22]     [teste             ] humid    média  5381.3 ±  160.4 IQM  5417.4 norm 1.012 | ocioso 18%
+[13:27:14]     [teste (argmax)     ] in_dist  média  5412.8 ±  193.4 IQM  5437.1 norm 0.993 | ocioso 30%
+[13:29:03]     [teste (argmax)     ] dry      média  2696.2 ±  158.7 IQM  2711.1 norm 0.906 | ocioso 12%
+[13:30:59]     [teste (argmax)     ] humid    média  4987.6 ±  389.0 IQM  5042.4 norm 0.921 | ocioso 32%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao\tpe_r3_c_trial26\seed_42\modelo_final.pt
+[13:31:00] === [fatia 2/4] tpe_r3_c_trial26 | seed 1337
+[15:03:07]     [validacao_objetivo] in_dist  média  5563.0 ±  236.9 IQM  5615.9 norm 1.023 | ocioso 16%
+[15:04:19]     [validacao_objetivo] dry      média  2906.8 ±   95.8 IQM  2915.8 norm 0.985 | ocioso 7%
+[15:05:37]     [validacao_objetivo] humid    média  5414.2 ±  128.7 IQM  5408.1 norm 1.02 | ocioso 14%
+[15:07:43]     [teste             ] in_dist  média  5512.8 ±  250.7 IQM  5556.4 norm 1.014 | ocioso 16%
+[15:09:43]     [teste             ] dry      média  2908.7 ±   84.2 IQM  2918.0 norm 0.987 | ocioso 7%
+[15:11:54]     [teste             ] humid    média  5355.5 ±  210.1 IQM  5393.3 norm 1.006 | ocioso 14%
+[15:13:56]     [teste (argmax)     ] in_dist  média  5170.7 ±  411.4 IQM  5256.8 norm 0.941 | ocioso 28%
+[15:15:54]     [teste (argmax)     ] dry      média  2671.5 ±  151.8 IQM  2693.7 norm 0.897 | ocioso 10%
+[15:17:59]     [teste (argmax)     ] humid    média  5080.0 ±  320.4 IQM  5141.1 norm 0.942 | ocioso 25%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao\tpe_r3_c_trial26\seed_1337\modelo_final.pt
+[15:18:00] === [fatia 2/4] rs_r3_a_trial54 | seed 7
+[16:50:40]     [validacao_objetivo] in_dist  média  5574.5 ±  195.7 IQM  5598.9 norm 1.025 | ocioso 12%
+[16:51:53]     [validacao_objetivo] dry      média  2919.1 ±   90.9 IQM  2911.3 norm 0.99 | ocioso 3%
+[16:53:14]     [validacao_objetivo] humid    média  5354.4 ±  172.4 IQM  5389.8 norm 1.006 | ocioso 11%
+[16:55:25]     [teste             ] in_dist  média  5529.2 ±  235.4 IQM  5571.5 norm 1.018 | ocioso 12%
+[16:57:29]     [teste             ] dry      média  2920.7 ±   76.6 IQM  2923.8 norm 0.992 | ocioso 3%
+[16:59:44]     [teste             ] humid    média  5365.6 ±  193.1 IQM  5400.4 norm 1.009 | ocioso 11%
+[17:01:51]     [teste (argmax)     ] in_dist  média  5103.3 ±  321.7 IQM  5159.7 norm 0.927 | ocioso 27%
+[17:03:55]     [teste (argmax)     ] dry      média  2804.3 ±  114.8 IQM  2801.7 norm 0.947 | ocioso 4%
+[17:06:02]     [teste (argmax)     ] humid    média  5133.7 ±  373.6 IQM  5222.0 norm 0.955 | ocioso 25%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao\rs_r3_a_trial54\seed_7\modelo_final.pt
+[17:06:02] === [fatia 2/4] rs_r3_b_trial40 | seed 2024
+[18:33:27]     [validacao_objetivo] in_dist  média  5498.4 ±  219.8 IQM  5536.0 norm 1.009 | ocioso 26%
+[18:34:35]     [validacao_objetivo] dry      média  2616.0 ±  105.3 IQM  2610.9 norm 0.879 | ocioso 12%
+[18:35:48]     [validacao_objetivo] humid    média  5300.2 ±  252.7 IQM  5346.1 norm 0.994 | ocioso 25%
+[18:37:47]     [teste             ] in_dist  média  5485.1 ±  275.9 IQM  5542.6 norm 1.008 | ocioso 26%
+[18:39:40]     [teste             ] dry      média  2619.8 ±  136.8 IQM  2620.6 norm 0.877 | ocioso 12%
+[18:41:40]     [teste             ] humid    média  5220.1 ±  292.9 IQM  5290.2 norm 0.975 | ocioso 24%
+[18:43:33]     [teste (argmax)     ] in_dist  média  5459.8 ±  307.3 IQM  5532.9 norm 1.003 | ocioso 31%
+[18:45:25]     [teste (argmax)     ] dry      média  2599.3 ±  157.6 IQM  2622.3 norm 0.869 | ocioso 15%
+[18:47:17]     [teste (argmax)     ] humid    média  4862.4 ±  436.9 IQM  4904.9 norm 0.892 | ocioso 32%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao\rs_r3_b_trial40\seed_2024\modelo_final.pt
+[18:47:18] === [fatia 2/4] rs_r3_c_trial13 | seed 123
+[20:07:34]     [validacao_objetivo] in_dist  média  5440.1 ±  311.6 IQM  5513.2 norm 0.997 | ocioso 13%
+[20:08:34]     [validacao_objetivo] dry      média  2807.2 ±  115.7 IQM  2815.5 norm 0.949 | ocioso 6%
+[20:09:38]     [validacao_objetivo] humid    média  5307.9 ±  132.5 IQM  5317.4 norm 0.995 | ocioso 12%
+[20:11:23]     [teste             ] in_dist  média  5398.7 ±  289.8 IQM  5452.3 norm 0.99 | ocioso 14%
+[20:13:07]     [teste             ] dry      média  2778.9 ±  101.9 IQM  2794.8 norm 0.938 | ocioso 7%
+[20:14:57]     [teste             ] humid    média  5308.5 ±  188.7 IQM  5336.4 norm 0.995 | ocioso 12%
+[20:16:40]     [teste (argmax)     ] in_dist  média  4855.0 ±  427.4 IQM  4886.8 norm 0.874 | ocioso 29%
+[20:18:20]     [teste (argmax)     ] dry      média  2318.9 ±  201.0 IQM  2298.6 norm 0.763 | ocioso 13%
+[20:20:03]     [teste (argmax)     ] humid    média  4831.7 ±  423.5 IQM  4934.1 norm 0.885 | ocioso 23%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao\rs_r3_c_trial13\seed_123\modelo_final.pt
+[20:20:03] === [fatia 2/4] padrao_ppo_il | seed 42
+[20:20:03]   padrao_ppo_il seed 42: reaproveitado do bake-off
+[20:20:03] === [fatia 2/4] padrao_ppo_il | seed 1337
+[20:20:03]   padrao_ppo_il seed 1337: reaproveitado do bake-off
+[20:20:03] === [fatia 2/4] padrao_ppo_zero | seed 7
+[20:20:03]   padrao_ppo_zero seed 7: reaproveitado do bake-off

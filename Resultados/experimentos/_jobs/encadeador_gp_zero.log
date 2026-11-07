@@ -1,0 +1,24 @@
+2026-10-04 22:36:46 | plano GP do zero (D-38): orcamento=1000000 n_fre=32 por estudo n_startup=5 estudos=[('gp_zero_r3', 1001, 3)] k=1 | espaço de 8 hiperparâmetros | git=aae16a6
+2026-10-04 22:36:46 |   Z1 hpo gp do zero: gpz_gp_zero_r3_w0: C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\experimentos\_execucao\hpo_sampler_extra.py --sampler-extra gp --n-startup 5 --study gp_zero_r3 --n-fre 32 --orcamento 1000000 --inicializacao zero --seed-sampler 1001 --paralelo --trabalhador 0 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-04 22:36:46 |   Z1 hpo gp do zero: gpz_gp_zero_r3_w1: C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\experimentos\_execucao\hpo_sampler_extra.py --sampler-extra gp --n-startup 5 --study gp_zero_r3 --n-fre 32 --orcamento 1000000 --inicializacao zero --seed-sampler 1001 --paralelo --trabalhador 1 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-04 22:36:46 |   Z1 hpo gp do zero: gpz_gp_zero_r3_w2: C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\experimentos\_execucao\hpo_sampler_extra.py --sampler-extra gp --n-startup 5 --study gp_zero_r3 --n-fre 32 --orcamento 1000000 --inicializacao zero --seed-sampler 1001 --paralelo --trabalhador 2 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-04 22:36:46 |   Z2 reavaliação: gpz_reavaliacao: hpo/reavaliar_topk.py --study gp_zero_r3 --k 1 --orcamento 1000000 --saida results\rodada3\hpo_reavaliacao_zero_gp --paralelo 4 --retomar
+2026-10-04 22:36:46 |   Z3 análise: gpz_analise: hpo/analise_hpo.py --studies gp_zero_r3 --reavaliacao results\rodada3\hpo_reavaliacao_zero_gp --saida ..\experimentos\analise_hpo_rodada3_zero_gp
+2026-10-04 22:36:46 |   Z4 comparação: gpz_comparacao: C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\experimentos\_execucao\comparar_gp_zero.py
+2026-10-04 22:36:46 | --- Z1 hpo gp do zero
+2026-10-04 22:36:46 | Z1 hpo gp do zero: lançado gpz_gp_zero_r3_w0 (pid 5852, lançamento 1)
+2026-10-04 22:37:06 | Z1 hpo gp do zero: lançado gpz_gp_zero_r3_w1 (pid 5980, lançamento 1)
+2026-10-04 22:37:26 | Z1 hpo gp do zero: lançado gpz_gp_zero_r3_w2 (pid 20776, lançamento 1)
+2026-10-05 10:03:31 | Z1 hpo gp do zero: gpz_gp_zero_r3_w0 concluído
+2026-10-05 10:14:31 | Z1 hpo gp do zero: gpz_gp_zero_r3_w2 concluído
+2026-10-05 10:41:32 | Z1 hpo gp do zero: gpz_gp_zero_r3_w1 concluído
+2026-10-05 10:41:32 | --- Z2 reavaliação
+2026-10-05 10:41:32 | Z2 reavaliação: lançado gpz_reavaliacao (pid 18748, lançamento 1)
+2026-10-05 13:42:33 | Z2 reavaliação: gpz_reavaliacao concluído
+2026-10-05 13:42:33 | --- Z3 análise
+2026-10-05 13:42:33 | Z3 análise: lançado gpz_analise (pid 20340, lançamento 1)
+2026-10-05 13:43:33 | Z3 análise: gpz_analise concluído
+2026-10-05 13:43:33 | --- Z4 comparação
+2026-10-05 13:43:33 | Z4 comparação: lançado gpz_comparacao (pid 3336, lançamento 1)
+2026-10-05 13:44:33 | Z4 comparação: gpz_comparacao concluído
+2026-10-05 13:44:33 | FIM: GP do zero concluído. Comparação em results/rodada3/controle_zero_gp/comparacao.json

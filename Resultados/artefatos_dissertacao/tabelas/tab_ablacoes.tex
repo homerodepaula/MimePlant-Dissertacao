@@ -1,0 +1,19 @@
+% GERADO POR gerar_artefatos_final.py (via gerar_artefatos_dissertacao.escrever) — não editar à mão
+\begin{table}[htbp]
+\centering
+\small\setlength{\tabcolsep}{2.5pt}
+\caption{Ablações sobre o \textit{MimePlant} (teste)}
+\label{tab:ablacoes}
+\begin{tabular}{>{\raggedright\arraybackslash}p{6.4cm} c c c c c}
+\hline
+\textbf{Variante} & \textbf{Normal} & \textbf{Seco} & \textbf{Úmido} & \textbf{Média} & \textbf{Diferença} \\ \hline
+\textbf{\textit{MimePlant} completo} & 5.554 & 2.870 & 5.394 & \textbf{4.606} & --- \\ \hline
+Sem penalidade KL ($\beta_{\text{KL}}^{(0)}=0$) & 5.576 & 2.828 & 5.374 & 4.593 & $-13$ \\
+Acoplamento manual ($\beta_{\text{KL}}^{(0)}=0{,}1$; decaimento $0{,}98$; $\tau=1$) & 5.450 & 2.648 & 5.161 & 4.420 & $-186$ \\
+Sem temperatura inicial ($\tau=1$) & 5.430 & 2.570 & 5.163 & 4.388 & $-218$ \\
+Sem imitação (parte do zero) & 5.453 & 2.849 & 4.938 & 4.413 & $-193$ \\
+\hline
+\end{tabular}
+
+{\footnotesize Fonte: elaborada pelo autor. Nota: Ablações sobre o \textit{MimePlant}, cada variante retreinada com as cinco sementes. A variante de acoplamento manual troca três hiperparâmetros pelos valores manuais ($\beta_{\text{KL}}^{(0)}$, decaimento do KL e $\tau$) e mantém o aquecimento do crítico em 19; a de partida do zero troca a inicialização (e os quatro hiperparâmetros de acoplamento deixam de ter efeito); as outras duas alteram um só ingrediente. Recompensa bruta (IQM) em teste.}
+\end{table}

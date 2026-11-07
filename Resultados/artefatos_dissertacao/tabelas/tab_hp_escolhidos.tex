@@ -1,0 +1,26 @@
+% GERADO POR gerar_artefatos_final.py (via gerar_artefatos_dissertacao.escrever) — não editar à mão
+\begin{table}[htbp]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{Hiperparâmetros: manual e escolhidos pela HPO}
+\label{tab:hp_escolhidos}
+\begin{tabular}{l c c c}
+\hline
+\textbf{Hiperparâmetro} & \textbf{Manual} & \textbf{IL + RL com HPO} & \textbf{RL com HPO} \\ \hline
+Taxa de aprendizado do ator & $5{,}0 \times 10^{-5}$ & $2{,}8 \times 10^{-5}$ & $1{,}8 \times 10^{-5}$ \\
+Recorte do PPO ($\epsilon_{\text{clip}}$) & $0{,}20$ & $0{,}28$ & $0{,}30$ \\
+Coeficiente de entropia & $3{,}0 \times 10^{-3}$ & $8{,}5 \times 10^{-3}$ & $1{,}5 \times 10^{-3}$ \\
+Fator de desconto ($\gamma$) & $0{,}990$ & $0{,}995$ & $0{,}995$ \\
+Parâmetro do GAE ($\lambda_{\text{GAE}}$) & $0{,}950$ & $0{,}963$ & $0{,}948$ \\
+Épocas por atualização & 4 & 4 & 4 \\
+Sequências por minilote & 20 & 30 & 10 \\
+Escala da recompensa & 100 & 200 & 100 \\ \hline
+Peso inicial do KL ($\beta_{\text{KL}}^{(0)}$) & $0{,}100$ & $0{,}082$ & --- \\
+Decaimento do KL & $0{,}980$ & $0{,}975$ & --- \\
+Temperatura inicial ($\tau$) & $1{,}00$ & $7{,}31$ & --- \\
+Iterações de aquecimento do crítico & 10 & 19 & --- \\
+\hline
+\end{tabular}
+
+{\footnotesize Fonte: elaborada pelo autor. Nota: Hiperparâmetros da configuração manual e das configurações escolhidas pela HPO (o \textit{MimePlant} e o RL com HPO). Os quatro últimos regulam o acoplamento com o clone e não existem no RL do zero.}
+\end{table}

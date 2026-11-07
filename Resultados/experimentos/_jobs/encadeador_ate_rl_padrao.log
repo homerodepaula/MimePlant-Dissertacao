@@ -1,0 +1,58 @@
+2026-09-19 15:08:58 | plano: repo=C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa | python=C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe | git=aae16a6 sujo=False | orcamento=1000000 | rodada=rodada3
+2026-09-19 15:08:58 |   E1 referencias+warmstart: r3_referencias: referencias.py --saida results\rodada3\referencias --retomar
+2026-09-19 15:08:58 |   E1 referencias+warmstart: r3_warmstart: treinar_warmstart_il.py --seeds 42 123 2024 7 1337 --config lr_alto --saida results\rodada3\il_warmstart --retomar
+2026-09-19 15:08:58 |   E2 rl_padrao: r3_rl_padrao_ppo_il_A: bakeoff.py --bracos ppo_il --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:08:58 |   E2 rl_padrao: r3_rl_padrao_ppo_il_B: bakeoff.py --bracos ppo_il --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:08:58 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_A: bakeoff.py --bracos ppo_zero --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:08:58 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_B: bakeoff.py --bracos ppo_zero --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:08:58 |   E3 resumo: r3_rl_padrao_resumo: bakeoff.py --bracos ppo_il ppo_zero --seeds 42 123 2024 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:09:14 | plano: repo=C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa | python=C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe | git=aae16a6 sujo=False | orcamento=1000000 | rodada=rodada3
+2026-09-19 15:09:14 |   E1 referencias+warmstart: r3_referencias: referencias.py --saida results\rodada3\referencias --retomar
+2026-09-19 15:09:14 |   E1 referencias+warmstart: r3_warmstart: treinar_warmstart_il.py --seeds 42 123 2024 7 1337 --config lr_alto --saida results\rodada3\il_warmstart --retomar
+2026-09-19 15:09:14 |   E2 rl_padrao: r3_rl_padrao_ppo_il_A: bakeoff.py --bracos ppo_il --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:09:14 |   E2 rl_padrao: r3_rl_padrao_ppo_il_B: bakeoff.py --bracos ppo_il --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:09:14 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_A: bakeoff.py --bracos ppo_zero --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:09:14 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_B: bakeoff.py --bracos ppo_zero --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:09:14 |   E3 resumo: r3_rl_padrao_resumo: bakeoff.py --bracos ppo_il ppo_zero --seeds 42 123 2024 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-09-19 15:09:14 | --- E1 referencias+warmstart
+2026-09-19 15:09:14 | E1 referencias+warmstart: lançado r3_referencias (pid 20512, lançamento 1)
+2026-09-19 15:09:14 | E1 referencias+warmstart: lançado r3_warmstart (pid 14536, lançamento 1)
+2026-09-19 15:19:44 | E1 referencias+warmstart: r3_referencias concluído
+2026-09-19 16:03:15 | E1 referencias+warmstart: r3_warmstart concluído
+2026-09-19 16:03:15 | --- E2 rl_padrao
+2026-09-19 16:03:15 | E2 rl_padrao: lançado r3_rl_padrao_ppo_il_A (pid 22340, lançamento 1)
+2026-09-19 16:03:15 | E2 rl_padrao: lançado r3_rl_padrao_ppo_il_B (pid 20804, lançamento 1)
+2026-09-19 16:03:15 | E2 rl_padrao: lançado r3_rl_padrao_ppo_zero_A (pid 16004, lançamento 1)
+2026-09-19 16:03:15 | E2 rl_padrao: lançado r3_rl_padrao_ppo_zero_B (pid 19524, lançamento 1)
+2026-09-19 18:46:48 | E2 rl_padrao: r3_rl_padrao_ppo_il_B concluído
+2026-09-19 18:50:48 | E2 rl_padrao: r3_rl_padrao_ppo_zero_B concluído
+2026-09-19 20:03:19 | E2 rl_padrao: r3_rl_padrao_ppo_il_A concluído
+2026-09-19 20:07:49 | E2 rl_padrao: r3_rl_padrao_ppo_zero_A concluído
+2026-09-19 20:07:49 | --- E3 resumo
+2026-09-19 20:07:49 | E3 resumo: lançado r3_rl_padrao_resumo (pid 19616, lançamento 1)
+2026-09-19 20:08:19 | E3 resumo: r3_rl_padrao_resumo concluído
+2026-09-19 20:08:19 | FIM: etapas 1-3 concluídas. Resumo em results\rodada3\rl_padrao\resumo.json
+2026-10-03 13:01:29 | plano: repo=C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\MimePlant-Dissertacao | python=C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe | git=sem-git sujo=False | orcamento=1000000 | rodada=rodada3
+2026-10-03 13:01:29 |   E1 referencias+warmstart: r3_referencias: referencias.py --saida results\rodada3\referencias --retomar
+2026-10-03 13:01:29 |   E1 referencias+warmstart: r3_warmstart: treinar_warmstart_il.py --seeds 42 123 2024 7 1337 --config lr_alto --saida results\rodada3\il_warmstart --retomar
+2026-10-03 13:01:29 |   E2 rl_padrao: r3_rl_padrao_ppo_il_A: bakeoff.py --bracos ppo_il --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:01:29 |   E2 rl_padrao: r3_rl_padrao_ppo_il_B: bakeoff.py --bracos ppo_il --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:01:29 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_A: bakeoff.py --bracos ppo_zero --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:01:29 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_B: bakeoff.py --bracos ppo_zero --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:01:29 |   E3 resumo: r3_rl_padrao_resumo: bakeoff.py --bracos ppo_il ppo_zero --seeds 42 123 2024 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:27 | plano: repo=C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\MimePlant-Dissertacao | python=C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe | git=sem-git sujo=False | orcamento=1000000 | rodada=rodada3
+2026-10-03 13:11:27 |   E1 referencias+warmstart: r3_referencias: referencias.py --saida results\rodada3\referencias --retomar
+2026-10-03 13:11:27 |   E1 referencias+warmstart: r3_warmstart: treinar_warmstart_il.py --seeds 42 123 2024 7 1337 --config lr_alto --saida results\rodada3\il_warmstart --retomar
+2026-10-03 13:11:27 |   E2 rl_padrao: r3_rl_padrao_ppo_il_A: bakeoff.py --bracos ppo_il --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:27 |   E2 rl_padrao: r3_rl_padrao_ppo_il_B: bakeoff.py --bracos ppo_il --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:27 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_A: bakeoff.py --bracos ppo_zero --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:27 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_B: bakeoff.py --bracos ppo_zero --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:27 |   E3 resumo: r3_rl_padrao_resumo: bakeoff.py --bracos ppo_il ppo_zero --seeds 42 123 2024 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:43 | plano: repo=C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\MimePlant-Dissertacao | python=C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe | git=sem-git sujo=False | orcamento=1000000 | rodada=rodada3
+2026-10-03 13:11:43 |   E1 referencias+warmstart: r3_referencias: referencias.py --saida results\rodada3\referencias --retomar
+2026-10-03 13:11:43 |   E1 referencias+warmstart: r3_warmstart: treinar_warmstart_il.py --seeds 42 123 2024 7 1337 --config lr_alto --saida results\rodada3\il_warmstart --retomar
+2026-10-03 13:11:43 |   E2 rl_padrao: r3_rl_padrao_ppo_il_A: bakeoff.py --bracos ppo_il --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:43 |   E2 rl_padrao: r3_rl_padrao_ppo_il_B: bakeoff.py --bracos ppo_il --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:43 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_A: bakeoff.py --bracos ppo_zero --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:43 |   E2 rl_padrao: r3_rl_padrao_ppo_zero_B: bakeoff.py --bracos ppo_zero --seeds 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+2026-10-03 13:11:43 |   E3 resumo: r3_rl_padrao_resumo: bakeoff.py --bracos ppo_il ppo_zero --seeds 42 123 2024 7 1337 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar

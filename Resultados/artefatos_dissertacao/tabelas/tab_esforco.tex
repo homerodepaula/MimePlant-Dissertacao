@@ -1,0 +1,19 @@
+% GERADO POR gerar_artefatos_final.py (via gerar_artefatos_dissertacao.escrever) — não editar à mão
+\begin{table}[htbp]
+\centering
+\small\setlength{\tabcolsep}{2.5pt}
+\caption{Esforço até o ponto de partida do IL~+~RL}
+\label{tab:esforco}
+\begin{tabular}{l c c c c}
+\hline
+\textbf{Agente} & \textbf{Custo prévio (FRE)} & \textbf{Sementes} & \textbf{Passos (mil)} & \textbf{Nível final} \\ \hline
+RL puro & --- & 3 de 5 & 541 a 899 & 5.308 \\
+RL com HPO (TPE) & $34{,}8$ (busca) & 4 de 5 & 712 a 939 & 5.338 \\
+RL com HPO (GP-BO) & $34{,}9$ (busca) & 5 de 5 & 554 a 810 & 5.386 \\ \hline
+IL + RL puro & $0{,}1$ (imitação) & 5 de 5 & 0 & 5.379 \\
+IL + RL com HPO & $0{,}1$ + $33{,}9$ (busca) & 5 de 5 & 286 a 570 & 5.468 \\
+\hline
+\end{tabular}
+
+{\footnotesize Fonte: elaborada pelo autor. Nota: Esforço para alcançar o ponto de partida do IL~+~RL, isto é, o nível do clone ($5.343$ em média nos cinco clones), medido na curva de validação do treinamento por reforço (validação-\textit{rollback}: média de 20 episódios no regime normal, em recompensa bruta, a cada bloco de cerca de $111$ mil passos). \emph{Sementes}: quantas das cinco alcançam o alvo dentro de $10^6$ passos. \emph{Passos}: gastos pelas que alcançam, por interpolação linear entre blocos. \emph{Nível final}: média do último bloco, na mesma medida (não é teste). Os agentes que partem do clone são medidos contra o clone da própria semente: o IL~+~RL puro começa nele, e o IL~+~RL com HPO começa abaixo dele no primeiro bloco medido (temperatura inicial alta) e volta. O custo prévio é o que se gasta antes de o treinamento final começar (FRE efetivos).}
+\end{table}

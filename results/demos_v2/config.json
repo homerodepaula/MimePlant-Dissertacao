@@ -1,0 +1,98 @@
+{
+ "data": "2026-09-06 19:49:37",
+ "maquina": "PC-Homero",
+ "hash_git": "6fb1b44",
+ "git_sujo": true,
+ "versoes": {
+  "python": "3.10.11",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.2.6",
+  "gymnasium": "1.2.3",
+  "optuna": "4.8.0",
+  "scipy": "1.15.3"
+ },
+ "dispositivo": "cuda:NVIDIA GeForce RTX 4050 Laptop GPU",
+ "protocolo": {
+  "versao_ambiente": "FarmGym v4",
+  "passos_maximos": 365,
+  "tamanho_grade": [
+   4,
+   4
+  ],
+  "obs_dim": 176,
+  "n_acoes": 14,
+  "oraculo": {
+   "professor_imperfeicao": 0.0,
+   "variante_imperfeicao": 0.14,
+   "lazy_steps": 8,
+   "seed": 12345
+  },
+  "sementes": {
+   "treino": [
+    42,
+    123,
+    2024,
+    7,
+    1337
+   ],
+   "validacao_rollback": [
+    500,
+    "...",
+    519,
+    "n=20"
+   ],
+   "validacao_objetivo": [
+    520,
+    "...",
+    549,
+    "n=30"
+   ],
+   "teste": [
+    999,
+    "...",
+    1048,
+    "n=50"
+   ],
+   "demos": [
+    10000,
+    "...",
+    10199,
+    "n=200"
+   ]
+  },
+  "regimes": {
+   "in_dist": null,
+   "dry": {
+    "temperatura_base": 32.0,
+    "umidade_ar_base": 0.25,
+    "probabilidade_chuva_base": 0.05
+   },
+   "humid": {
+    "temperatura_base": 20.0,
+    "umidade_ar_base": 0.85,
+    "probabilidade_chuva_base": 0.7
+   }
+  },
+  "demos": {
+   "caminho": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\Mestrado - Homero de Paula\\versao final\\codigo\\results\\demos_v2\\trajetorias_especialista.json",
+   "hash": "2b508f234d87dd0690ac1190539062a823cd067723afd52e37aec2a061b716b2"
+  }
+ },
+ "experimento": "demos_v2",
+ "arquivo": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\Mestrado - Homero de Paula\\versao final\\codigo\\results\\demos_v2\\trajetorias_especialista.json",
+ "hash_demos": "665902b632a2d739d5658a1a5621d27eca5131c4da9609f95af5f828172a4375",
+ "n_episodios": 200,
+ "n_transicoes": 73000,
+ "oraculo": {
+  "imperfeicao": 0.0,
+  "lazy_steps": 8,
+  "seed": 12345,
+  "pausas_semeadas_por_episodio": true,
+  "papel": "professor"
+ },
+ "sementes_ambiente": [
+  10000,
+  10199
+ ],
+ "tempo_s": 243.7074556350708
+}

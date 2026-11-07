@@ -1,0 +1,5 @@
+# MimePlant - dependencias minimas dos experimentos (BC + DAgger)
+numpy>=1.21
+torch>=2.0
+gymnasium>=0.26
+matplotlib>=3.5

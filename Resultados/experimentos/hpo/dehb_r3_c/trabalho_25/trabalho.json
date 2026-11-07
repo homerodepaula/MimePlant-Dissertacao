@@ -1,0 +1,55 @@
+{
+ "id": 25,
+ "vetor": [
+  0.9077983384783107,
+  0.47155896823671833,
+  0.40045669945674006,
+  0.41379485466513977,
+  0.6852063772184391,
+  0.6644969876285134,
+  0.8298203543403415,
+  0.3212901713684423,
+  0.8313065585823534,
+  0.711369866900379,
+  0.8877622477313476,
+  0.616490407746517
+ ],
+ "fidelidade": 333333,
+ "nivel": 0,
+ "id_pai": 1,
+ "bracket": 8,
+ "degrau": 0,
+ "origem": "evolucao",
+ "pais": {
+  "pool": 3,
+  "global": 0,
+  "uniforme": 1
+ },
+ "study": "dehb_r3_c",
+ "hp": {
+  "lr": 0.00021924425433336497,
+  "clip": 0.19431179364734366,
+  "c_ent": 0.0009817022849188683,
+  "gamma": 0.99,
+  "lambda_gae": 0.9548165101774752,
+  "n_epocas": 5,
+  "minilote_seqs": 30,
+  "beta_kl0": 0.009201751785122819,
+  "beta_kl_decay": 0.982299349299653,
+  "escala": 200.0,
+  "k_aquec": 18,
+  "temperatura_inicial": 4.135141809673474
+ },
+ "inicializacao": "professor",
+ "passos_max": 1000000,
+ "fidelidade_maxima": false,
+ "blocos": 3,
+ "seeds": [
+  42
+ ],
+ "warmstart": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\master\\Codigos\\mimeplant-defesa\\results\\rodada3\\il_warmstart",
+ "referencias": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\master\\Codigos\\mimeplant-defesa\\results\\rodada3\\referencias\\referencias.json",
+ "smoke": false,
+ "dispositivo": null,
+ "impressao": "b51deef92b320e3cfcce31c02684154d150f8b5ba0164fbaea682e85c87986b7"
+}

@@ -1,0 +1,24 @@
+{
+ "trial": 25,
+ "hp": {
+  "inicializacao": "professor",
+  "lr": 0.00019654478526238018,
+  "clip": 0.19216221336885075,
+  "c_ent": 0.01242121709068728,
+  "gamma": 0.99,
+  "lambda_gae": 0.9173369884265585,
+  "n_epocas": 4,
+  "minilote_seqs": 30,
+  "beta_kl0": 0.2603749920420802,
+  "beta_kl_decay": 0.9313488558066526,
+  "escala": 100.0,
+  "k_aquec": 8,
+  "temperatura_inicial": 4.99286144847981
+ },
+ "seeds_trial": [
+  42
+ ],
+ "orcamento": 1000000,
+ "hash_git": "aae16a6",
+ "data": "2026-09-21 22:30:17"
+}

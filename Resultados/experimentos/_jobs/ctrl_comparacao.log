@@ -1,0 +1,13 @@
+
+===== 2026-09-26 04:04:03 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/controle_zero.py --so-comparar --n-fre 32 --orcamento 1000000
+[2026-09-26 04:04:09] 
+[2026-09-26 04:04:09] TABELA 2x2 — recompensa normalizada em teste (1,0 = professor)
+[2026-09-26 04:04:09]                  configuração padrão    otimizada por HPO     
+[2026-09-26 04:04:09] com imitação     0.939 ± 0.029          0.998 ± 0.008         
+[2026-09-26 04:04:09] do zero          0.941 ± 0.023          0.958 ± 0.037         
+[2026-09-26 04:04:09] 
+[2026-09-26 04:04:09] o_que_a_imitacao_acrescenta_com_HPO    +0.040 (vence em 4/5 sementes, p=0.0710)
+[2026-09-26 04:04:09] o_que_a_imitacao_acrescenta_sem_HPO    -0.002 (vence em 1/5 sementes, p=0.9024)
+[2026-09-26 04:04:09] o_que_a_HPO_acrescenta_com_imitacao    +0.059 (vence em 5/5 sementes, p=0.0039)
+[2026-09-26 04:04:09] o_que_a_HPO_acrescenta_do_zero         +0.017 (vence em 4/5 sementes, p=0.3238)
+[2026-09-26 04:04:09] [ok] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\controle_zero\comparacao.json

@@ -1,0 +1,29 @@
+% GERADO POR gerar_artefatos_final.py (via gerar_artefatos_dissertacao.escrever) — não editar à mão
+\begin{table}[htbp]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{Os quinze agentes do IL~+~RL com HPO (teste)}
+\label{tab:otimizadores}
+\begin{tabular}{l c c c c c c}
+\hline
+\textbf{Otimizador} & \textbf{Execução} & \textbf{Normal} & \textbf{Seco} & \textbf{Úmido} & \textbf{Média} & \textbf{Ganho} \\ \hline
+GP-BO & \textit{a} & 5.609 & 2.868 & 5.421 & 4.633 & $+188$ \\
+Busca aleatória$^{*}$ & \textit{a} & 5.554 & 2.870 & 5.394 & 4.606 & $+161$ \\
+TPE & \textit{c} & 5.558 & 2.821 & 5.390 & 4.590 & $+145$ \\
+GP-BO & \textit{c} & 5.543 & 2.858 & 5.325 & 4.575 & $+131$ \\
+TPE & \textit{a} & 5.545 & 2.796 & 5.345 & 4.562 & $+117$ \\
+Sobol & \textit{a} & 5.592 & 2.735 & 5.356 & 4.561 & $+116$ \\
+Sobol & \textit{c} & 5.547 & 2.793 & 5.327 & 4.556 & $+111$ \\
+Busca aleatória & \textit{c} & 5.533 & 2.799 & 5.320 & 4.551 & $+106$ \\
+DEHB & \textit{b} & 5.516 & 2.759 & 5.376 & 4.550 & $+105$ \\
+DEHB & \textit{c} & 5.541 & 2.755 & 5.334 & 4.543 & $+99$ \\
+Busca aleatória & \textit{b} & 5.508 & 2.704 & 5.333 & 4.515 & $+70$ \\
+Sobol & \textit{b} & 5.503 & 2.842 & 5.188 & 4.511 & $+67$ \\
+DEHB & \textit{a} & 5.463 & 2.691 & 5.251 & 4.469 & $+24$ \\
+TPE & \textit{b} & 5.458 & 2.666 & 5.211 & 4.445 & $+0{,}6$ \\
+GP-BO & \textit{b} & 5.461 & 2.570 & 5.086 & 4.373 & $-72$ \\
+\hline
+\end{tabular}
+
+{\footnotesize Fonte: elaborada pelo autor. Nota: HPO no IL~+~RL: a melhor configuração de cada uma das quinze buscas (cinco otimizadores, três execuções independentes \textit{a}, \textit{b} e \textit{c}), retreinada com cinco sementes. Recompensa bruta (IQM) em teste; o ganho é medido sobre o IL~+~RL puro ($4.445$), calculado antes do arredondamento. $^{*}$ Agente adotado como \textit{MimePlant}: o de maior média normalizada em validação-objetivo ($0$~=~aleatório, $1$~=~professor) entre os seis incumbentes de TPE e de busca aleatória (e também entre os quinze).}
+\end{table}

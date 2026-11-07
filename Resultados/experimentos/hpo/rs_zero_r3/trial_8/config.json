@@ -1,0 +1,20 @@
+{
+ "trial": 8,
+ "hp": {
+  "inicializacao": "zero",
+  "lr": 1.8163177854282766e-05,
+  "clip": 0.2660897610574927,
+  "c_ent": 0.0004072273600299924,
+  "gamma": 0.99,
+  "lambda_gae": 0.9049175235717044,
+  "n_epocas": 6,
+  "minilote_seqs": 10,
+  "escala": 50.0
+ },
+ "seeds_trial": [
+  42
+ ],
+ "orcamento": 1000000,
+ "hash_git": "aae16a6",
+ "data": "2026-09-25 05:38:22"
+}

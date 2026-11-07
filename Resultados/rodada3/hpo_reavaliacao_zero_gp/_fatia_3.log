@@ -1,0 +1,12 @@
+[10:41:36] 1 candidatos × 5 sementes | orçamento 1000000 | dispositivo cuda:NVIDIA GeForce RTX 4060
+[10:41:36] === [fatia 3/4] gp_zero_r3_trial52 | seed 7
+[12:02:13]     [validacao_objetivo] in_dist  média  5392.2 ±  392.8 IQM  5474.2 norm 0.987 | ocioso 8%
+[12:03:12]     [validacao_objetivo] dry      média  2868.2 ±   76.5 IQM  2871.2 norm 0.971 | ocioso 2%
+[12:04:18]     [validacao_objetivo] humid    média  5189.4 ±  276.5 IQM  5260.4 norm 0.968 | ocioso 5%
+[12:06:04]     [teste             ] in_dist  média  5392.0 ±  309.6 IQM  5433.8 norm 0.988 | ocioso 9%
+[12:07:46]     [teste             ] dry      média  2885.7 ±   79.2 IQM  2894.3 norm 0.978 | ocioso 2%
+[12:09:37]     [teste             ] humid    média  5257.7 ±  207.8 IQM  5295.6 norm 0.984 | ocioso 5%
+[12:11:19]     [teste (argmax)     ] in_dist  média  3882.8 ±  527.3 IQM  3860.5 norm 0.666 | ocioso 12%
+[12:12:56]     [teste (argmax)     ] dry      média  2390.1 ±  159.7 IQM  2391.8 norm 0.79 | ocioso 1%
+[12:14:45]     [teste (argmax)     ] humid    média  2816.8 ±  595.9 IQM  2695.7 norm 0.417 | ocioso 0%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\hpo_reavaliacao_zero_gp\gp_zero_r3_trial52\seed_7\modelo_final.pt

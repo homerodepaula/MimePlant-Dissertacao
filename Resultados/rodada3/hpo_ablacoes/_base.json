@@ -1,0 +1,33 @@
+{
+ "candidato": "rs_r3_a_trial54",
+ "study": "rs_r3_a",
+ "numero": 54,
+ "params": {
+  "lr": 2.8034029140287974e-05,
+  "clip": 0.27920278472193377,
+  "c_ent": 0.008451151766716545,
+  "gamma": 0.995,
+  "lambda_gae": 0.9627484434589397,
+  "n_epocas": 4,
+  "minilote_seqs": 30,
+  "beta_kl0": 0.08211290390917263,
+  "beta_kl_decay": 0.9745218499771066,
+  "escala": 200.0,
+  "k_aquec": 19,
+  "temperatura_inicial": 7.312454186011194
+ },
+ "valor_ajuste_1_semente": 1.0067776196307576,
+ "validacao_objetivo_5_sementes": {
+  "media": 0.9985184936202212,
+  "std": 0.007061522960886636,
+  "iqm": 0.9986729106163036,
+  "por_semente": [
+   1.0067776196307576,
+   0.9953471893816218,
+   0.9938939228365312,
+   1.006934447091668,
+   0.989639289160527
+  ]
+ },
+ "criterio": "reavaliar_topk.escolher_melhor_candidato: maior média entre sementes da normalizada nos 3 regimes em validação-objetivo 520-549, excluídos os padrões; nunca em teste"
+}

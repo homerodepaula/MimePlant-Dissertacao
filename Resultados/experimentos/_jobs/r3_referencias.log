@@ -1,0 +1,52 @@
+
+===== 2026-09-19 15:09:14 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 referencias.py --saida results\rodada3\referencias --retomar
+  oraculo_subotimo   validacao_rollback in_dist  n= 20 média  2721.6 ±  524.7 IQM  2720.2 EP 117.3 |    10s
+  oraculo_subotimo   validacao_rollback dry      n= 20 média   908.3 ±  528.5 IQM   776.0 EP 118.2 |    17s
+  oraculo_subotimo   validacao_rollback humid    n= 20 média  2827.8 ±  325.3 IQM  2841.5 EP  72.7 |    27s
+  oraculo_subotimo   validacao_objetivo in_dist  n= 30 média  2744.2 ±  431.9 IQM  2787.7 EP  78.9 |    41s
+  oraculo_subotimo   validacao_objetivo dry      n= 30 média   864.2 ±  386.2 IQM   802.2 EP  70.5 |    53s
+  oraculo_subotimo   validacao_objetivo humid    n= 30 média  2870.7 ±  265.8 IQM  2881.2 EP  48.5 |    68s
+  oraculo_subotimo   teste     in_dist  n= 50 média  2755.9 ±  586.4 IQM  2825.7 EP  82.9 |    91s
+  oraculo_subotimo   teste     dry      n= 50 média   788.5 ±  410.7 IQM   710.7 EP  58.1 |   113s
+  oraculo_subotimo   teste     humid    n= 50 média  2747.6 ±  332.9 IQM  2779.0 EP  47.1 |   138s
+  oraculo_perfeito   validacao_rollback in_dist  n= 20 média  5422.8 ±  194.1 IQM  5456.5 EP  43.4 |   150s
+  oraculo_perfeito   validacao_rollback dry      n= 20 média  2938.4 ±   63.4 IQM  2947.7 EP  14.2 |   161s
+  oraculo_perfeito   validacao_rollback humid    n= 20 média  5284.7 ±  212.1 IQM  5330.0 EP  47.4 |   173s
+  oraculo_perfeito   validacao_objetivo in_dist  n= 30 média  5454.8 ±  257.4 IQM  5502.1 EP  47.0 |   192s
+  oraculo_perfeito   validacao_objetivo dry      n= 30 média  2946.8 ±   62.6 IQM  2953.1 EP  11.4 |   208s
+  oraculo_perfeito   validacao_objetivo humid    n= 30 média  5328.1 ±  246.6 IQM  5369.0 EP  45.0 |   227s
+  oraculo_perfeito   teste     in_dist  n= 50 média  5446.8 ±  274.1 IQM  5491.9 EP  38.8 |   256s
+  oraculo_perfeito   teste     dry      n= 50 média  2943.0 ±   61.3 IQM  2944.1 EP   8.7 |   284s
+  oraculo_perfeito   teste     humid    n= 50 média  5328.2 ±  207.2 IQM  5369.3 EP  29.3 |   315s
+  aleatorio          validacao_rollback in_dist  n= 20 média   777.7 ±  393.2 IQM   766.4 EP  87.9 |   326s
+  aleatorio          validacao_rollback dry      n= 20 média   293.7 ±  227.3 IQM   328.6 EP  50.8 |   337s
+  aleatorio          validacao_rollback humid    n= 20 média  1023.3 ±  513.4 IQM  1066.7 EP 114.8 |   348s
+  aleatorio          validacao_objetivo in_dist  n= 30 média   655.5 ±  419.6 IQM   683.6 EP  76.6 |   364s
+  aleatorio          validacao_objetivo dry      n= 30 média   212.4 ±  211.6 IQM   205.7 EP  38.6 |   380s
+  aleatorio          validacao_objetivo humid    n= 30 média   932.2 ±  442.0 IQM   952.7 EP  80.7 |   396s
+  aleatorio          teste     in_dist  n= 50 média   760.2 ±  374.1 IQM   780.4 EP  52.9 |   423s
+  aleatorio          teste     dry      n= 50 média   312.2 ±  185.7 IQM   336.4 EP  26.3 |   450s
+  aleatorio          teste     humid    n= 50 média  1021.1 ±  395.8 IQM  1008.9 EP  56.0 |   478s
+  professor_v4       validacao_rollback in_dist  n= 20 média  3043.1 ±  106.2 IQM  3071.9 EP  23.8 |   487s
+  professor_v4       validacao_rollback dry      n= 20 média  2304.8 ±   59.7 IQM  2308.2 EP  13.4 |   497s
+  professor_v4       validacao_rollback humid    n= 20 média  2742.1 ±   69.0 IQM  2750.2 EP  15.4 |   506s
+  professor_v4       validacao_objetivo in_dist  n= 30 média  3029.9 ±  102.5 IQM  3049.8 EP  18.7 |   520s
+  professor_v4       validacao_objetivo dry      n= 30 média  2314.0 ±   44.4 IQM  2306.7 EP   8.1 |   534s
+  professor_v4       validacao_objetivo humid    n= 30 média  2711.1 ±   93.2 IQM  2717.7 EP  17.0 |   549s
+  professor_v4       teste     in_dist  n= 50 média  3013.8 ±  111.2 IQM  3024.7 EP  15.7 |   573s
+  professor_v4       teste     dry      n= 50 média  2312.0 ±   43.9 IQM  2316.0 EP   6.2 |   596s
+  professor_v4       teste     humid    n= 50 média  2750.1 ±   68.8 IQM  2759.6 EP   9.7 |   621s
+
+=== resumo (média [IQM]) ===
+  oraculo_subotimo   validacao_rollback in_dist   2722 [  2720] | dry    908 [   776] | humid   2828 [  2841]
+  oraculo_subotimo   validacao_objetivo in_dist   2744 [  2788] | dry    864 [   802] | humid   2871 [  2881]
+  oraculo_subotimo   teste     in_dist   2756 [  2826] | dry    788 [   711] | humid   2748 [  2779]
+  oraculo_perfeito   validacao_rollback in_dist   5423 [  5456] | dry   2938 [  2948] | humid   5285 [  5330]
+  oraculo_perfeito   validacao_objetivo in_dist   5455 [  5502] | dry   2947 [  2953] | humid   5328 [  5369]
+  oraculo_perfeito   teste     in_dist   5447 [  5492] | dry   2943 [  2944] | humid   5328 [  5369]
+  aleatorio          validacao_rollback in_dist    778 [   766] | dry    294 [   329] | humid   1023 [  1067]
+  aleatorio          validacao_objetivo in_dist    655 [   684] | dry    212 [   206] | humid    932 [   953]
+  aleatorio          teste     in_dist    760 [   780] | dry    312 [   336] | humid   1021 [  1009]
+  professor_v4       validacao_rollback in_dist   3043 [  3072] | dry   2305 [  2308] | humid   2742 [  2750]
+  professor_v4       validacao_objetivo in_dist   3030 [  3050] | dry   2314 [  2307] | humid   2711 [  2718]
+  professor_v4       teste     in_dist   3014 [  3025] | dry   2312 [  2316] | humid   2750 [  2760]

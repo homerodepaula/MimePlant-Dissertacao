@@ -1,0 +1,4 @@
+
+===== 2026-10-05 13:42:33 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/analise_hpo.py --studies gp_zero_r3 --reavaliacao results\rodada3\hpo_reavaliacao_zero_gp --saida ..\experimentos\analise_hpo_rodada3_zero_gp
+gp_zero_r3: 25 concluídos, 29 podados, 34.9 FRE | melhor 0.9793302264514275 | importância {'metodo': 'fanova', 'n_concluidos': 25, 'parametros_avaliados': ['c_ent', 'clip', 'escala', 'gamma', 'lambda_gae', 'lr', 'minilote_seqs', 'n_epocas'], 'valores': {'lr': 0.4422204554927772, 'c_ent': 0.20210007227606047, 'clip': 0.10023963386154995, 'minilote_seqs': 0.06410891631145194, 'escala': 0.059469652909241236, 'gamma': 0.04968046613059006, 'lambda_gae': 0.04401767782499408, 'n_epocas': 0.03816312519333506}}
+[ok] ..\experimentos\analise_hpo_rodada3_zero_gp\analise_hpo.json

@@ -1,0 +1,56 @@
+{
+ "pid_encadeador": 8860,
+ "inicio": "2026-10-04 22:36:46",
+ "parametros": {
+  "orcamento": 1000000,
+  "n_fre": 32,
+  "n_startup": 5,
+  "amostrador": "gp",
+  "estudos": [
+   [
+    "gp_zero_r3",
+    1001,
+    3
+   ]
+  ],
+  "k": 1,
+  "espaco": "8 hiperparâmetros"
+ },
+ "gpz_gp_zero_r3_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-10-05 10:03:31"
+ },
+ "gpz_gp_zero_r3_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-10-05 10:41:32"
+ },
+ "gpz_gp_zero_r3_w2": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-10-05 10:14:31"
+ },
+ "gpz_reavaliacao": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-10-05 13:42:33"
+ },
+ "gpz_analise": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-10-05 13:43:33"
+ },
+ "gpz_comparacao": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-10-05 13:44:33"
+ },
+ "fim": "ok 2026-10-05 13:44:33"
+}

@@ -1,0 +1,20 @@
+
+===== 2026-10-05 13:43:33 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\experimentos\_execucao\comparar_gp_zero.py
+condição                             normal     seco    úmido    média  candidato
+Bot instrutor                          5492     2944     5369     4602
+RL puro                                5331     2758     5104     4398  padrao_ppo_zero
+RL + HPO (TPE)                         5412     2853     5130     4465  tpe_zero_r3_trial41
+RL + HPO (Busca aleatória)             5215     2728     4981     4308  rs_zero_r3_trial29
+RL + HPO (GP)                          5438     2820     5251     4503  gp_zero_r3_trial52
+IL + RL puro                           5435     2660     5239     4445  padrao_ppo_il
+IL + RL + HPO (TPE)                    5558     2821     5390     4590  tpe_r3_c_trial26
+IL + RL + HPO (Busca aleatória)        5554     2870     5394     4606  rs_r3_a_trial54
+IL + RL + HPO (DEHB)                   5541     2755     5334     4543  dehb_r3_c_trial17
+IL + RL + HPO (GP)                     5609     2868     5421     4633  gp_r3_a_trial39
+IL + RL + HPO (Sobol)                  5547     2793     5327     4556  qmc_r3_c_trial40
+
+GP do zero − RL puro                   +105  vence em 5/5 sementes  p = 0.044
+GP do zero − TPE do zero                +38  vence em 3/5 sementes  p = 0.513
+TPE do zero − RL puro                   +67  vence em 4/5 sementes  p = 0.422
+IL + RL com GP − IL + RL puro          +188  vence em 4/5 sementes  p = 0.065
+IL + RL com GP − GP do zero            +130  vence em 4/5 sementes  p = 0.101

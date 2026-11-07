@@ -1,0 +1,60 @@
+{
+ "impressao": "b69c29327fbd4fc2cc9957c760018052fac157a10a125fd309d79e5a8526ff96",
+ "id": 21,
+ "aptidao": -0.9573043894359664,
+ "objetivo": 0.9573043894359664,
+ "indicador": 1.003237117437832,
+ "passos": 1003020,
+ "fre": 1.00302,
+ "inicio": "2026-09-23T12:18:07.001",
+ "fim": "2026-09-23T14:18:27.429",
+ "tempo_s": 7220.42831492424,
+ "curva": [
+  {
+   "passos": 113880,
+   "proxy_norm": 0.9604168600792068
+  },
+  {
+   "passos": 223380,
+   "proxy_norm": 0.9846502578633548
+  },
+  {
+   "passos": 337260,
+   "proxy_norm": 0.9668367201619141
+  },
+  {
+   "passos": 446760,
+   "proxy_norm": 0.9863944348622634
+  },
+  {
+   "passos": 556260,
+   "proxy_norm": 0.9746285024533109
+  },
+  {
+   "passos": 670140,
+   "proxy_norm": 1.011100123282665
+  },
+  {
+   "passos": 779640,
+   "proxy_norm": 0.9995324738993936
+  },
+  {
+   "passos": 889140,
+   "proxy_norm": 0.986625392692154
+  },
+  {
+   "passos": 1003020,
+   "proxy_norm": 1.003237117437832
+  }
+ ],
+ "hash_git": "aae16a6",
+ "versoes": {
+  "python": "3.10.11",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.2.6",
+  "gymnasium": "1.2.3",
+  "optuna": "4.8.0",
+  "scipy": "1.15.3"
+ },
+ "dispositivo": "cuda:NVIDIA GeForce RTX 4060"
+}

@@ -1,0 +1,63 @@
+
+===== 2026-09-26 04:07:48 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\experimentos\_execucao\hpo_sampler_extra.py --sampler-extra gp --n-startup 5 --study gp_r3_c --n-fre 32 --orcamento 1000000 --seed-sampler 1003 --paralelo --trabalhador 1 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+[I 2026-09-26 04:07:51,008] Using an existing study with name 'gp_r3_c' instead of creating a new one.
+C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\experimentos\_execucao\hpo_sampler_extra.py:47: ExperimentalWarning: GPSampler is experimental (supported from v3.6.0). The interface can change in the future.
+  return optuna.samplers.GPSampler(seed=seed, n_startup_trials=n_startup,
+[extra] amostrador gp construído com semente 2003
+[04:07:51] amostrador random com semente 2003 (base 1003 + 1000 x 1 trials já no banco)
+[04:07:51] study gp_r3_c | sampler random | poda hyperband | N=1000000 | alvo 32.0 FRE | já consumidos 0.00 FRE em 1 trials | dispositivo cuda:NVIDIA GeForce RTX 4060
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\torch\nn\modules\rnn.py:1124: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1412.)
+  result = _VF.lstm(
+[05:28:06] trial 1: objetivo 0.818 | professor T=1.1669841435916295 β=0.021291211244650173 lr=7.4e-05 ent=1.5e-03 | 1.00 FRE | 4815s
+[I 2026-09-26 05:28:06,387] Trial 1 finished with value: 0.8182585024869967 and parameters: {'lr': 7.382024636647795e-05, 'clip': 0.26088779667990925, 'c_ent': 0.0014624383342214812, 'gamma': 0.995, 'lambda_gae': 0.9469053937790184, 'n_epocas': 6, 'minilote_seqs': 10, 'beta_kl0': 0.021291211244650173, 'beta_kl_decay': 0.9487722261191719, 'escala': 200.0, 'k_aquec': 4, 'temperatura_inicial': 1.1669841435916295}. Best is trial 0 with value: 0.9684119539903108.
+[05:51:59] trial 3: PODADO em 337260 passos (0.34 FRE) | professor | 1433s
+[I 2026-09-26 05:51:59,897] Trial 3 pruned. 
+[07:07:25] trial 4: objetivo 0.927 | professor T=2.1752811984202007 β=0.36002340130619886 lr=2.5e-05 ent=7.7e-04 | 1.00 FRE | 4525s
+[I 2026-09-26 07:07:25,682] Trial 4 finished with value: 0.9274298170665337 and parameters: {'lr': 2.547919517385034e-05, 'clip': 0.2891636833467588, 'c_ent': 0.0007683894341226727, 'gamma': 0.99, 'lambda_gae': 0.9043050256682158, 'n_epocas': 6, 'minilote_seqs': 30, 'beta_kl0': 0.36002340130619886, 'beta_kl_decay': 0.9697376139745704, 'escala': 200.0, 'k_aquec': 5, 'temperatura_inicial': 2.1752811984202007}. Best is trial 2 with value: 0.9788474523818073.
+[07:31:51] trial 7: PODADO em 337260 passos (0.34 FRE) | professor | 1465s
+[I 2026-09-26 07:31:51,063] Trial 7 pruned. 
+[07:55:35] trial 8: PODADO em 337260 passos (0.34 FRE) | professor | 1424s
+[I 2026-09-26 07:55:35,511] Trial 8 pruned. 
+[09:14:19] trial 9: objetivo 0.849 | professor T=2.5497016678316697 β=0.013559926743011597 lr=6.7e-05 ent=8.6e-03 | 1.00 FRE | 4723s
+[I 2026-09-26 09:14:19,367] Trial 9 finished with value: 0.8486335026776489 and parameters: {'lr': 6.7180921068286e-05, 'clip': 0.210386919469253, 'c_ent': 0.008641657750498943, 'gamma': 0.99, 'lambda_gae': 0.9006359708637344, 'n_epocas': 5, 'minilote_seqs': 10, 'beta_kl0': 0.013559926743011597, 'beta_kl_decay': 0.9150464755317305, 'escala': 200.0, 'k_aquec': 9, 'temperatura_inicial': 2.5497016678316697}. Best is trial 2 with value: 0.9788474523818073.
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\torch\nn\modules\rnn.py:1124: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1412.)
+  result = _VF.lstm(
+[09:38:02] trial 12: PODADO em 337260 passos (0.34 FRE) | professor | 1422s
+[I 2026-09-26 09:38:02,926] Trial 12 pruned. 
+[10:01:45] trial 13: PODADO em 337260 passos (0.34 FRE) | professor | 1422s
+[I 2026-09-26 10:01:45,559] Trial 13 pruned. 
+[11:17:43] trial 14: objetivo 0.968 | professor T=6.86106465047744 β=0.01731556646996154 lr=1.2e-05 ent=5.6e-03 | 1.00 FRE | 4558s
+[I 2026-09-26 11:17:43,868] Trial 14 finished with value: 0.9675373282945469 and parameters: {'lr': 1.1665889963154938e-05, 'clip': 0.2699014263614692, 'c_ent': 0.005560436514834494, 'gamma': 0.995, 'lambda_gae': 0.9041978425711008, 'n_epocas': 3, 'minilote_seqs': 20, 'beta_kl0': 0.01731556646996154, 'beta_kl_decay': 0.9813703658155603, 'escala': 50.0, 'k_aquec': 2, 'temperatura_inicial': 6.86106465047744}. Best is trial 2 with value: 0.9788474523818073.
+[12:34:43] trial 18: objetivo 0.989 | professor T=9.954369290807582 β=0.0017577827527048115 lr=1.1e-04 ent=3.1e-04 | 1.00 FRE | 4619s
+[I 2026-09-26 12:34:43,613] Trial 18 finished with value: 0.9885787041279438 and parameters: {'lr': 0.00011447080330936401, 'clip': 0.29472948299406493, 'c_ent': 0.0003072747958847843, 'gamma': 0.995, 'lambda_gae': 0.9484414671897552, 'n_epocas': 3, 'minilote_seqs': 20, 'beta_kl0': 0.0017577827527048115, 'beta_kl_decay': 0.999, 'escala': 50.0, 'k_aquec': 2, 'temperatura_inicial': 9.954369290807582}. Best is trial 18 with value: 0.9885787041279438.
+[13:52:18] trial 21: objetivo 0.961 | professor T=8.145205534735199 β=0.0010000000000000002 lr=8.5e-05 ent=2.3e-04 | 1.00 FRE | 4654s
+[I 2026-09-26 13:52:18,931] Trial 21 finished with value: 0.960624581734035 and parameters: {'lr': 8.47128557049193e-05, 'clip': 0.29251522053176526, 'c_ent': 0.00022689761166172555, 'gamma': 0.995, 'lambda_gae': 0.9546889990205341, 'n_epocas': 5, 'minilote_seqs': 20, 'beta_kl0': 0.0010000000000000002, 'beta_kl_decay': 0.9728585176214436, 'escala': 50.0, 'k_aquec': 6, 'temperatura_inicial': 8.145205534735199}. Best is trial 18 with value: 0.9885787041279438.
+[14:16:45] trial 24: PODADO em 337260 passos (0.34 FRE) | professor | 1466s
+[I 2026-09-26 14:16:45,812] Trial 24 pruned. 
+[14:41:01] trial 25: PODADO em 337260 passos (0.34 FRE) | professor | 1455s
+[I 2026-09-26 14:41:01,874] Trial 25 pruned. 
+[15:57:43] trial 27: objetivo 1.004 | professor T=8.02603925606436 β=0.0015272107178152241 lr=8.9e-05 ent=7.5e-04 | 1.00 FRE | 4601s
+[I 2026-09-26 15:57:43,504] Trial 27 finished with value: 1.0039171911913882 and parameters: {'lr': 8.929422800138882e-05, 'clip': 0.24799173741058947, 'c_ent': 0.000746797572067974, 'gamma': 0.995, 'lambda_gae': 0.9714287775840935, 'n_epocas': 2, 'minilote_seqs': 20, 'beta_kl0': 0.0015272107178152241, 'beta_kl_decay': 0.999, 'escala': 50.0, 'k_aquec': 0, 'temperatura_inicial': 8.02603925606436}. Best is trial 27 with value: 1.0039171911913882.
+[17:14:21] trial 29: objetivo 0.998 | professor T=10.0 β=0.01509769980892683 lr=8.5e-05 ent=1.0e-04 | 1.00 FRE | 4598s
+[I 2026-09-26 17:14:21,851] Trial 29 finished with value: 0.9979658768220131 and parameters: {'lr': 8.475644060775449e-05, 'clip': 0.20875685103137462, 'c_ent': 0.00010000000000000009, 'gamma': 0.995, 'lambda_gae': 0.98, 'n_epocas': 2, 'minilote_seqs': 20, 'beta_kl0': 0.01509769980892683, 'beta_kl_decay': 0.999, 'escala': 50.0, 'k_aquec': 0, 'temperatura_inicial': 10.0}. Best is trial 27 with value: 1.0039171911913882.
+[18:31:58] trial 31: objetivo 1.002 | professor T=10.0 β=0.0010000000000000002 lr=6.7e-05 ent=2.1e-03 | 1.00 FRE | 4656s
+[I 2026-09-26 18:31:58,102] Trial 31 finished with value: 1.0019964556487193 and parameters: {'lr': 6.706272705713978e-05, 'clip': 0.15280549464945312, 'c_ent': 0.002082511207447169, 'gamma': 0.995, 'lambda_gae': 0.98, 'n_epocas': 3, 'minilote_seqs': 20, 'beta_kl0': 0.0010000000000000002, 'beta_kl_decay': 0.999, 'escala': 50.0, 'k_aquec': 0, 'temperatura_inicial': 10.0}. Best is trial 27 with value: 1.0039171911913882.
+[18:55:32] trial 33: PODADO em 337260 passos (0.34 FRE) | professor | 1414s
+[I 2026-09-26 18:55:32,592] Trial 33 pruned. 
+[19:19:01] trial 35: PODADO em 337260 passos (0.34 FRE) | professor | 1408s
+[I 2026-09-26 19:19:01,147] Trial 35 pruned. 
+[20:33:14] trial 36: objetivo 0.879 | professor T=10.0 β=0.0010000000000000002 lr=4.6e-05 ent=3.0e-02 | 1.00 FRE | 4452s
+[I 2026-09-26 20:33:14,330] Trial 36 finished with value: 0.8794699157806307 and parameters: {'lr': 4.5725924696063684e-05, 'clip': 0.1, 'c_ent': 0.029999999999999995, 'gamma': 0.995, 'lambda_gae': 0.98, 'n_epocas': 2, 'minilote_seqs': 30, 'beta_kl0': 0.0010000000000000002, 'beta_kl_decay': 0.999, 'escala': 50.0, 'k_aquec': 17, 'temperatura_inicial': 10.0}. Best is trial 27 with value: 1.0039171911913882.
+[20:56:55] trial 39: PODADO em 337260 passos (0.34 FRE) | professor | 1421s
+[I 2026-09-26 20:56:55,816] Trial 39 pruned. 
+[21:21:04] trial 41: PODADO em 337260 passos (0.34 FRE) | professor | 1448s
+[I 2026-09-26 21:21:04,818] Trial 41 pruned. 
+[21:46:11] trial 43: PODADO em 337260 passos (0.34 FRE) | professor | 1506s
+[I 2026-09-26 21:46:11,411] Trial 43 pruned. 
+[23:06:50] trial 44: objetivo 0.975 | professor T=10.0 β=0.0010000000000000002 lr=1.0e-05 ent=1.0e-04 | 1.00 FRE | 4838s
+[I 2026-09-26 23:06:50,277] Trial 44 finished with value: 0.9749700468367012 and parameters: {'lr': 1e-05, 'clip': 0.1, 'c_ent': 0.00010000000000000009, 'gamma': 0.99, 'lambda_gae': 0.9, 'n_epocas': 6, 'minilote_seqs': 30, 'beta_kl0': 0.0010000000000000002, 'beta_kl_decay': 0.999, 'escala': 50.0, 'k_aquec': 0, 'temperatura_inicial': 10.0}. Best is trial 27 with value: 1.0039171911913882.
+[23:31:58] trial 47: PODADO em 337260 passos (0.34 FRE) | professor | 1507s
+[I 2026-09-26 23:31:58,199] Trial 47 pruned. 
+[00:51:04] trial 49: objetivo 0.959 | professor T=10.0 β=0.0011579565276821958 lr=1.0e-05 ent=3.0e-02 | 1.00 FRE | 4746s
+[I 2026-09-27 00:51:04,942] Trial 49 finished with value: 0.9590611314152179 and parameters: {'lr': 1e-05, 'clip': 0.1, 'c_ent': 0.029999999999999995, 'gamma': 0.995, 'lambda_gae': 0.9, 'n_epocas': 6, 'minilote_seqs': 30, 'beta_kl0': 0.0011579565276821958, 'beta_kl_decay': 0.9, 'escala': 50.0, 'k_aquec': 0, 'temperatura_inicial': 10.0}. Best is trial 27 with value: 1.0039171911913882.
+[00:51:05] fim: 24 concluídos, 26 podados, 32.84 FRE | melhor: {'numero': 27, 'valor': 1.0039171911913882, 'params': {'lr': 8.929422800138882e-05, 'clip': 0.24799173741058947, 'c_ent': 0.000746797572067974, 'gamma': 0.995, 'lambda_gae': 0.9714287775840935, 'n_epocas': 2, 'minilote_seqs': 20, 'beta_kl0': 0.0015272107178152241, 'beta_kl_decay': 0.999, 'escala': 50.0, 'k_aquec': 0, 'temperatura_inicial': 8.02603925606436}}

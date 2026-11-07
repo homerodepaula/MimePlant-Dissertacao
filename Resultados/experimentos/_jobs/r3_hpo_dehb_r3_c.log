@@ -1,0 +1,131 @@
+
+===== 2026-09-24 03:30:20 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/hpo_dehb.py --study dehb_r3_c --n-fre 32 --orcamento 1000000 --paralelo 3 --niveis 2 --seed 1003 --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+[2026-09-24 03:30:21] study dehb_r3_c | DEHB 2 níveis [333333, 1000000] | alvo 32.0 FRE | já consumidos 0.00 em 0 avaliações | 0 em voo na última sessão | K=3
+[2026-09-24 03:30:21] trabalho 0: evolucao | fidelidade 333333 | bracket 0 degrau 0 | pid 2908
+[2026-09-24 03:30:21] trabalho 1: evolucao | fidelidade 333333 | bracket 0 degrau 0 | pid 4760
+[2026-09-24 03:30:21] trabalho 2: evolucao | fidelidade 333333 | bracket 0 degrau 0 | pid 15396
+[2026-09-24 03:30:21] vivo: 0.00/32.0 FRE | em voo [0, 1, 2] | fila []
+[2026-09-24 03:52:33] trabalho 1: indicador 0.975 | substituiu o pai | 0.34 FRE | total 0.34/32.0
+[2026-09-24 03:52:33] trabalho 2: indicador 0.921 | substituiu o pai | 0.34 FRE | total 0.67/32.0
+[2026-09-24 03:52:33] trabalho 3: evolucao | fidelidade 1000000 | bracket 1 degrau 0 | pid 17504
+[2026-09-24 03:52:34] trabalho 4: evolucao | fidelidade 1000000 | bracket 1 degrau 0 | pid 2948
+[2026-09-24 03:53:19] trabalho 0: indicador 0.993 | substituiu o pai | 0.34 FRE | total 1.01/32.0
+[2026-09-24 03:53:19] trabalho 5: promocao | fidelidade 1000000 | bracket 0 degrau 1 | pid 4896
+[2026-09-24 04:00:24] vivo: 1.01/32.0 FRE | em voo [3, 4, 5] | fila []
+[2026-09-24 04:30:27] vivo: 1.01/32.0 FRE | em voo [3, 4, 5] | fila []
+[2026-09-24 05:00:30] vivo: 1.01/32.0 FRE | em voo [3, 4, 5] | fila []
+[2026-09-24 05:02:45] trabalho 3: objetivo 0.942 | substituiu o pai | 1.00 FRE | total 2.01/32.0
+[2026-09-24 05:02:45] trabalho 6: evolucao | fidelidade 333333 | bracket 2 degrau 0 | pid 6632
+[2026-09-24 05:05:01] trabalho 4: objetivo 0.957 | substituiu o pai | 1.00 FRE | total 3.02/32.0
+[2026-09-24 05:05:01] trabalho 7: evolucao | fidelidade 333333 | bracket 2 degrau 0 | pid 8804
+[2026-09-24 05:05:26] trabalho 5: objetivo 0.929 | 1.00 FRE | total 4.02/32.0
+[2026-09-24 05:05:26] trabalho 8: evolucao | fidelidade 333333 | bracket 2 degrau 0 | pid 1512
+[2026-09-24 05:25:28] trabalho 6: indicador 0.929 | 0.34 FRE | total 4.36/32.0
+[2026-09-24 05:25:28] trabalho 9: evolucao | fidelidade 1000000 | bracket 3 degrau 0 | pid 17812
+[2026-09-24 05:27:28] trabalho 8: indicador 0.972 | substituiu o pai | 0.34 FRE | total 4.70/32.0
+[2026-09-24 05:27:28] trabalho 10: evolucao | fidelidade 1000000 | bracket 3 degrau 0 | pid 17388
+[2026-09-24 05:27:43] trabalho 7: indicador 0.937 | 0.34 FRE | total 5.03/32.0
+[2026-09-24 05:27:43] trabalho 11: evolucao | fidelidade 1000000 | bracket 2 degrau 1 | pid 7672
+[2026-09-24 05:30:34] vivo: 5.03/32.0 FRE | em voo [9, 10, 11] | fila []
+[2026-09-24 06:00:37] vivo: 5.03/32.0 FRE | em voo [9, 10, 11] | fila []
+[2026-09-24 06:30:40] vivo: 5.03/32.0 FRE | em voo [9, 10, 11] | fila []
+[2026-09-24 06:38:15] trabalho 10: objetivo 0.977 | substituiu o pai | 1.00 FRE | total 6.04/32.0
+[2026-09-24 06:38:15] trabalho 12: evolucao | fidelidade 333333 | bracket 4 degrau 0 | pid 18208
+[2026-09-24 06:38:30] trabalho 11: objetivo 0.946 | 1.00 FRE | total 7.04/32.0
+[2026-09-24 06:38:31] trabalho 13: evolucao | fidelidade 333333 | bracket 4 degrau 0 | pid 17460
+[2026-09-24 06:38:51] trabalho 9: objetivo 0.911 | 1.00 FRE | total 8.04/32.0
+[2026-09-24 06:38:51] trabalho 14: evolucao | fidelidade 333333 | bracket 4 degrau 0 | pid 14320
+[2026-09-24 07:00:43] vivo: 8.04/32.0 FRE | em voo [12, 13, 14] | fila []
+[2026-09-24 07:00:48] trabalho 13: indicador 0.970 | 0.34 FRE | total 8.38/32.0
+[2026-09-24 07:00:48] trabalho 15: evolucao | fidelidade 1000000 | bracket 5 degrau 0 | pid 8736
+[2026-09-24 07:00:58] trabalho 12: indicador 0.972 | 0.34 FRE | total 8.72/32.0
+[2026-09-24 07:00:58] trabalho 16: evolucao | fidelidade 1000000 | bracket 5 degrau 0 | pid 11864
+[2026-09-24 07:01:08] trabalho 14: indicador 0.933 | 0.34 FRE | total 9.05/32.0
+[2026-09-24 07:01:08] trabalho 17: evolucao | fidelidade 1000000 | bracket 4 degrau 1 | pid 10452
+[2026-09-24 07:30:46] vivo: 9.05/32.0 FRE | em voo [15, 16, 17] | fila []
+[2026-09-24 08:00:49] vivo: 9.05/32.0 FRE | em voo [15, 16, 17] | fila []
+[2026-09-24 08:11:35] trabalho 16: objetivo 0.960 | substituiu o pai | 1.00 FRE | total 10.06/32.0
+[2026-09-24 08:11:35] trabalho 18: evolucao | fidelidade 333333 | bracket 6 degrau 0 | pid 16120
+[2026-09-24 08:12:05] trabalho 15: objetivo 0.974 | 1.00 FRE | total 11.06/32.0
+[2026-09-24 08:12:05] trabalho 19: evolucao | fidelidade 333333 | bracket 6 degrau 0 | pid 4896
+[2026-09-24 08:12:25] trabalho 17: objetivo 1.006 | substituiu o pai | 1.00 FRE | total 12.06/32.0
+[2026-09-24 08:12:25] trabalho 20: evolucao | fidelidade 333333 | bracket 6 degrau 0 | pid 488
+[2026-09-24 08:30:52] vivo: 12.06/32.0 FRE | em voo [18, 19, 20] | fila []
+[2026-09-24 08:34:08] trabalho 18: indicador 0.962 | 0.34 FRE | total 12.40/32.0
+[2026-09-24 08:34:08] trabalho 21: evolucao | fidelidade 1000000 | bracket 7 degrau 0 | pid 12404
+[2026-09-24 08:34:58] trabalho 20: indicador 0.984 | substituiu o pai | 0.34 FRE | total 12.74/32.0
+[2026-09-24 08:34:58] trabalho 22: evolucao | fidelidade 1000000 | bracket 7 degrau 0 | pid 6192
+[2026-09-24 08:35:08] trabalho 19: indicador 0.973 | 0.34 FRE | total 13.07/32.0
+[2026-09-24 08:35:08] trabalho 23: evolucao | fidelidade 1000000 | bracket 6 degrau 1 | pid 2316
+[2026-09-24 09:00:55] vivo: 13.07/32.0 FRE | em voo [21, 22, 23] | fila []
+[2026-09-24 09:30:58] vivo: 13.07/32.0 FRE | em voo [21, 22, 23] | fila []
+[2026-09-24 09:45:40] trabalho 23: objetivo 0.950 | 1.00 FRE | total 14.08/32.0
+[2026-09-24 09:45:40] trabalho 24: evolucao | fidelidade 333333 | bracket 8 degrau 0 | pid 10296
+[2026-09-24 09:47:10] trabalho 22: objetivo 0.961 | 1.00 FRE | total 15.08/32.0
+[2026-09-24 09:47:10] trabalho 25: evolucao | fidelidade 333333 | bracket 8 degrau 0 | pid 19364
+[2026-09-24 09:49:00] trabalho 21: objetivo 0.946 | 1.00 FRE | total 16.08/32.0
+[2026-09-24 09:49:00] trabalho 26: evolucao | fidelidade 333333 | bracket 8 degrau 0 | pid 16192
+[2026-09-24 10:01:01] vivo: 16.08/32.0 FRE | em voo [24, 25, 26] | fila []
+[2026-09-24 10:09:22] trabalho 24: indicador 0.950 | 0.34 FRE | total 16.42/32.0
+[2026-09-24 10:09:22] trabalho 27: evolucao | fidelidade 1000000 | bracket 9 degrau 0 | pid 4832
+[2026-09-24 10:10:53] trabalho 25: indicador 0.927 | 0.34 FRE | total 16.76/32.0
+[2026-09-24 10:10:53] trabalho 28: evolucao | fidelidade 1000000 | bracket 9 degrau 0 | pid 18808
+[2026-09-24 10:12:23] trabalho 26: indicador 0.957 | 0.34 FRE | total 17.10/32.0
+[2026-09-24 10:12:23] trabalho 29: evolucao | fidelidade 1000000 | bracket 8 degrau 1 | pid 18992
+[2026-09-24 10:31:05] vivo: 17.10/32.0 FRE | em voo [27, 28, 29] | fila []
+[2026-09-24 11:01:08] vivo: 17.10/32.0 FRE | em voo [27, 28, 29] | fila []
+[2026-09-24 11:21:05] trabalho 27: objetivo 0.983 | 1.00 FRE | total 18.10/32.0
+[2026-09-24 11:21:05] trabalho 30: evolucao | fidelidade 333333 | bracket 10 degrau 0 | pid 19172
+[2026-09-24 11:23:00] trabalho 28: objetivo 0.970 | substituiu o pai | 1.00 FRE | total 19.10/32.0
+[2026-09-24 11:23:00] trabalho 29: objetivo 0.957 | 1.00 FRE | total 20.10/32.0
+[2026-09-24 11:23:00] trabalho 31: evolucao | fidelidade 333333 | bracket 10 degrau 0 | pid 12952
+[2026-09-24 11:23:00] trabalho 32: evolucao | fidelidade 333333 | bracket 10 degrau 0 | pid 9280
+[2026-09-24 11:31:11] vivo: 20.10/32.0 FRE | em voo [30, 31, 32] | fila []
+[2026-09-24 11:45:17] trabalho 30: indicador 0.900 | 0.34 FRE | total 20.44/32.0
+[2026-09-24 11:45:17] trabalho 33: evolucao | fidelidade 1000000 | bracket 11 degrau 0 | pid 19080
+[2026-09-24 11:46:22] trabalho 32: indicador 0.959 | 0.34 FRE | total 20.78/32.0
+[2026-09-24 11:46:23] trabalho 34: evolucao | fidelidade 1000000 | bracket 11 degrau 0 | pid 8468
+[2026-09-24 11:47:13] trabalho 31: indicador 0.960 | 0.34 FRE | total 21.12/32.0
+[2026-09-24 11:47:13] trabalho 35: evolucao | fidelidade 1000000 | bracket 10 degrau 1 | pid 19152
+[2026-09-24 12:01:14] vivo: 21.12/32.0 FRE | em voo [33, 34, 35] | fila []
+[2026-09-24 12:31:17] vivo: 21.12/32.0 FRE | em voo [33, 34, 35] | fila []
+[2026-09-24 12:58:50] trabalho 33: objetivo 0.926 | 1.00 FRE | total 22.12/32.0
+[2026-09-24 12:58:50] trabalho 36: evolucao | fidelidade 333333 | bracket 12 degrau 0 | pid 13592
+[2026-09-24 12:59:25] trabalho 35: objetivo 0.926 | 1.00 FRE | total 23.12/32.0
+[2026-09-24 12:59:25] trabalho 37: evolucao | fidelidade 333333 | bracket 12 degrau 0 | pid 15028
+[2026-09-24 13:00:45] trabalho 34: objetivo 0.976 | 1.00 FRE | total 24.13/32.0
+[2026-09-24 13:00:45] trabalho 38: evolucao | fidelidade 333333 | bracket 12 degrau 0 | pid 1084
+[2026-09-24 13:01:20] vivo: 24.13/32.0 FRE | em voo [36, 37, 38] | fila []
+[2026-09-24 13:13:51] trabalho 36: indicador 0.976 | 0.34 FRE | total 24.46/32.0
+[2026-09-24 13:13:52] trabalho 39: evolucao | fidelidade 1000000 | bracket 13 degrau 0 | pid 13712
+[2026-09-24 13:14:27] trabalho 37: indicador 0.959 | 0.34 FRE | total 24.80/32.0
+[2026-09-24 13:14:27] trabalho 40: evolucao | fidelidade 1000000 | bracket 13 degrau 0 | pid 12208
+[2026-09-24 13:15:32] trabalho 38: indicador 0.989 | substituiu o pai | 0.34 FRE | total 25.14/32.0
+[2026-09-24 13:15:32] trabalho 41: evolucao | fidelidade 1000000 | bracket 12 degrau 1 | pid 14420
+[2026-09-24 13:31:23] vivo: 25.14/32.0 FRE | em voo [39, 40, 41] | fila []
+[2026-09-24 14:01:26] vivo: 25.14/32.0 FRE | em voo [39, 40, 41] | fila []
+[2026-09-24 14:24:43] trabalho 39: objetivo 0.978 | 1.00 FRE | total 26.14/32.0
+[2026-09-24 14:24:44] trabalho 42: evolucao | fidelidade 333333 | bracket 14 degrau 0 | pid 15576
+[2026-09-24 14:25:09] trabalho 41: objetivo 0.961 | 1.00 FRE | total 27.14/32.0
+[2026-09-24 14:25:09] trabalho 43: evolucao | fidelidade 333333 | bracket 14 degrau 0 | pid 11584
+[2026-09-24 14:26:04] trabalho 40: objetivo 0.985 | substituiu o pai | 1.00 FRE | total 28.15/32.0
+[2026-09-24 14:26:04] trabalho 44: evolucao | fidelidade 333333 | bracket 14 degrau 0 | pid 16192
+[2026-09-24 14:31:29] vivo: 28.15/32.0 FRE | em voo [42, 43, 44] | fila []
+[2026-09-24 14:50:16] trabalho 42: indicador 0.968 | 0.34 FRE | total 28.48/32.0
+[2026-09-24 14:50:16] trabalho 45: evolucao | fidelidade 1000000 | bracket 15 degrau 0 | pid 16564
+[2026-09-24 14:50:21] trabalho 43: indicador 0.948 | 0.34 FRE | total 28.82/32.0
+[2026-09-24 14:50:22] trabalho 46: evolucao | fidelidade 1000000 | bracket 15 degrau 0 | pid 20000
+[2026-09-24 14:51:27] trabalho 44: indicador 0.977 | 0.34 FRE | total 29.16/32.0
+[2026-09-24 14:51:27] trabalho 47: evolucao | fidelidade 1000000 | bracket 14 degrau 1 | pid 11296
+[2026-09-24 15:01:33] vivo: 29.16/32.0 FRE | em voo [45, 46, 47] | fila []
+[2026-09-24 15:31:36] vivo: 29.16/32.0 FRE | em voo [45, 46, 47] | fila []
+[2026-09-24 16:01:39] vivo: 29.16/32.0 FRE | em voo [45, 46, 47] | fila []
+[2026-09-24 16:09:05] trabalho 46: objetivo 0.952 | 1.00 FRE | total 30.16/32.0
+[2026-09-24 16:09:05] trabalho 48: evolucao | fidelidade 333333 | bracket 16 degrau 0 | pid 9940
+[2026-09-24 16:09:35] trabalho 45: objetivo 0.966 | 1.00 FRE | total 31.16/32.0
+[2026-09-24 16:09:35] trabalho 49: evolucao | fidelidade 333333 | bracket 16 degrau 0 | pid 12740
+[2026-09-24 16:12:15] trabalho 47: objetivo 0.912 | 1.00 FRE | total 32.17/32.0
+[2026-09-24 16:31:42] vivo: 32.17/32.0 FRE | em voo [48, 49] | fila []
+[2026-09-24 16:33:52] trabalho 48: indicador 0.814 | 0.34 FRE | total 32.50/32.0
+[2026-09-24 16:34:12] trabalho 49: indicador 0.913 | 0.34 FRE | total 32.84/32.0
+[2026-09-24 16:34:13] fim: 24 avaliações em fidelidade máxima, 26 em fidelidade menor, 0 falhas, 32.84 FRE | melhor: {'id_trabalho': 17, 'valor': 1.0061370732796187, 'params': {'lr': 3.065499668017629e-05, 'clip': 0.1859489686754679, 'c_ent': 0.0008267698801044441, 'gamma': 0.99, 'lambda_gae': 0.9761222238497556, 'n_epocas': 5, 'minilote_seqs': 30, 'beta_kl0': 0.0595918641405259, 'beta_kl_decay': 0.9859296204985021, 'escala': 200.0, 'k_aquec': 11, 'temperatura_inicial': 4.6338664999991}}

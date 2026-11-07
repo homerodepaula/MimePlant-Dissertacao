@@ -1,0 +1,83 @@
+# Diagnóstico do regime seco: por que o professor piora tanto?
+
+Professor heurístico nos três regimes, nas sementes de **validação** 500–549 (50 episódios; teste nunca usado). Valores: média ± desvio-padrão entre episódios.
+
+## 0. Conferência do laço contra a avaliação oficial (professor, recompensa média)
+
+| Regime | Este diagnóstico (500–549) | `referencias.json` (500–519 e 520–549, ponderado) |
+|---|---|---|
+| Normal | 5442.0 | 5442.0 |
+| Seco | 2943.4 | 2943.4 |
+| Úmido | 5313.0 | 5310.8 |
+
+## 1. Professor, por regime
+
+| Medida | Normal | Seco | Úmido |
+|---|---|---|---|
+| Recompensa total | 5442 ± 233 | 2943 ± 62 | 5313 ± 233 |
+| Produtividade acumulada (peso colhido) | 1180.0 ± 53.2 | 688.5 ± 10.7 | 1164.4 ± 49.1 |
+| Colheitas (ações `colher`) | 23.2 ± 2.0 | 10.5 ± 0.8 | 22.1 ± 1.9 |
+| Regas (ações `regar`) | 33 ± 4 | 109 ± 7 | 0 ± 0 |
+| Dias com planta | 362 ± 3 | 292 ± 19 | 362 ± 3 |
+| Umidade média do solo nas plantas | 0.700 ± 0.016 | 0.526 ± 0.005 | 0.941 ± 0.016 |
+| Fração dos dias com planta abaixo de 0,58 | 0.18 ± 0.02 | 0.50 ± 0.01 | 0.01 ± 0.01 |
+| Variação diária da umidade em dia sem rega e sem chuva | -0.017 ± 0.004 | -0.070 ± 0.002 | +0.011 ± 0.003 |
+| Variação diária da umidade em dia de rega | +0.167 ± 0.006 | +0.119 ± 0.002 | +0.238 ± 0.039 |
+| Fração dos dias com chuva | 0.35 ± 0.03 | 0.05 ± 0.01 | 0.70 ± 0.02 |
+| Chuva média (mm/dia) | 2.8 ± 0.3 | 0.4 ± 0.1 | 5.2 ± 0.4 |
+| Temperatura média (°C) | 16.6 ± 0.2 | 32.0 ± 0.1 | 20.0 ± 0.1 |
+| Dias com planta e calor acima de 35 °C | 0 ± 0 | 1 ± 1 | 0 ± 0 |
+| Fração dos dias com planta e umidade do ar fora de [0,3; 0,9] (×0,8 no crescimento) | 0.00 ± 0.00 | 0.99 ± 0.01 | 0.01 ± 0.01 |
+| Fração dos dias com planta e chuva abaixo de 2 mm (×0,9 no crescimento) | 0.70 ± 0.03 | 0.96 ± 0.01 | 0.42 ± 0.03 |
+| Fração dos dias com planta e temperatura fora de [10; 35] °C (×0,7 no crescimento) | 0.23 ± 0.01 | 0.00 ± 0.01 | 0.00 ± 0.00 |
+| Multiplicador médio do clima sobre o crescimento (produto das três penalidades) | 0.87 ± 0.00 | 0.72 ± 0.00 | 0.96 ± 0.00 |
+| Qualidade média do solo nas plantas | 0.749 ± 0.024 | 0.743 ± 0.006 | 0.604 ± 0.014 |
+| Multiplicador médio da qualidade do solo, 1 + qualidade | 1.749 ± 0.024 | 1.743 ± 0.006 | 1.604 ± 0.014 |
+
+## 2. Decomposição da recompensa do professor (média por episódio) e diferença do seco para o normal
+
+| Componente | Normal | Seco | Seco − Normal | Parcela da queda total |
+|---|---|---|---|---|
+| colheita | 5900.1 | 3442.5 | -2457.6 | 98% |
+| custo_acao | -291.9 | -283.1 | +8.8 | -0% |
+| clima | -0.8 | -0.8 | -0.0 | 0% |
+| ervas | -30.1 | -22.8 | +7.3 | -0% |
+| doenca | -23.7 | -0.5 | +23.1 | -1% |
+| eventos | -6.1 | -79.2 | -73.1 | 3% |
+| frutos_pendentes | 54.1 | 1.3 | -52.8 | 2% |
+| solo_final | 7.2 | 4.2 | -3.0 | 0% |
+| polinizadores_final | 2.9 | 4.4 | +1.5 | -0% |
+| quimicos_final | -170.0 | -122.6 | +47.4 | -2% |
+| **Total** | 5442.0 | 2943.4 | -2498.5 | 100% |
+
+## 3. Testes pareados por episódio (mesmas sementes), seco contra normal
+
+| Medida | Diferença média (seco − normal) | t pareado p |
+|---|---|---|
+| Recompensa total | -2498.541 | 8.35e-52 |
+| Produtividade acumulada (peso colhido) | -491.528 | 5.54e-49 |
+| Colheitas (ações `colher`) | -12.640 | 1.47e-39 |
+| Regas (ações `regar`) | +76.620 | 3.38e-49 |
+| Dias com planta | -70.080 | 1.04e-30 |
+| Umidade média do solo nas plantas | -0.174 | 3.98e-51 |
+| Fração dos dias com planta abaixo de 0,58 | +0.324 | 1.29e-61 |
+| Variação diária da umidade em dia sem rega e sem chuva | -0.054 | 1.2e-57 |
+| Variação diária da umidade em dia de rega | -0.048 | 1.73e-43 |
+| Fração dos dias com chuva | -0.299 | 3.74e-51 |
+| Chuva média (mm/dia) | -2.419 | 7.49e-48 |
+| Temperatura média (°C) | +15.446 | 3.37e-93 |
+| Dias com planta e calor acima de 35 °C | +0.800 | 0.000388 |
+| Fração dos dias com planta e umidade do ar fora de [0,3; 0,9] (×0,8 no crescimento) | +0.986 | 1.73e-103 |
+| Fração dos dias com planta e chuva abaixo de 2 mm (×0,9 no crescimento) | +0.257 | 2.93e-47 |
+| Fração dos dias com planta e temperatura fora de [10; 35] °C (×0,7 no crescimento) | -0.223 | 4.55e-62 |
+| Multiplicador médio do clima sobre o crescimento (produto das três penalidades) | -0.142 | 1.84e-71 |
+| Qualidade média do solo nas plantas | -0.007 | 0.0641 |
+| Multiplicador médio da qualidade do solo, 1 + qualidade | -0.007 | 0.0641 |
+
+## 4. Agente aleatório (referência), recompensa média por regime
+
+| Regime | Recompensa | Regas |
+|---|---|---|
+| Normal | 704 | 24 |
+| Seco | 245 | 30 |
+| Úmido | 963 | 1 |

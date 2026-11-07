@@ -1,0 +1,91 @@
+{
+ "gerado_em": "2026-09-26 04:04:09",
+ "conjunto": "teste (999-1048), 5 sementes de treino",
+ "escala": "recompensa normalizada, média dos 3 regimes; 1,0 = professor",
+ "selecao": "cada lado é o melhor do seu estudo em validação-objetivo (520-549); teste só reportado",
+ "espaco_do_controle": "8 hiperparâmetros efetivos",
+ "quadrantes": {
+  "imitacao_otimizado": {
+   "candidato": "rs_r3_a_trial54",
+   "media": 0.9981750831839438,
+   "std_amostral": 0.007862528500772159,
+   "por_semente": [
+    1.0014385228631244,
+    0.9933017672635556,
+    1.0032818623168671,
+    1.0059314939957085,
+    0.9869217694804635
+   ]
+  },
+  "zero_otimizado": {
+   "candidato": "tpe_zero_r3_trial41",
+   "media": 0.9579533768819399,
+   "std_amostral": 0.036682851056549115,
+   "por_semente": [
+    0.9825203145959622,
+    0.8989685136985776,
+    0.9459936965803237,
+    0.9747663417164919,
+    0.9875180178183438
+   ]
+  },
+  "imitacao_padrao": {
+   "candidato": "padrao_ppo_il",
+   "media": 0.9391576647300429,
+   "std_amostral": 0.028668082183057976,
+   "por_semente": [
+    0.9629093150511735,
+    0.9354911942990092,
+    0.956943033039105,
+    0.9491744484975476,
+    0.8912703327633795
+   ]
+  },
+  "zero_padrao": {
+   "candidato": "padrao_ppo_zero",
+   "media": 0.9412603951528377,
+   "std_amostral": 0.022935045143761507,
+   "por_semente": [
+    0.9651226683854324,
+    0.9369154035241988,
+    0.9057149926107569,
+    0.9571437686358623,
+    0.9414051426079381
+   ]
+  }
+ },
+ "comparacoes": {
+  "o_que_a_imitacao_acrescenta_com_HPO": {
+   "diferenca_media": 0.040221706302003966,
+   "n": 5,
+   "d_cohen_pareado": 1.0925446587868857,
+   "vence_em_sementes": 4,
+   "t": 2.4430041255681485,
+   "p": 0.07097818110361132
+  },
+  "o_que_a_imitacao_acrescenta_sem_HPO": {
+   "diferenca_media": -0.0021027304227947186,
+   "n": 5,
+   "d_cohen_pareado": -0.05839711904705212,
+   "vence_em_sementes": 1,
+   "t": -0.13057992788298275,
+   "p": 0.9024113999047627
+  },
+  "o_que_a_HPO_acrescenta_com_imitacao": {
+   "diferenca_media": 0.05901741845390085,
+   "n": 5,
+   "d_cohen_pareado": 2.6873820106032884,
+   "vence_em_sementes": 5,
+   "t": 6.009168857492644,
+   "p": 0.0038608657598991807
+  },
+  "o_que_a_HPO_acrescenta_do_zero": {
+   "diferenca_media": 0.016692981729102163,
+   "n": 5,
+   "d_cohen_pareado": 0.5028158977459786,
+   "vence_em_sementes": 4,
+   "t": 1.1243305275614577,
+   "p": 0.3237794000632071
+  }
+ }
+}

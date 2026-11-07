@@ -1,0 +1,18 @@
+% GERADO POR gerar_artefatos_final.py (via gerar_artefatos_dissertacao.escrever) — não editar à mão
+\begin{table}[htbp]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{HPO no RL do zero, por otimizador (teste)}
+\label{tab:otimizadores_zero}
+\begin{tabular}{l c c c c c c}
+\hline
+\textbf{Otimizador} & \textbf{Normal} & \textbf{Seco} & \textbf{Úmido} & \textbf{Média} & \textbf{Ganho} & \textbf{Vence em} \\ \hline
+RL puro (sem HPO) & 5.331 & 2.758 & 5.104 & 4.398 & --- & --- \\ \hline
+\textbf{GP-BO} & 5.438 & 2.820 & 5.251 & \textbf{4.503} & $+105$ & 5 de 5 \\
+TPE & 5.412 & 2.853 & 5.130 & 4.465 & $+67$ & 4 de 5 \\
+Busca aleatória & 5.215 & 2.728 & 4.981 & 4.308 & $-90$ & 1 de 5 \\
+\hline
+\end{tabular}
+
+{\footnotesize Fonte: elaborada pelo autor. Nota: Uma busca de 32 FRE nominais por otimizador, melhor configuração retreinada com cinco sementes. Recompensa bruta (IQM) em teste; o ganho é medido sobre o RL puro, e a última coluna conta em quantas das cinco sementes de treino a configuração otimizada supera o RL puro. Em negrito, o agente escolhido em validação (o RL com HPO das cinco condições).}
+\end{table}

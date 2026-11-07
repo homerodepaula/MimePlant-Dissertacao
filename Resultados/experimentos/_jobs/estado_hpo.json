@@ -1,0 +1,92 @@
+{
+ "pid_encadeador": 16348,
+ "inicio": "2026-09-23 14:36:54",
+ "d35": {
+  "orcamento": 1000000,
+  "n_fre": 32,
+  "execucoes_por_otimizador": 3,
+  "sementes_hpo": {
+   "a": 1001,
+   "b": 1002,
+   "c": 1003
+  },
+  "k": 1,
+  "n_startup": 5,
+  "otimizadores": [
+   "tpe+hyperband",
+   "random+hyperband",
+   "dehb"
+  ],
+  "controle_zero": false
+ },
+ "r3_hpo_tpe_r3_a_w0": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_tpe_r3_a_w1": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_tpe_r3_b_w0": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_tpe_r3_b_w1": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_tpe_r3_c_w0": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_tpe_r3_c_w1": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_rs_r3_a_w0": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_rs_r3_a_w1": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_rs_r3_b_w0": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_rs_r3_b_w1": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_rs_r3_c_w0": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_rs_r3_c_w1": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_pos_hpo": {
+  "estado": "pronto (flags já existiam)"
+ },
+ "r3_hpo_dehb_r3_a": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-24 03:30:20"
+ },
+ "r3_hpo_dehb_r3_b": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-24 03:07:20"
+ },
+ "r3_hpo_dehb_r3_c": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-24 16:34:26"
+ },
+ "r3_pos_dehb_reavaliacao": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-24 22:53:49"
+ },
+ "r3_analise_autorl": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-24 16:35:46"
+ },
+ "fim": "ok 2026-09-24 22:53:49"
+}

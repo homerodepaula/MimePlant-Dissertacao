@@ -1,0 +1,19 @@
+% GERADO POR gerar_artefatos_final.py (via gerar_artefatos_dissertacao.escrever) — não editar à mão
+\begin{table}[htbp]
+\centering
+\small\setlength{\tabcolsep}{2pt}
+\caption{HPO no IL~+~RL, por otimizador (teste)}
+\label{tab:agregado}
+\begin{tabular}{l c c c c c}
+\hline
+\textbf{Otimizador} & \textbf{Média} & \textbf{Ganho médio} & \textbf{Melhor} & \textbf{Pior} & \textbf{Desvio-padrão} \\ \hline
+Busca aleatória & 4.557 & $+112$ & 4.606 & 4.515 & 46 \\
+Sobol & 4.543 & $+98$ & 4.561 & 4.511 & 27 \\
+TPE & 4.532 & $+88$ & 4.590 & 4.445 & 77 \\
+GP-BO & 4.527 & $+82$ & 4.633 & 4.373 & 137 \\
+DEHB & 4.521 & $+76$ & 4.550 & 4.469 & 45 \\
+\hline
+\end{tabular}
+
+{\footnotesize Fonte: elaborada pelo autor. Nota: Média, melhor e pior das três execuções independentes e desvio-padrão amostral entre elas. Recompensa bruta (IQM) em teste; ganho sobre o IL~+~RL puro ($4.445$), calculado antes do arredondamento.}
+\end{table}

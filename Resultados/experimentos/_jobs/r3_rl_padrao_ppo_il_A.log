@@ -1,0 +1,759 @@
+
+===== 2026-09-19 16:03:15 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 bakeoff.py --bracos ppo_il --seeds 42 123 2024 --orcamento 1000000 --saida results\rodada3\rl_padrao --warmstart results\rodada3\il_warmstart --referencias results\rodada3\referencias\referencias.json --retomar
+[16:03:17] bake-off: braços ['ppo_il'] | sementes [42, 123, 2024] | orçamento 1000000 | dispositivo cuda:NVIDIA GeForce RTX 4060 | refs ok
+[16:03:17] === ppo_il | seed 42 ===
+[16:03:52]   IL de partida em validação-rollback: 5359.2
+[16:04:07]   [aquec 1/10] passos 4380 | retorno bruto médio 5398 | perda_valor 8.8232
+[16:04:21]   [aquec 2/10] passos 8760 | retorno bruto médio 5230 | perda_valor 5.9215
+[16:04:35]   [aquec 3/10] passos 13140 | retorno bruto médio 5341 | perda_valor 4.0644
+[16:04:48]   [aquec 4/10] passos 17520 | retorno bruto médio 5218 | perda_valor 1.8782
+[16:05:02]   [aquec 5/10] passos 21900 | retorno bruto médio 5274 | perda_valor 1.0610
+[16:05:16]   [aquec 6/10] passos 26280 | retorno bruto médio 5312 | perda_valor 0.8339
+[16:05:29]   [aquec 7/10] passos 30660 | retorno bruto médio 5325 | perda_valor 0.7366
+[16:05:43]   [aquec 8/10] passos 35040 | retorno bruto médio 5416 | perda_valor 0.5076
+[16:05:57]   [aquec 9/10] passos 39420 | retorno bruto médio 5377 | perda_valor 0.4746
+[16:06:12]   [aquec 10/10] passos 43800 | retorno bruto médio 5316 | perda_valor 0.4291
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\torch\nn\modules\rnn.py:1124: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1412.)
+  result = _VF.lstm(
+[16:06:26]   [ppo 1] passos 48180/1000000 | retorno treino 5376 | pg -0.0077 v 0.3537 ent 0.064 kl 0.0172 clip 0.04 | β 0.0980 | 153s
+[16:06:40]   [ppo 2] passos 52560/1000000 | retorno treino 5373 | pg -0.0059 v 0.3017 ent 0.063 kl 0.0137 clip 0.02 | β 0.0960 | 168s
+[16:06:54]   [ppo 3] passos 56940/1000000 | retorno treino 5332 | pg -0.0071 v 0.2315 ent 0.084 kl 0.0231 clip 0.03 | β 0.0941 | 182s
+[16:07:09]   [ppo 4] passos 61320/1000000 | retorno treino 5315 | pg -0.0068 v 0.2240 ent 0.072 kl 0.0272 clip 0.03 | β 0.0922 | 196s
+[16:07:23]   [ppo 5] passos 65700/1000000 | retorno treino 5371 | pg -0.0063 v 0.3110 ent 0.078 kl 0.0273 clip 0.03 | β 0.0904 | 210s
+[16:07:37]   [ppo 6] passos 70080/1000000 | retorno treino 5350 | pg -0.0064 v 0.2049 ent 0.073 kl 0.0298 clip 0.03 | β 0.0886 | 225s
+[16:07:51]   [ppo 7] passos 74460/1000000 | retorno treino 5236 | pg -0.0073 v 0.1830 ent 0.076 kl 0.0287 clip 0.04 | β 0.0868 | 239s
+[16:08:06]   [ppo 8] passos 78840/1000000 | retorno treino 5303 | pg -0.0058 v 0.1841 ent 0.070 kl 0.0277 clip 0.03 | β 0.0851 | 253s
+[16:08:20]   [ppo 9] passos 83220/1000000 | retorno treino 5262 | pg -0.0065 v 0.1727 ent 0.078 kl 0.0449 clip 0.03 | β 0.0834 | 268s
+[16:08:35]   [ppo 10] passos 87600/1000000 | retorno treino 5234 | pg -0.0050 v 0.2191 ent 0.076 kl 0.0344 clip 0.03 | β 0.0817 | 282s
+[16:08:49]   [ppo 11] passos 91980/1000000 | retorno treino 5326 | pg -0.0059 v 0.1566 ent 0.066 kl 0.0362 clip 0.02 | β 0.0801 | 296s
+[16:09:03]   [ppo 12] passos 96360/1000000 | retorno treino 5228 | pg -0.0062 v 0.1735 ent 0.065 kl 0.0415 clip 0.03 | β 0.0785 | 311s
+[16:09:17]   [ppo 13] passos 100740/1000000 | retorno treino 5341 | pg -0.0085 v 0.1418 ent 0.084 kl 0.0563 clip 0.04 | β 0.0769 | 325s
+[16:09:32]   [ppo 14] passos 105120/1000000 | retorno treino 5327 | pg -0.0068 v 0.1433 ent 0.076 kl 0.0500 clip 0.04 | β 0.0754 | 339s
+[16:09:47]   [ppo 15] passos 109500/1000000 | retorno treino 5189 | pg -0.0065 v 0.2101 ent 0.085 kl 0.0629 clip 0.03 | β 0.0739 | 354s
+[16:10:01]   [ppo 16] passos 113880/1000000 | retorno treino 5152 | pg -0.0064 v 0.1713 ent 0.066 kl 0.0458 clip 0.03 | β 0.0724 | 369s
+[16:10:39]     [validação-rollback] passos 113880: 5346.4 (Δ_IL -12.7) | melhor 5359.2 @ 0
+[16:10:53]   [ppo 17] passos 118260/1000000 | retorno treino 5118 | pg -0.0073 v 0.1351 ent 0.077 kl 0.0581 clip 0.03 | β 0.0709 | 421s
+[16:11:08]   [ppo 18] passos 122640/1000000 | retorno treino 5324 | pg -0.0055 v 0.1451 ent 0.068 kl 0.0564 clip 0.02 | β 0.0695 | 435s
+[16:11:22]   [ppo 19] passos 127020/1000000 | retorno treino 5310 | pg -0.0053 v 0.1574 ent 0.069 kl 0.0616 clip 0.03 | β 0.0681 | 450s
+[16:11:36]   [ppo 20] passos 131400/1000000 | retorno treino 5391 | pg -0.0059 v 0.1434 ent 0.065 kl 0.0622 clip 0.03 | β 0.0668 | 464s
+[16:11:51]   [ppo 21] passos 135780/1000000 | retorno treino 5296 | pg -0.0070 v 0.1068 ent 0.064 kl 0.0657 clip 0.03 | β 0.0654 | 478s
+[16:12:05]   [ppo 22] passos 140160/1000000 | retorno treino 5322 | pg -0.0063 v 0.1294 ent 0.070 kl 0.0568 clip 0.03 | β 0.0641 | 493s
+[16:12:19]   [ppo 23] passos 144540/1000000 | retorno treino 5367 | pg -0.0051 v 0.1033 ent 0.066 kl 0.0663 clip 0.02 | β 0.0628 | 507s
+[16:12:34]   [ppo 24] passos 148920/1000000 | retorno treino 5227 | pg -0.0072 v 0.1203 ent 0.071 kl 0.0698 clip 0.03 | β 0.0616 | 521s
+[16:12:48]   [ppo 25] passos 153300/1000000 | retorno treino 5439 | pg -0.0054 v 0.0972 ent 0.063 kl 0.0635 clip 0.03 | β 0.0603 | 536s
+[16:13:02]   [ppo 26] passos 157680/1000000 | retorno treino 5350 | pg -0.0044 v 0.1180 ent 0.068 kl 0.0702 clip 0.03 | β 0.0591 | 550s
+[16:13:17]   [ppo 27] passos 162060/1000000 | retorno treino 5229 | pg -0.0066 v 0.1188 ent 0.074 kl 0.0748 clip 0.03 | β 0.0580 | 564s
+[16:13:31]   [ppo 28] passos 166440/1000000 | retorno treino 5221 | pg -0.0063 v 0.1154 ent 0.067 kl 0.0788 clip 0.03 | β 0.0568 | 579s
+[16:13:46]   [ppo 29] passos 170820/1000000 | retorno treino 5290 | pg -0.0052 v 0.1440 ent 0.068 kl 0.0688 clip 0.02 | β 0.0557 | 593s
+[16:14:00]   [ppo 30] passos 175200/1000000 | retorno treino 5426 | pg -0.0073 v 0.1039 ent 0.062 kl 0.0788 clip 0.04 | β 0.0545 | 608s
+[16:14:15]   [ppo 31] passos 179580/1000000 | retorno treino 5424 | pg -0.0075 v 0.1215 ent 0.076 kl 0.0647 clip 0.03 | β 0.0535 | 622s
+[16:14:30]   [ppo 32] passos 183960/1000000 | retorno treino 5213 | pg -0.0060 v 0.1448 ent 0.066 kl 0.0597 clip 0.03 | β 0.0524 | 637s
+[16:14:44]   [ppo 33] passos 188340/1000000 | retorno treino 5183 | pg -0.0060 v 0.1131 ent 0.067 kl 0.0757 clip 0.03 | β 0.0513 | 651s
+[16:14:58]   [ppo 34] passos 192720/1000000 | retorno treino 5269 | pg -0.0046 v 0.1676 ent 0.062 kl 0.0659 clip 0.02 | β 0.0503 | 665s
+[16:15:12]   [ppo 35] passos 197100/1000000 | retorno treino 5387 | pg -0.0056 v 0.1328 ent 0.064 kl 0.0714 clip 0.02 | β 0.0493 | 680s
+[16:15:27]   [ppo 36] passos 201480/1000000 | retorno treino 5331 | pg -0.0047 v 0.1042 ent 0.065 kl 0.0734 clip 0.03 | β 0.0483 | 695s
+[16:15:42]   [ppo 37] passos 205860/1000000 | retorno treino 5457 | pg -0.0069 v 0.0877 ent 0.063 kl 0.0643 clip 0.03 | β 0.0474 | 710s
+[16:15:58]   [ppo 38] passos 210240/1000000 | retorno treino 5285 | pg -0.0061 v 0.1010 ent 0.064 kl 0.0740 clip 0.03 | β 0.0464 | 725s
+[16:16:13]   [ppo 39] passos 214620/1000000 | retorno treino 5352 | pg -0.0056 v 0.1058 ent 0.069 kl 0.0868 clip 0.03 | β 0.0455 | 740s
+[16:16:28]   [ppo 40] passos 219000/1000000 | retorno treino 5257 | pg -0.0074 v 0.0813 ent 0.069 kl 0.0960 clip 0.03 | β 0.0446 | 756s
+[16:16:43]   [ppo 41] passos 223380/1000000 | retorno treino 5259 | pg -0.0062 v 0.0991 ent 0.071 kl 0.0800 clip 0.03 | β 0.0437 | 770s
+[16:17:19]     [validação-rollback] passos 223380: 5283.7 (Δ_IL -75.4) | melhor 5359.2 @ 0
+[16:17:33]   [ppo 42] passos 227760/1000000 | retorno treino 5276 | pg -0.0049 v 0.1178 ent 0.070 kl 0.0827 clip 0.03 | β 0.0428 | 821s
+[16:17:48]   [ppo 43] passos 232140/1000000 | retorno treino 5299 | pg -0.0091 v 0.0765 ent 0.080 kl 0.0993 clip 0.04 | β 0.0419 | 835s
+[16:18:01]   [ppo 44] passos 236520/1000000 | retorno treino 5370 | pg -0.0054 v 0.0978 ent 0.073 kl 0.0924 clip 0.03 | β 0.0411 | 849s
+[16:18:14]   [ppo 45] passos 240900/1000000 | retorno treino 5419 | pg -0.0074 v 0.0899 ent 0.082 kl 0.0941 clip 0.03 | β 0.0403 | 862s
+[16:18:29]   [ppo 46] passos 245280/1000000 | retorno treino 5343 | pg -0.0071 v 0.0699 ent 0.079 kl 0.1124 clip 0.03 | β 0.0395 | 876s
+[16:18:43]   [ppo 47] passos 249660/1000000 | retorno treino 5156 | pg -0.0057 v 0.1018 ent 0.074 kl 0.1121 clip 0.03 | β 0.0387 | 890s
+[16:18:57]   [ppo 48] passos 254040/1000000 | retorno treino 5241 | pg -0.0062 v 0.0925 ent 0.083 kl 0.1121 clip 0.03 | β 0.0379 | 905s
+[16:19:12]   [ppo 49] passos 258420/1000000 | retorno treino 5444 | pg -0.0048 v 0.0999 ent 0.072 kl 0.1021 clip 0.03 | β 0.0372 | 919s
+[16:19:29]   [ppo 50] passos 262800/1000000 | retorno treino 5310 | pg -0.0066 v 0.1019 ent 0.078 kl 0.1141 clip 0.03 | β 0.0364 | 936s
+[16:19:44]   [ppo 51] passos 267180/1000000 | retorno treino 5301 | pg -0.0066 v 0.0762 ent 0.076 kl 0.1095 clip 0.03 | β 0.0357 | 952s
+[16:19:58]   [ppo 52] passos 271560/1000000 | retorno treino 5217 | pg -0.0068 v 0.1289 ent 0.086 kl 0.1102 clip 0.03 | β 0.0350 | 966s
+[16:20:12]   [ppo 53] passos 275940/1000000 | retorno treino 5429 | pg -0.0059 v 0.1076 ent 0.075 kl 0.1139 clip 0.02 | β 0.0343 | 980s
+[16:20:26]   [ppo 54] passos 280320/1000000 | retorno treino 5339 | pg -0.0069 v 0.0949 ent 0.082 kl 0.1166 clip 0.02 | β 0.0336 | 994s
+[16:20:41]   [ppo 55] passos 284700/1000000 | retorno treino 5375 | pg -0.0061 v 0.0760 ent 0.076 kl 0.1116 clip 0.03 | β 0.0329 | 1009s
+[16:20:56]   [ppo 56] passos 289080/1000000 | retorno treino 5224 | pg -0.0080 v 0.0880 ent 0.105 kl 0.1348 clip 0.04 | β 0.0323 | 1024s
+[16:21:10]   [ppo 57] passos 293460/1000000 | retorno treino 5351 | pg -0.0061 v 0.0981 ent 0.091 kl 0.1232 clip 0.03 | β 0.0316 | 1038s
+[16:21:24]   [ppo 58] passos 297840/1000000 | retorno treino 5236 | pg -0.0082 v 0.0705 ent 0.091 kl 0.1386 clip 0.04 | β 0.0310 | 1052s
+[16:21:39]   [ppo 59] passos 302220/1000000 | retorno treino 4986 | pg -0.0085 v 0.1097 ent 0.121 kl 0.1846 clip 0.04 | β 0.0304 | 1066s
+[16:21:53]   [ppo 60] passos 306600/1000000 | retorno treino 5365 | pg -0.0074 v 0.0773 ent 0.089 kl 0.1397 clip 0.04 | β 0.0298 | 1080s
+[16:22:06]   [ppo 61] passos 310980/1000000 | retorno treino 5471 | pg -0.0067 v 0.1121 ent 0.103 kl 0.1387 clip 0.03 | β 0.0292 | 1094s
+[16:22:20]   [ppo 62] passos 315360/1000000 | retorno treino 5246 | pg -0.0068 v 0.0824 ent 0.092 kl 0.1306 clip 0.03 | β 0.0286 | 1108s
+[16:22:35]   [ppo 63] passos 319740/1000000 | retorno treino 5364 | pg -0.0069 v 0.0646 ent 0.082 kl 0.1249 clip 0.03 | β 0.0280 | 1122s
+[16:22:49]   [ppo 64] passos 324120/1000000 | retorno treino 5429 | pg -0.0086 v 0.0915 ent 0.085 kl 0.1316 clip 0.04 | β 0.0274 | 1137s
+[16:23:03]   [ppo 65] passos 328500/1000000 | retorno treino 5454 | pg -0.0064 v 0.1111 ent 0.087 kl 0.1383 clip 0.03 | β 0.0269 | 1151s
+[16:23:17]   [ppo 66] passos 332880/1000000 | retorno treino 5232 | pg -0.0076 v 0.1177 ent 0.087 kl 0.1527 clip 0.03 | β 0.0264 | 1165s
+[16:23:32]   [ppo 67] passos 337260/1000000 | retorno treino 5444 | pg -0.0079 v 0.0866 ent 0.097 kl 0.1828 clip 0.04 | β 0.0258 | 1179s
+[16:24:09]     [validação-rollback] passos 337260: 5374.8 (Δ_IL 15.6) | melhor 5374.8 @ 337260
+[16:24:23]   [ppo 68] passos 341640/1000000 | retorno treino 5447 | pg -0.0070 v 0.0715 ent 0.095 kl 0.1724 clip 0.03 | β 0.0253 | 1231s
+[16:24:38]   [ppo 69] passos 346020/1000000 | retorno treino 5361 | pg -0.0088 v 0.0934 ent 0.108 kl 0.1735 clip 0.04 | β 0.0248 | 1246s
+[16:24:52]   [ppo 70] passos 350400/1000000 | retorno treino 5383 | pg -0.0073 v 0.0771 ent 0.093 kl 0.1540 clip 0.03 | β 0.0243 | 1260s
+[16:25:06]   [ppo 71] passos 354780/1000000 | retorno treino 5271 | pg -0.0074 v 0.0981 ent 0.094 kl 0.1654 clip 0.03 | β 0.0238 | 1274s
+[16:25:20]   [ppo 72] passos 359160/1000000 | retorno treino 5332 | pg -0.0066 v 0.0738 ent 0.094 kl 0.1444 clip 0.03 | β 0.0233 | 1288s
+[16:25:34]   [ppo 73] passos 363540/1000000 | retorno treino 5374 | pg -0.0061 v 0.0863 ent 0.093 kl 0.1665 clip 0.03 | β 0.0229 | 1302s
+[16:25:49]   [ppo 74] passos 367920/1000000 | retorno treino 5390 | pg -0.0067 v 0.0610 ent 0.089 kl 0.1420 clip 0.03 | β 0.0224 | 1316s
+[16:26:03]   [ppo 75] passos 372300/1000000 | retorno treino 5121 | pg -0.0092 v 0.0879 ent 0.108 kl 0.1742 clip 0.04 | β 0.0220 | 1331s
+[16:26:17]   [ppo 76] passos 376680/1000000 | retorno treino 5504 | pg -0.0074 v 0.0738 ent 0.085 kl 0.1333 clip 0.03 | β 0.0215 | 1345s
+[16:26:32]   [ppo 77] passos 381060/1000000 | retorno treino 5462 | pg -0.0065 v 0.0874 ent 0.091 kl 0.1404 clip 0.03 | β 0.0211 | 1359s
+[16:26:46]   [ppo 78] passos 385440/1000000 | retorno treino 5363 | pg -0.0078 v 0.0847 ent 0.093 kl 0.1639 clip 0.03 | β 0.0207 | 1373s
+[16:27:00]   [ppo 79] passos 389820/1000000 | retorno treino 5414 | pg -0.0066 v 0.0804 ent 0.088 kl 0.1385 clip 0.03 | β 0.0203 | 1388s
+[16:27:14]   [ppo 80] passos 394200/1000000 | retorno treino 5486 | pg -0.0078 v 0.0699 ent 0.093 kl 0.1639 clip 0.03 | β 0.0199 | 1402s
+[16:27:28]   [ppo 81] passos 398580/1000000 | retorno treino 5440 | pg -0.0085 v 0.0639 ent 0.098 kl 0.1770 clip 0.04 | β 0.0195 | 1416s
+[16:27:42]   [ppo 82] passos 402960/1000000 | retorno treino 5370 | pg -0.0083 v 0.0586 ent 0.095 kl 0.1532 clip 0.04 | β 0.0191 | 1430s
+[16:27:57]   [ppo 83] passos 407340/1000000 | retorno treino 5460 | pg -0.0092 v 0.0676 ent 0.101 kl 0.1864 clip 0.04 | β 0.0187 | 1444s
+[16:28:12]   [ppo 84] passos 411720/1000000 | retorno treino 5256 | pg -0.0065 v 0.1178 ent 0.108 kl 0.1795 clip 0.03 | β 0.0183 | 1459s
+[16:28:27]   [ppo 85] passos 416100/1000000 | retorno treino 5425 | pg -0.0057 v 0.0822 ent 0.104 kl 0.1675 clip 0.02 | β 0.0180 | 1475s
+[16:28:42]   [ppo 86] passos 420480/1000000 | retorno treino 5380 | pg -0.0086 v 0.0651 ent 0.110 kl 0.1592 clip 0.04 | β 0.0176 | 1490s
+[16:28:57]   [ppo 87] passos 424860/1000000 | retorno treino 5352 | pg -0.0067 v 0.0843 ent 0.106 kl 0.1744 clip 0.03 | β 0.0172 | 1505s
+[16:29:11]   [ppo 88] passos 429240/1000000 | retorno treino 5362 | pg -0.0076 v 0.0775 ent 0.104 kl 0.1628 clip 0.03 | β 0.0169 | 1519s
+[16:29:26]   [ppo 89] passos 433620/1000000 | retorno treino 5289 | pg -0.0082 v 0.0598 ent 0.111 kl 0.2081 clip 0.04 | β 0.0166 | 1533s
+[16:29:41]   [ppo 90] passos 438000/1000000 | retorno treino 5297 | pg -0.0074 v 0.0793 ent 0.121 kl 0.2190 clip 0.03 | β 0.0162 | 1548s
+[16:29:55]   [ppo 91] passos 442380/1000000 | retorno treino 5296 | pg -0.0069 v 0.0870 ent 0.123 kl 0.2156 clip 0.04 | β 0.0159 | 1563s
+[16:30:10]   [ppo 92] passos 446760/1000000 | retorno treino 5506 | pg -0.0060 v 0.0729 ent 0.108 kl 0.1824 clip 0.03 | β 0.0156 | 1577s
+[16:30:48]     [validação-rollback] passos 446760: 5345.6 (Δ_IL -13.6) | melhor 5374.8 @ 337260
+[16:31:02]   [ppo 93] passos 451140/1000000 | retorno treino 5373 | pg -0.0073 v 0.1000 ent 0.094 kl 0.1779 clip 0.03 | β 0.0153 | 1630s
+[16:31:17]   [ppo 94] passos 455520/1000000 | retorno treino 5336 | pg -0.0067 v 0.0733 ent 0.104 kl 0.2012 clip 0.03 | β 0.0150 | 1645s
+[16:31:31]   [ppo 95] passos 459900/1000000 | retorno treino 5288 | pg -0.0082 v 0.0709 ent 0.108 kl 0.2109 clip 0.03 | β 0.0147 | 1658s
+[16:31:46]   [ppo 96] passos 464280/1000000 | retorno treino 5365 | pg -0.0073 v 0.0732 ent 0.096 kl 0.2105 clip 0.03 | β 0.0144 | 1673s
+[16:32:01]   [ppo 97] passos 468660/1000000 | retorno treino 5390 | pg -0.0075 v 0.0796 ent 0.109 kl 0.2571 clip 0.03 | β 0.0141 | 1689s
+[16:32:16]   [ppo 98] passos 473040/1000000 | retorno treino 5324 | pg -0.0064 v 0.0934 ent 0.096 kl 0.2035 clip 0.03 | β 0.0138 | 1703s
+[16:32:30]   [ppo 99] passos 477420/1000000 | retorno treino 5450 | pg -0.0077 v 0.0632 ent 0.099 kl 0.1981 clip 0.03 | β 0.0135 | 1718s
+[16:32:45]   [ppo 100] passos 481800/1000000 | retorno treino 5390 | pg -0.0079 v 0.0720 ent 0.118 kl 0.2212 clip 0.04 | β 0.0133 | 1733s
+[16:33:00]   [ppo 101] passos 486180/1000000 | retorno treino 5298 | pg -0.0075 v 0.0763 ent 0.124 kl 0.2543 clip 0.03 | β 0.0130 | 1747s
+[16:33:14]   [ppo 102] passos 490560/1000000 | retorno treino 5374 | pg -0.0104 v 0.0665 ent 0.128 kl 0.2303 clip 0.05 | β 0.0127 | 1761s
+[16:33:29]   [ppo 103] passos 494940/1000000 | retorno treino 5224 | pg -0.0083 v 0.0865 ent 0.124 kl 0.2763 clip 0.03 | β 0.0125 | 1776s
+[16:33:43]   [ppo 104] passos 499320/1000000 | retorno treino 5285 | pg -0.0088 v 0.0789 ent 0.112 kl 0.2439 clip 0.04 | β 0.0122 | 1791s
+[16:33:58]   [ppo 105] passos 503700/1000000 | retorno treino 5299 | pg -0.0092 v 0.0820 ent 0.115 kl 0.2407 clip 0.04 | β 0.0120 | 1806s
+[16:34:13]   [ppo 106] passos 508080/1000000 | retorno treino 5312 | pg -0.0087 v 0.0737 ent 0.106 kl 0.2683 clip 0.04 | β 0.0117 | 1821s
+[16:34:28]   [ppo 107] passos 512460/1000000 | retorno treino 5417 | pg -0.0071 v 0.0666 ent 0.116 kl 0.2462 clip 0.04 | β 0.0115 | 1835s
+[16:34:43]   [ppo 108] passos 516840/1000000 | retorno treino 5298 | pg -0.0070 v 0.0811 ent 0.121 kl 0.2495 clip 0.04 | β 0.0113 | 1850s
+[16:34:57]   [ppo 109] passos 521220/1000000 | retorno treino 5269 | pg -0.0086 v 0.1068 ent 0.127 kl 0.2939 clip 0.04 | β 0.0111 | 1865s
+[16:35:12]   [ppo 110] passos 525600/1000000 | retorno treino 5343 | pg -0.0105 v 0.0710 ent 0.129 kl 0.2720 clip 0.04 | β 0.0108 | 1879s
+[16:35:26]   [ppo 111] passos 529980/1000000 | retorno treino 5381 | pg -0.0080 v 0.0829 ent 0.121 kl 0.2690 clip 0.03 | β 0.0106 | 1894s
+[16:35:41]   [ppo 112] passos 534360/1000000 | retorno treino 5307 | pg -0.0077 v 0.0971 ent 0.124 kl 0.2480 clip 0.03 | β 0.0104 | 1908s
+[16:35:55]   [ppo 113] passos 538740/1000000 | retorno treino 5408 | pg -0.0077 v 0.0609 ent 0.124 kl 0.2609 clip 0.03 | β 0.0102 | 1923s
+[16:36:10]   [ppo 114] passos 543120/1000000 | retorno treino 5254 | pg -0.0111 v 0.0662 ent 0.126 kl 0.2664 clip 0.05 | β 0.0100 | 1937s
+[16:36:24]   [ppo 115] passos 547500/1000000 | retorno treino 5402 | pg -0.0097 v 0.0623 ent 0.123 kl 0.2447 clip 0.05 | β 0.0098 | 1951s
+[16:36:38]   [ppo 116] passos 551880/1000000 | retorno treino 5367 | pg -0.0100 v 0.0727 ent 0.134 kl 0.2977 clip 0.04 | β 0.0096 | 1966s
+[16:36:53]   [ppo 117] passos 556260/1000000 | retorno treino 5320 | pg -0.0091 v 0.0842 ent 0.123 kl 0.2943 clip 0.04 | β 0.0094 | 1980s
+[16:37:30]     [validação-rollback] passos 556260: 5422.8 (Δ_IL 63.6) | melhor 5422.8 @ 556260
+[16:37:45]   [ppo 118] passos 560640/1000000 | retorno treino 5304 | pg -0.0083 v 0.1089 ent 0.129 kl 0.2940 clip 0.04 | β 0.0092 | 2032s
+[16:37:59]   [ppo 119] passos 565020/1000000 | retorno treino 5405 | pg -0.0072 v 0.0795 ent 0.133 kl 0.3506 clip 0.03 | β 0.0090 | 2047s
+[16:38:14]   [ppo 120] passos 569400/1000000 | retorno treino 5349 | pg -0.0075 v 0.0804 ent 0.117 kl 0.2770 clip 0.03 | β 0.0089 | 2061s
+[16:38:28]   [ppo 121] passos 573780/1000000 | retorno treino 5499 | pg -0.0077 v 0.0835 ent 0.117 kl 0.2973 clip 0.03 | β 0.0087 | 2075s
+[16:38:42]   [ppo 122] passos 578160/1000000 | retorno treino 5390 | pg -0.0075 v 0.0932 ent 0.108 kl 0.2939 clip 0.03 | β 0.0085 | 2090s
+[16:38:56]   [ppo 123] passos 582540/1000000 | retorno treino 5274 | pg -0.0080 v 0.1011 ent 0.121 kl 0.3003 clip 0.03 | β 0.0083 | 2104s
+[16:39:10]   [ppo 124] passos 586920/1000000 | retorno treino 5345 | pg -0.0094 v 0.0844 ent 0.131 kl 0.3504 clip 0.04 | β 0.0082 | 2117s
+[16:39:24]   [ppo 125] passos 591300/1000000 | retorno treino 5451 | pg -0.0067 v 0.0705 ent 0.106 kl 0.3310 clip 0.03 | β 0.0080 | 2131s
+[16:39:38]   [ppo 126] passos 595680/1000000 | retorno treino 5469 | pg -0.0072 v 0.0809 ent 0.112 kl 0.2989 clip 0.03 | β 0.0078 | 2146s
+[16:39:53]   [ppo 127] passos 600060/1000000 | retorno treino 5271 | pg -0.0090 v 0.0751 ent 0.125 kl 0.3240 clip 0.04 | β 0.0077 | 2160s
+[16:40:07]   [ppo 128] passos 604440/1000000 | retorno treino 5486 | pg -0.0078 v 0.0621 ent 0.123 kl 0.2961 clip 0.03 | β 0.0075 | 2174s
+[16:40:22]   [ppo 129] passos 608820/1000000 | retorno treino 5307 | pg -0.0079 v 0.0748 ent 0.136 kl 0.3248 clip 0.04 | β 0.0074 | 2189s
+[16:40:36]   [ppo 130] passos 613200/1000000 | retorno treino 5214 | pg -0.0061 v 0.0999 ent 0.136 kl 0.3650 clip 0.02 | β 0.0072 | 2204s
+[16:40:51]   [ppo 131] passos 617580/1000000 | retorno treino 5111 | pg -0.0093 v 0.0845 ent 0.149 kl 0.3632 clip 0.04 | β 0.0071 | 2219s
+[16:41:05]   [ppo 132] passos 621960/1000000 | retorno treino 5183 | pg -0.0113 v 0.0917 ent 0.144 kl 0.3442 clip 0.04 | β 0.0069 | 2233s
+[16:41:19]   [ppo 133] passos 626340/1000000 | retorno treino 5409 | pg -0.0093 v 0.0719 ent 0.131 kl 0.3674 clip 0.04 | β 0.0068 | 2247s
+[16:41:34]   [ppo 134] passos 630720/1000000 | retorno treino 5441 | pg -0.0083 v 0.0846 ent 0.135 kl 0.3747 clip 0.03 | β 0.0067 | 2261s
+[16:41:49]   [ppo 135] passos 635100/1000000 | retorno treino 5431 | pg -0.0112 v 0.0668 ent 0.162 kl 0.4130 clip 0.04 | β 0.0065 | 2276s
+[16:42:03]   [ppo 136] passos 639480/1000000 | retorno treino 5307 | pg -0.0083 v 0.0832 ent 0.177 kl 0.4594 clip 0.04 | β 0.0064 | 2290s
+[16:42:17]   [ppo 137] passos 643860/1000000 | retorno treino 5453 | pg -0.0099 v 0.0636 ent 0.156 kl 0.4133 clip 0.04 | β 0.0063 | 2305s
+[16:42:32]   [ppo 138] passos 648240/1000000 | retorno treino 5319 | pg -0.0083 v 0.0768 ent 0.155 kl 0.3936 clip 0.04 | β 0.0062 | 2319s
+[16:42:46]   [ppo 139] passos 652620/1000000 | retorno treino 5377 | pg -0.0094 v 0.0574 ent 0.131 kl 0.3879 clip 0.04 | β 0.0060 | 2334s
+[16:43:01]   [ppo 140] passos 657000/1000000 | retorno treino 5454 | pg -0.0097 v 0.0646 ent 0.152 kl 0.4055 clip 0.04 | β 0.0059 | 2348s
+[16:43:15]   [ppo 141] passos 661380/1000000 | retorno treino 5435 | pg -0.0078 v 0.0511 ent 0.141 kl 0.3470 clip 0.03 | β 0.0058 | 2363s
+[16:43:30]   [ppo 142] passos 665760/1000000 | retorno treino 5405 | pg -0.0094 v 0.0584 ent 0.154 kl 0.4312 clip 0.03 | β 0.0057 | 2377s
+[16:43:44]   [ppo 143] passos 670140/1000000 | retorno treino 5401 | pg -0.0075 v 0.0518 ent 0.140 kl 0.3235 clip 0.03 | β 0.0056 | 2392s
+[16:44:20]     [validação-rollback] passos 670140: 5332.0 (Δ_IL -27.1) | melhor 5422.8 @ 556260
+[16:44:35]   [ppo 144] passos 674520/1000000 | retorno treino 5451 | pg -0.0082 v 0.0610 ent 0.122 kl 0.3265 clip 0.03 | β 0.0055 | 2442s
+[16:44:50]   [ppo 145] passos 678900/1000000 | retorno treino 5310 | pg -0.0081 v 0.0868 ent 0.159 kl 0.3722 clip 0.03 | β 0.0053 | 2458s
+[16:45:05]   [ppo 146] passos 683280/1000000 | retorno treino 5303 | pg -0.0090 v 0.0643 ent 0.151 kl 0.3580 clip 0.04 | β 0.0052 | 2472s
+[16:45:19]   [ppo 147] passos 687660/1000000 | retorno treino 5459 | pg -0.0077 v 0.0623 ent 0.140 kl 0.4045 clip 0.03 | β 0.0051 | 2487s
+[16:45:34]   [ppo 148] passos 692040/1000000 | retorno treino 5510 | pg -0.0105 v 0.0548 ent 0.138 kl 0.3357 clip 0.04 | β 0.0050 | 2501s
+[16:45:48]   [ppo 149] passos 696420/1000000 | retorno treino 5429 | pg -0.0095 v 0.0436 ent 0.136 kl 0.3879 clip 0.04 | β 0.0049 | 2516s
+[16:46:03]   [ppo 150] passos 700800/1000000 | retorno treino 5395 | pg -0.0086 v 0.0661 ent 0.157 kl 0.4043 clip 0.03 | β 0.0048 | 2530s
+[16:46:17]   [ppo 151] passos 705180/1000000 | retorno treino 5423 | pg -0.0080 v 0.0658 ent 0.137 kl 0.3746 clip 0.03 | β 0.0047 | 2544s
+[16:46:32]   [ppo 152] passos 709560/1000000 | retorno treino 5437 | pg -0.0086 v 0.0519 ent 0.132 kl 0.4058 clip 0.04 | β 0.0046 | 2559s
+[16:46:46]   [ppo 153] passos 713940/1000000 | retorno treino 5423 | pg -0.0095 v 0.0643 ent 0.137 kl 0.3801 clip 0.04 | β 0.0045 | 2574s
+[16:47:01]   [ppo 154] passos 718320/1000000 | retorno treino 5302 | pg -0.0086 v 0.0717 ent 0.145 kl 0.4131 clip 0.04 | β 0.0045 | 2589s
+[16:47:16]   [ppo 155] passos 722700/1000000 | retorno treino 5335 | pg -0.0091 v 0.0638 ent 0.157 kl 0.4017 clip 0.04 | β 0.0044 | 2604s
+[16:47:31]   [ppo 156] passos 727080/1000000 | retorno treino 5412 | pg -0.0080 v 0.0719 ent 0.149 kl 0.3968 clip 0.04 | β 0.0043 | 2619s
+[16:47:44]   [ppo 157] passos 731460/1000000 | retorno treino 5340 | pg -0.0084 v 0.0711 ent 0.150 kl 0.4224 clip 0.03 | β 0.0042 | 2632s
+[16:47:57]   [ppo 158] passos 735840/1000000 | retorno treino 5281 | pg -0.0091 v 0.0621 ent 0.152 kl 0.4047 clip 0.04 | β 0.0041 | 2645s
+[16:48:10]   [ppo 159] passos 740220/1000000 | retorno treino 5482 | pg -0.0086 v 0.0590 ent 0.140 kl 0.4482 clip 0.04 | β 0.0040 | 2658s
+[16:48:24]   [ppo 160] passos 744600/1000000 | retorno treino 5523 | pg -0.0087 v 0.0586 ent 0.161 kl 0.4565 clip 0.04 | β 0.0039 | 2671s
+[16:48:38]   [ppo 161] passos 748980/1000000 | retorno treino 5383 | pg -0.0106 v 0.0706 ent 0.166 kl 0.5238 clip 0.05 | β 0.0039 | 2686s
+[16:48:53]   [ppo 162] passos 753360/1000000 | retorno treino 5475 | pg -0.0084 v 0.0559 ent 0.167 kl 0.5095 clip 0.03 | β 0.0038 | 2700s
+[16:49:07]   [ppo 163] passos 757740/1000000 | retorno treino 5404 | pg -0.0098 v 0.0613 ent 0.175 kl 0.5206 clip 0.04 | β 0.0037 | 2715s
+[16:49:22]   [ppo 164] passos 762120/1000000 | retorno treino 5400 | pg -0.0078 v 0.0903 ent 0.153 kl 0.5520 clip 0.04 | β 0.0036 | 2729s
+[16:49:37]   [ppo 165] passos 766500/1000000 | retorno treino 5407 | pg -0.0098 v 0.0580 ent 0.160 kl 0.5155 clip 0.04 | β 0.0036 | 2744s
+[16:49:52]   [ppo 166] passos 770880/1000000 | retorno treino 5299 | pg -0.0067 v 0.0753 ent 0.166 kl 0.5195 clip 0.04 | β 0.0035 | 2759s
+[16:50:07]   [ppo 167] passos 775260/1000000 | retorno treino 5341 | pg -0.0095 v 0.0535 ent 0.168 kl 0.5205 clip 0.05 | β 0.0034 | 2774s
+[16:50:22]   [ppo 168] passos 779640/1000000 | retorno treino 5464 | pg -0.0078 v 0.0647 ent 0.154 kl 0.5268 clip 0.04 | β 0.0034 | 2789s
+[16:51:01]     [validação-rollback] passos 779640: 5448.4 (Δ_IL 89.2) | melhor 5448.4 @ 779640
+[16:51:16]   [ppo 169] passos 784020/1000000 | retorno treino 5400 | pg -0.0092 v 0.0673 ent 0.141 kl 0.4897 clip 0.03 | β 0.0033 | 2843s
+[16:51:30]   [ppo 170] passos 788400/1000000 | retorno treino 5477 | pg -0.0080 v 0.0626 ent 0.146 kl 0.4883 clip 0.04 | β 0.0032 | 2858s
+[16:51:45]   [ppo 171] passos 792780/1000000 | retorno treino 5454 | pg -0.0078 v 0.0701 ent 0.162 kl 0.5053 clip 0.03 | β 0.0032 | 2873s
+[16:52:01]   [ppo 172] passos 797160/1000000 | retorno treino 5384 | pg -0.0092 v 0.0693 ent 0.147 kl 0.5338 clip 0.04 | β 0.0031 | 2888s
+[16:52:16]   [ppo 173] passos 801540/1000000 | retorno treino 5397 | pg -0.0088 v 0.0801 ent 0.152 kl 0.4932 clip 0.04 | β 0.0030 | 2903s
+[16:52:31]   [ppo 174] passos 805920/1000000 | retorno treino 5430 | pg -0.0089 v 0.0628 ent 0.154 kl 0.4914 clip 0.04 | β 0.0030 | 2919s
+[16:52:46]   [ppo 175] passos 810300/1000000 | retorno treino 5361 | pg -0.0117 v 0.0599 ent 0.177 kl 0.5173 clip 0.04 | β 0.0029 | 2934s
+[16:53:02]   [ppo 176] passos 814680/1000000 | retorno treino 5407 | pg -0.0105 v 0.0786 ent 0.187 kl 0.5783 clip 0.06 | β 0.0029 | 2950s
+[16:53:17]   [ppo 177] passos 819060/1000000 | retorno treino 5523 | pg -0.0100 v 0.0522 ent 0.180 kl 0.6116 clip 0.06 | β 0.0028 | 2964s
+[16:53:30]   [ppo 178] passos 823440/1000000 | retorno treino 5442 | pg -0.0085 v 0.0709 ent 0.177 kl 0.5755 clip 0.05 | β 0.0027 | 2978s
+[16:53:44]   [ppo 179] passos 827820/1000000 | retorno treino 5362 | pg -0.0093 v 0.0752 ent 0.186 kl 0.6917 clip 0.05 | β 0.0027 | 2991s
+[16:53:57]   [ppo 180] passos 832200/1000000 | retorno treino 5429 | pg -0.0093 v 0.0759 ent 0.192 kl 0.7060 clip 0.05 | β 0.0026 | 3004s
+[16:54:10]   [ppo 181] passos 836580/1000000 | retorno treino 5425 | pg -0.0114 v 0.0715 ent 0.202 kl 0.6816 clip 0.06 | β 0.0026 | 3018s
+[16:54:25]   [ppo 182] passos 840960/1000000 | retorno treino 5456 | pg -0.0087 v 0.0639 ent 0.186 kl 0.6078 clip 0.04 | β 0.0025 | 3032s
+[16:54:46]   [ppo 183] passos 845340/1000000 | retorno treino 5408 | pg -0.0112 v 0.0564 ent 0.189 kl 0.5926 clip 0.05 | β 0.0025 | 3054s
+[16:55:06]   [ppo 184] passos 849720/1000000 | retorno treino 5514 | pg -0.0120 v 0.0474 ent 0.183 kl 0.6052 clip 0.06 | β 0.0024 | 3073s
+[16:55:25]   [ppo 185] passos 854100/1000000 | retorno treino 5180 | pg -0.0105 v 0.0800 ent 0.199 kl 0.6801 clip 0.05 | β 0.0024 | 3092s
+[16:55:44]   [ppo 186] passos 858480/1000000 | retorno treino 5430 | pg -0.0115 v 0.0689 ent 0.180 kl 0.6223 clip 0.05 | β 0.0023 | 3112s
+[16:56:04]   [ppo 187] passos 862860/1000000 | retorno treino 5474 | pg -0.0116 v 0.0586 ent 0.186 kl 0.6568 clip 0.05 | β 0.0023 | 3131s
+[16:56:23]   [ppo 188] passos 867240/1000000 | retorno treino 5422 | pg -0.0094 v 0.0628 ent 0.183 kl 0.6581 clip 0.04 | β 0.0022 | 3150s
+[16:56:42]   [ppo 189] passos 871620/1000000 | retorno treino 5531 | pg -0.0100 v 0.0415 ent 0.202 kl 0.7002 clip 0.05 | β 0.0022 | 3169s
+[16:57:01]   [ppo 190] passos 876000/1000000 | retorno treino 5495 | pg -0.0108 v 0.0677 ent 0.195 kl 0.6253 clip 0.06 | β 0.0022 | 3189s
+[16:57:21]   [ppo 191] passos 880380/1000000 | retorno treino 5509 | pg -0.0101 v 0.0588 ent 0.186 kl 0.6086 clip 0.05 | β 0.0021 | 3208s
+[16:57:40]   [ppo 192] passos 884760/1000000 | retorno treino 5410 | pg -0.0105 v 0.0571 ent 0.198 kl 0.6370 clip 0.05 | β 0.0021 | 3228s
+[16:57:59]   [ppo 193] passos 889140/1000000 | retorno treino 5487 | pg -0.0088 v 0.0851 ent 0.192 kl 0.6647 clip 0.04 | β 0.0020 | 3247s
+[16:58:44]     [validação-rollback] passos 889140: 5385.2 (Δ_IL 26.0) | melhor 5448.4 @ 779640
+[16:59:04]   [ppo 194] passos 893520/1000000 | retorno treino 5545 | pg -0.0096 v 0.0611 ent 0.208 kl 0.7127 clip 0.04 | β 0.0020 | 3311s
+[16:59:23]   [ppo 195] passos 897900/1000000 | retorno treino 5375 | pg -0.0109 v 0.0719 ent 0.213 kl 0.7205 clip 0.05 | β 0.0019 | 3331s
+[16:59:42]   [ppo 196] passos 902280/1000000 | retorno treino 5417 | pg -0.0098 v 0.0535 ent 0.212 kl 0.6749 clip 0.05 | β 0.0019 | 3350s
+[17:00:02]   [ppo 197] passos 906660/1000000 | retorno treino 5360 | pg -0.0094 v 0.0610 ent 0.209 kl 0.6515 clip 0.05 | β 0.0019 | 3370s
+[17:00:21]   [ppo 198] passos 911040/1000000 | retorno treino 5381 | pg -0.0105 v 0.0648 ent 0.204 kl 0.6980 clip 0.05 | β 0.0018 | 3389s
+[17:00:41]   [ppo 199] passos 915420/1000000 | retorno treino 5523 | pg -0.0080 v 0.0920 ent 0.212 kl 0.7033 clip 0.05 | β 0.0018 | 3408s
+[17:01:00]   [ppo 200] passos 919800/1000000 | retorno treino 5350 | pg -0.0074 v 0.0750 ent 0.214 kl 0.6937 clip 0.03 | β 0.0018 | 3428s
+[17:01:20]   [ppo 201] passos 924180/1000000 | retorno treino 5365 | pg -0.0102 v 0.0712 ent 0.207 kl 0.6330 clip 0.05 | β 0.0017 | 3447s
+[17:01:39]   [ppo 202] passos 928560/1000000 | retorno treino 5414 | pg -0.0089 v 0.0669 ent 0.220 kl 0.7194 clip 0.04 | β 0.0017 | 3467s
+[17:01:58]   [ppo 203] passos 932940/1000000 | retorno treino 5462 | pg -0.0104 v 0.0528 ent 0.214 kl 0.7024 clip 0.05 | β 0.0017 | 3486s
+[17:02:18]   [ppo 204] passos 937320/1000000 | retorno treino 5475 | pg -0.0115 v 0.0473 ent 0.228 kl 0.6198 clip 0.06 | β 0.0016 | 3505s
+[17:02:37]   [ppo 205] passos 941700/1000000 | retorno treino 5510 | pg -0.0120 v 0.0473 ent 0.225 kl 0.6176 clip 0.06 | β 0.0016 | 3525s
+[17:02:56]   [ppo 206] passos 946080/1000000 | retorno treino 5588 | pg -0.0093 v 0.0465 ent 0.233 kl 0.6322 clip 0.05 | β 0.0016 | 3544s
+[17:03:16]   [ppo 207] passos 950460/1000000 | retorno treino 5419 | pg -0.0120 v 0.0703 ent 0.228 kl 0.6607 clip 0.06 | β 0.0015 | 3563s
+[17:03:35]   [ppo 208] passos 954840/1000000 | retorno treino 5365 | pg -0.0104 v 0.0716 ent 0.247 kl 0.7588 clip 0.05 | β 0.0015 | 3583s
+[17:03:54]   [ppo 209] passos 959220/1000000 | retorno treino 5264 | pg -0.0092 v 0.0849 ent 0.227 kl 0.7097 clip 0.05 | β 0.0015 | 3602s
+[17:04:12]   [ppo 210] passos 963600/1000000 | retorno treino 5453 | pg -0.0099 v 0.0974 ent 0.217 kl 0.6910 clip 0.06 | β 0.0014 | 3620s
+[17:04:31]   [ppo 211] passos 967980/1000000 | retorno treino 5266 | pg -0.0071 v 0.1083 ent 0.235 kl 0.6874 clip 0.05 | β 0.0014 | 3638s
+[17:04:49]   [ppo 212] passos 972360/1000000 | retorno treino 5290 | pg -0.0095 v 0.0847 ent 0.243 kl 0.7151 clip 0.03 | β 0.0014 | 3656s
+[17:05:07]   [ppo 213] passos 976740/1000000 | retorno treino 5534 | pg -0.0125 v 0.0741 ent 0.259 kl 0.6670 clip 0.05 | β 0.0014 | 3674s
+[17:05:25]   [ppo 214] passos 981120/1000000 | retorno treino 5403 | pg -0.0126 v 0.0562 ent 0.253 kl 0.6948 clip 0.07 | β 0.0013 | 3692s
+[17:05:43]   [ppo 215] passos 985500/1000000 | retorno treino 5285 | pg -0.0076 v 0.0995 ent 0.253 kl 0.6857 clip 0.04 | β 0.0013 | 3710s
+[17:06:01]   [ppo 216] passos 989880/1000000 | retorno treino 5382 | pg -0.0086 v 0.0882 ent 0.245 kl 0.7324 clip 0.03 | β 0.0013 | 3729s
+[17:06:19]   [ppo 217] passos 994260/1000000 | retorno treino 5517 | pg -0.0118 v 0.0718 ent 0.256 kl 0.6926 clip 0.05 | β 0.0012 | 3747s
+[17:06:37]   [ppo 218] passos 998640/1000000 | retorno treino 5428 | pg -0.0118 v 0.0537 ent 0.264 kl 0.7030 clip 0.06 | β 0.0012 | 3765s
+[17:06:55]   [ppo 219] passos 1003020/1000000 | retorno treino 5411 | pg -0.0121 v 0.0458 ent 0.244 kl 0.7718 clip 0.05 | β 0.0012 | 3783s
+[17:07:35]     [validação-rollback] passos 1003020: 5325.5 (Δ_IL -33.7) | melhor 5448.4 @ 779640
+[17:08:35]     [validacao_objetivo] in_dist  média  5381.7 ±  214.8 IQM  5374.9 norm 0.985 | ocioso 31%
+[17:09:33]     [validacao_objetivo] dry      média  2730.3 ±  147.7 IQM  2750.7 norm 0.921 | ocioso 13%
+[17:10:35]     [validacao_objetivo] humid    média  5262.8 ±  197.7 IQM  5290.9 norm 0.985 | ocioso 30%
+[17:12:13]     [teste             ] in_dist  média  5415.7 ±  239.7 IQM  5465.9 norm 0.993 | ocioso 31%
+[17:13:50]     [teste             ] dry      média  2724.2 ±  115.9 IQM  2735.0 norm 0.917 | ocioso 13%
+[17:15:32]     [teste             ] humid    média  5235.7 ±  229.9 IQM  5277.6 norm 0.979 | ocioso 29%
+[17:17:09]     [teste (argmax)     ] in_dist  média  5430.8 ±  267.9 IQM  5486.4 norm 0.997 | ocioso 32%
+[17:18:42]     [teste (argmax)     ] dry      média  2730.5 ±  128.8 IQM  2743.1 norm 0.919 | ocioso 14%
+[17:20:22]     [teste (argmax)     ] humid    média  5234.6 ±  267.5 IQM  5291.3 norm 0.978 | ocioso 31%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\rl_padrao\ppo_il\seed_42\modelo_final.pt
+[17:20:22] === ppo_il | seed 123 ===
+[17:21:01]   IL de partida em validação-rollback: 5354.5
+[17:21:18]   [aquec 1/10] passos 4380 | retorno bruto médio 5321 | perda_valor 8.5324
+[17:21:36]   [aquec 2/10] passos 8760 | retorno bruto médio 5137 | perda_valor 5.5348
+[17:21:53]   [aquec 3/10] passos 13140 | retorno bruto médio 5273 | perda_valor 3.0418
+[17:22:11]   [aquec 4/10] passos 17520 | retorno bruto médio 5289 | perda_valor 1.4842
+[17:22:28]   [aquec 5/10] passos 21900 | retorno bruto médio 5192 | perda_valor 1.5676
+[17:22:46]   [aquec 6/10] passos 26280 | retorno bruto médio 5162 | perda_valor 0.7471
+[17:23:04]   [aquec 7/10] passos 30660 | retorno bruto médio 5374 | perda_valor 0.5846
+[17:23:21]   [aquec 8/10] passos 35040 | retorno bruto médio 5292 | perda_valor 0.6354
+[17:23:38]   [aquec 9/10] passos 39420 | retorno bruto médio 5409 | perda_valor 0.5304
+[17:23:56]   [aquec 10/10] passos 43800 | retorno bruto médio 5448 | perda_valor 0.4398
+C:\Users\Homer\.venvs\mimeplant\lib\site-packages\torch\nn\modules\rnn.py:1124: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1412.)
+  result = _VF.lstm(
+[17:24:13]   [ppo 1] passos 48180/1000000 | retorno treino 5328 | pg -0.0085 v 0.2697 ent 0.075 kl 0.0220 clip 0.04 | β 0.0980 | 192s
+[17:24:31]   [ppo 2] passos 52560/1000000 | retorno treino 5288 | pg -0.0072 v 0.2487 ent 0.081 kl 0.0153 clip 0.03 | β 0.0960 | 210s
+[17:24:49]   [ppo 3] passos 56940/1000000 | retorno treino 5245 | pg -0.0071 v 0.2399 ent 0.078 kl 0.0239 clip 0.03 | β 0.0941 | 228s
+[17:25:10]   [ppo 4] passos 61320/1000000 | retorno treino 5289 | pg -0.0055 v 0.2981 ent 0.087 kl 0.0309 clip 0.02 | β 0.0922 | 249s
+[17:25:27]   [ppo 5] passos 65700/1000000 | retorno treino 5345 | pg -0.0060 v 0.2211 ent 0.084 kl 0.0280 clip 0.03 | β 0.0904 | 266s
+[17:25:45]   [ppo 6] passos 70080/1000000 | retorno treino 5127 | pg -0.0068 v 0.1697 ent 0.093 kl 0.0331 clip 0.04 | β 0.0886 | 284s
+[17:26:02]   [ppo 7] passos 74460/1000000 | retorno treino 5228 | pg -0.0063 v 0.2128 ent 0.076 kl 0.0309 clip 0.03 | β 0.0868 | 301s
+[17:26:16]   [ppo 8] passos 78840/1000000 | retorno treino 5270 | pg -0.0078 v 0.1716 ent 0.095 kl 0.0369 clip 0.05 | β 0.0851 | 315s
+[17:26:29]   [ppo 9] passos 83220/1000000 | retorno treino 5230 | pg -0.0068 v 0.1504 ent 0.080 kl 0.0392 clip 0.03 | β 0.0834 | 328s
+[17:26:42]   [ppo 10] passos 87600/1000000 | retorno treino 5208 | pg -0.0079 v 0.2048 ent 0.084 kl 0.0431 clip 0.03 | β 0.0817 | 341s
+[17:26:55]   [ppo 11] passos 91980/1000000 | retorno treino 5292 | pg -0.0085 v 0.1405 ent 0.079 kl 0.0528 clip 0.04 | β 0.0801 | 354s
+[17:27:08]   [ppo 12] passos 96360/1000000 | retorno treino 5299 | pg -0.0074 v 0.1258 ent 0.099 kl 0.0628 clip 0.05 | β 0.0785 | 367s
+[17:27:21]   [ppo 13] passos 100740/1000000 | retorno treino 5095 | pg -0.0070 v 0.1253 ent 0.087 kl 0.0569 clip 0.04 | β 0.0769 | 380s
+[17:27:36]   [ppo 14] passos 105120/1000000 | retorno treino 5213 | pg -0.0046 v 0.1822 ent 0.087 kl 0.0632 clip 0.03 | β 0.0754 | 395s
+[17:27:53]   [ppo 15] passos 109500/1000000 | retorno treino 5269 | pg -0.0053 v 0.1484 ent 0.090 kl 0.0593 clip 0.04 | β 0.0739 | 412s
+[17:28:11]   [ppo 16] passos 113880/1000000 | retorno treino 5329 | pg -0.0044 v 0.1543 ent 0.081 kl 0.0494 clip 0.02 | β 0.0724 | 430s
+[17:28:49]     [validação-rollback] passos 113880: 5168.8 (Δ_IL -185.7) | melhor 5354.5 @ 0
+[17:29:07]   [ppo 17] passos 118260/1000000 | retorno treino 5180 | pg -0.0058 v 0.1879 ent 0.091 kl 0.0737 clip 0.03 | β 0.0709 | 486s
+[17:29:24]   [ppo 18] passos 122640/1000000 | retorno treino 5375 | pg -0.0097 v 0.1206 ent 0.114 kl 0.0770 clip 0.05 | β 0.0695 | 503s
+[17:29:42]   [ppo 19] passos 127020/1000000 | retorno treino 5260 | pg -0.0087 v 0.1381 ent 0.098 kl 0.0650 clip 0.05 | β 0.0681 | 521s
+[17:29:59]   [ppo 20] passos 131400/1000000 | retorno treino 5350 | pg -0.0068 v 0.1008 ent 0.089 kl 0.0837 clip 0.04 | β 0.0668 | 538s
+[17:30:17]   [ppo 21] passos 135780/1000000 | retorno treino 5242 | pg -0.0081 v 0.2140 ent 0.098 kl 0.0797 clip 0.04 | β 0.0654 | 556s
+[17:30:34]   [ppo 22] passos 140160/1000000 | retorno treino 5320 | pg -0.0084 v 0.1243 ent 0.088 kl 0.0918 clip 0.04 | β 0.0641 | 573s
+[17:30:52]   [ppo 23] passos 144540/1000000 | retorno treino 5114 | pg -0.0082 v 0.1384 ent 0.103 kl 0.0863 clip 0.04 | β 0.0628 | 591s
+[17:31:09]   [ppo 24] passos 148920/1000000 | retorno treino 5149 | pg -0.0074 v 0.1552 ent 0.110 kl 0.0949 clip 0.04 | β 0.0616 | 608s
+[17:31:27]   [ppo 25] passos 153300/1000000 | retorno treino 5277 | pg -0.0073 v 0.1383 ent 0.096 kl 0.0967 clip 0.04 | β 0.0603 | 626s
+[17:31:45]   [ppo 26] passos 157680/1000000 | retorno treino 5256 | pg -0.0112 v 0.1273 ent 0.106 kl 0.1039 clip 0.05 | β 0.0591 | 644s
+[17:32:02]   [ppo 27] passos 162060/1000000 | retorno treino 5427 | pg -0.0072 v 0.1286 ent 0.091 kl 0.0823 clip 0.04 | β 0.0580 | 661s
+[17:32:20]   [ppo 28] passos 166440/1000000 | retorno treino 5417 | pg -0.0083 v 0.1132 ent 0.110 kl 0.1043 clip 0.04 | β 0.0568 | 679s
+[17:32:37]   [ppo 29] passos 170820/1000000 | retorno treino 5404 | pg -0.0072 v 0.1039 ent 0.097 kl 0.0951 clip 0.03 | β 0.0557 | 696s
+[17:32:54]   [ppo 30] passos 175200/1000000 | retorno treino 5367 | pg -0.0077 v 0.1384 ent 0.087 kl 0.1093 clip 0.03 | β 0.0545 | 714s
+[17:33:12]   [ppo 31] passos 179580/1000000 | retorno treino 5401 | pg -0.0079 v 0.1009 ent 0.101 kl 0.0910 clip 0.04 | β 0.0535 | 731s
+[17:33:29]   [ppo 32] passos 183960/1000000 | retorno treino 5183 | pg -0.0079 v 0.1130 ent 0.114 kl 0.0919 clip 0.04 | β 0.0524 | 748s
+[17:33:47]   [ppo 33] passos 188340/1000000 | retorno treino 5456 | pg -0.0066 v 0.1139 ent 0.100 kl 0.0938 clip 0.04 | β 0.0513 | 766s
+[17:34:04]   [ppo 34] passos 192720/1000000 | retorno treino 5220 | pg -0.0097 v 0.0891 ent 0.117 kl 0.1191 clip 0.04 | β 0.0503 | 783s
+[17:34:22]   [ppo 35] passos 197100/1000000 | retorno treino 5189 | pg -0.0082 v 0.1099 ent 0.121 kl 0.1320 clip 0.04 | β 0.0493 | 801s
+[17:34:39]   [ppo 36] passos 201480/1000000 | retorno treino 5222 | pg -0.0072 v 0.1013 ent 0.140 kl 0.1467 clip 0.04 | β 0.0483 | 818s
+[17:34:57]   [ppo 37] passos 205860/1000000 | retorno treino 5391 | pg -0.0070 v 0.0861 ent 0.116 kl 0.1265 clip 0.05 | β 0.0474 | 836s
+[17:35:14]   [ppo 38] passos 210240/1000000 | retorno treino 5226 | pg -0.0084 v 0.0878 ent 0.126 kl 0.1354 clip 0.04 | β 0.0464 | 853s
+[17:35:31]   [ppo 39] passos 214620/1000000 | retorno treino 5221 | pg -0.0077 v 0.1013 ent 0.115 kl 0.1345 clip 0.04 | β 0.0455 | 870s
+[17:35:49]   [ppo 40] passos 219000/1000000 | retorno treino 5307 | pg -0.0085 v 0.1177 ent 0.114 kl 0.1334 clip 0.04 | β 0.0446 | 888s
+[17:36:06]   [ppo 41] passos 223380/1000000 | retorno treino 5215 | pg -0.0070 v 0.1258 ent 0.126 kl 0.1372 clip 0.05 | β 0.0437 | 906s
+[17:36:44]     [validação-rollback] passos 223380: 5206.8 (Δ_IL -147.7) | melhor 5354.5 @ 0
+[17:37:01]   [ppo 42] passos 227760/1000000 | retorno treino 5350 | pg -0.0096 v 0.1091 ent 0.114 kl 0.1159 clip 0.04 | β 0.0428 | 961s
+[17:37:19]   [ppo 43] passos 232140/1000000 | retorno treino 5238 | pg -0.0098 v 0.0891 ent 0.121 kl 0.1227 clip 0.04 | β 0.0419 | 978s
+[17:37:37]   [ppo 44] passos 236520/1000000 | retorno treino 5313 | pg -0.0076 v 0.1124 ent 0.103 kl 0.1027 clip 0.04 | β 0.0411 | 996s
+[17:37:54]   [ppo 45] passos 240900/1000000 | retorno treino 5216 | pg -0.0067 v 0.1217 ent 0.117 kl 0.1352 clip 0.03 | β 0.0403 | 1013s
+[17:38:11]   [ppo 46] passos 245280/1000000 | retorno treino 5198 | pg -0.0070 v 0.1116 ent 0.104 kl 0.1162 clip 0.03 | β 0.0395 | 1031s
+[17:38:29]   [ppo 47] passos 249660/1000000 | retorno treino 5223 | pg -0.0073 v 0.1136 ent 0.121 kl 0.1198 clip 0.04 | β 0.0387 | 1048s
+[17:38:46]   [ppo 48] passos 254040/1000000 | retorno treino 5172 | pg -0.0068 v 0.0853 ent 0.115 kl 0.1201 clip 0.04 | β 0.0379 | 1065s
+[17:39:04]   [ppo 49] passos 258420/1000000 | retorno treino 5338 | pg -0.0065 v 0.0720 ent 0.129 kl 0.1332 clip 0.05 | β 0.0372 | 1083s
+[17:39:22]   [ppo 50] passos 262800/1000000 | retorno treino 5125 | pg -0.0084 v 0.1056 ent 0.140 kl 0.1539 clip 0.05 | β 0.0364 | 1101s
+[17:39:39]   [ppo 51] passos 267180/1000000 | retorno treino 5214 | pg -0.0067 v 0.0918 ent 0.118 kl 0.1257 clip 0.04 | β 0.0357 | 1118s
+[17:39:56]   [ppo 52] passos 271560/1000000 | retorno treino 5325 | pg -0.0075 v 0.0907 ent 0.113 kl 0.1246 clip 0.04 | β 0.0350 | 1135s
+[17:40:14]   [ppo 53] passos 275940/1000000 | retorno treino 5200 | pg -0.0066 v 0.1219 ent 0.124 kl 0.1370 clip 0.03 | β 0.0343 | 1153s
+[17:40:31]   [ppo 54] passos 280320/1000000 | retorno treino 5310 | pg -0.0081 v 0.0930 ent 0.110 kl 0.1185 clip 0.03 | β 0.0336 | 1170s
+[17:40:49]   [ppo 55] passos 284700/1000000 | retorno treino 5326 | pg -0.0076 v 0.0848 ent 0.122 kl 0.1257 clip 0.04 | β 0.0329 | 1188s
+[17:41:07]   [ppo 56] passos 289080/1000000 | retorno treino 5287 | pg -0.0069 v 0.0843 ent 0.116 kl 0.1224 clip 0.03 | β 0.0323 | 1206s
+[17:41:24]   [ppo 57] passos 293460/1000000 | retorno treino 5318 | pg -0.0080 v 0.0752 ent 0.140 kl 0.1522 clip 0.04 | β 0.0316 | 1223s
+[17:41:42]   [ppo 58] passos 297840/1000000 | retorno treino 5397 | pg -0.0074 v 0.1105 ent 0.120 kl 0.1415 clip 0.05 | β 0.0310 | 1241s
+[17:41:59]   [ppo 59] passos 302220/1000000 | retorno treino 5307 | pg -0.0092 v 0.1524 ent 0.154 kl 0.1566 clip 0.05 | β 0.0304 | 1258s
+[17:42:17]   [ppo 60] passos 306600/1000000 | retorno treino 5282 | pg -0.0078 v 0.1140 ent 0.132 kl 0.1558 clip 0.04 | β 0.0298 | 1276s
+[17:42:35]   [ppo 61] passos 310980/1000000 | retorno treino 5400 | pg -0.0121 v 0.0801 ent 0.132 kl 0.1798 clip 0.06 | β 0.0292 | 1294s
+[17:42:52]   [ppo 62] passos 315360/1000000 | retorno treino 5487 | pg -0.0106 v 0.0709 ent 0.131 kl 0.1576 clip 0.05 | β 0.0286 | 1311s
+[17:43:10]   [ppo 63] passos 319740/1000000 | retorno treino 5256 | pg -0.0100 v 0.0814 ent 0.136 kl 0.1735 clip 0.05 | β 0.0280 | 1329s
+[17:43:27]   [ppo 64] passos 324120/1000000 | retorno treino 5238 | pg -0.0089 v 0.0851 ent 0.130 kl 0.1312 clip 0.04 | β 0.0274 | 1347s
+[17:43:45]   [ppo 65] passos 328500/1000000 | retorno treino 5326 | pg -0.0104 v 0.0632 ent 0.147 kl 0.1818 clip 0.04 | β 0.0269 | 1364s
+[17:44:02]   [ppo 66] passos 332880/1000000 | retorno treino 5147 | pg -0.0074 v 0.0811 ent 0.140 kl 0.1827 clip 0.05 | β 0.0264 | 1381s
+[17:44:20]   [ppo 67] passos 337260/1000000 | retorno treino 5258 | pg -0.0113 v 0.0692 ent 0.154 kl 0.1802 clip 0.05 | β 0.0258 | 1399s
+[17:44:58]     [validação-rollback] passos 337260: 5325.1 (Δ_IL -29.4) | melhor 5354.5 @ 0
+[17:45:16]   [ppo 68] passos 341640/1000000 | retorno treino 5461 | pg -0.0101 v 0.0611 ent 0.157 kl 0.2054 clip 0.05 | β 0.0253 | 1455s
+[17:45:33]   [ppo 69] passos 346020/1000000 | retorno treino 5423 | pg -0.0084 v 0.0794 ent 0.150 kl 0.2037 clip 0.04 | β 0.0248 | 1472s
+[17:45:51]   [ppo 70] passos 350400/1000000 | retorno treino 5335 | pg -0.0093 v 0.0616 ent 0.154 kl 0.2059 clip 0.04 | β 0.0243 | 1490s
+[17:46:09]   [ppo 71] passos 354780/1000000 | retorno treino 5345 | pg -0.0085 v 0.0723 ent 0.179 kl 0.2580 clip 0.04 | β 0.0238 | 1508s
+[17:46:26]   [ppo 72] passos 359160/1000000 | retorno treino 5335 | pg -0.0089 v 0.0716 ent 0.160 kl 0.2165 clip 0.05 | β 0.0233 | 1525s
+[17:46:44]   [ppo 73] passos 363540/1000000 | retorno treino 5274 | pg -0.0085 v 0.0769 ent 0.144 kl 0.1845 clip 0.04 | β 0.0229 | 1543s
+[17:47:01]   [ppo 74] passos 367920/1000000 | retorno treino 5284 | pg -0.0121 v 0.0693 ent 0.173 kl 0.2199 clip 0.05 | β 0.0224 | 1560s
+[17:47:19]   [ppo 75] passos 372300/1000000 | retorno treino 5270 | pg -0.0065 v 0.1280 ent 0.142 kl 0.2292 clip 0.04 | β 0.0220 | 1578s
+[17:47:36]   [ppo 76] passos 376680/1000000 | retorno treino 5341 | pg -0.0120 v 0.0895 ent 0.168 kl 0.1992 clip 0.05 | β 0.0215 | 1596s
+[17:47:54]   [ppo 77] passos 381060/1000000 | retorno treino 5348 | pg -0.0054 v 0.1392 ent 0.150 kl 0.1871 clip 0.02 | β 0.0211 | 1613s
+[17:48:11]   [ppo 78] passos 385440/1000000 | retorno treino 5312 | pg -0.0064 v 0.1382 ent 0.159 kl 0.1834 clip 0.02 | β 0.0207 | 1630s
+[17:48:29]   [ppo 79] passos 389820/1000000 | retorno treino 5147 | pg -0.0088 v 0.1102 ent 0.151 kl 0.2040 clip 0.03 | β 0.0203 | 1648s
+[17:48:46]   [ppo 80] passos 394200/1000000 | retorno treino 5398 | pg -0.0084 v 0.0981 ent 0.131 kl 0.1842 clip 0.03 | β 0.0199 | 1665s
+[17:49:03]   [ppo 81] passos 398580/1000000 | retorno treino 5339 | pg -0.0077 v 0.1266 ent 0.137 kl 0.2102 clip 0.04 | β 0.0195 | 1682s
+[17:49:21]   [ppo 82] passos 402960/1000000 | retorno treino 5457 | pg -0.0104 v 0.0823 ent 0.133 kl 0.2189 clip 0.04 | β 0.0191 | 1700s
+[17:49:38]   [ppo 83] passos 407340/1000000 | retorno treino 5286 | pg -0.0081 v 0.0773 ent 0.129 kl 0.2106 clip 0.04 | β 0.0187 | 1717s
+[17:49:56]   [ppo 84] passos 411720/1000000 | retorno treino 5256 | pg -0.0081 v 0.0903 ent 0.131 kl 0.2213 clip 0.04 | β 0.0183 | 1735s
+[17:50:14]   [ppo 85] passos 416100/1000000 | retorno treino 5351 | pg -0.0092 v 0.0773 ent 0.153 kl 0.2395 clip 0.05 | β 0.0180 | 1753s
+[17:50:33]   [ppo 86] passos 420480/1000000 | retorno treino 5304 | pg -0.0093 v 0.0973 ent 0.146 kl 0.2645 clip 0.05 | β 0.0176 | 1772s
+[17:50:52]   [ppo 87] passos 424860/1000000 | retorno treino 5318 | pg -0.0080 v 0.0691 ent 0.133 kl 0.2341 clip 0.03 | β 0.0172 | 1791s
+[17:51:11]   [ppo 88] passos 429240/1000000 | retorno treino 5246 | pg -0.0099 v 0.0786 ent 0.130 kl 0.2500 clip 0.05 | β 0.0169 | 1810s
+[17:51:31]   [ppo 89] passos 433620/1000000 | retorno treino 5402 | pg -0.0085 v 0.0747 ent 0.148 kl 0.2400 clip 0.03 | β 0.0166 | 1830s
+[17:51:50]   [ppo 90] passos 438000/1000000 | retorno treino 5308 | pg -0.0081 v 0.0879 ent 0.167 kl 0.2734 clip 0.03 | β 0.0162 | 1849s
+[17:52:09]   [ppo 91] passos 442380/1000000 | retorno treino 5321 | pg -0.0077 v 0.0839 ent 0.136 kl 0.2211 clip 0.03 | β 0.0159 | 1868s
+[17:52:29]   [ppo 92] passos 446760/1000000 | retorno treino 5206 | pg -0.0096 v 0.0943 ent 0.155 kl 0.2402 clip 0.04 | β 0.0156 | 1888s
+[17:53:14]     [validação-rollback] passos 446760: 5263.5 (Δ_IL -91.0) | melhor 5354.5 @ 0
+[17:53:33]   [ppo 93] passos 451140/1000000 | retorno treino 5212 | pg -0.0086 v 0.0771 ent 0.164 kl 0.2791 clip 0.04 | β 0.0153 | 1952s
+[17:53:52]   [ppo 94] passos 455520/1000000 | retorno treino 5400 | pg -0.0091 v 0.0626 ent 0.152 kl 0.2582 clip 0.05 | β 0.0150 | 1971s
+[17:54:11]   [ppo 95] passos 459900/1000000 | retorno treino 5382 | pg -0.0095 v 0.0674 ent 0.164 kl 0.2565 clip 0.05 | β 0.0147 | 1990s
+[17:54:30]   [ppo 96] passos 464280/1000000 | retorno treino 5428 | pg -0.0077 v 0.0757 ent 0.162 kl 0.2259 clip 0.05 | β 0.0144 | 2009s
+[17:54:48]   [ppo 97] passos 468660/1000000 | retorno treino 5432 | pg -0.0089 v 0.0870 ent 0.159 kl 0.2663 clip 0.04 | β 0.0141 | 2028s
+[17:55:08]   [ppo 98] passos 473040/1000000 | retorno treino 5407 | pg -0.0101 v 0.0968 ent 0.182 kl 0.2787 clip 0.04 | β 0.0138 | 2047s
+[17:55:27]   [ppo 99] passos 477420/1000000 | retorno treino 5305 | pg -0.0061 v 0.0819 ent 0.140 kl 0.3015 clip 0.05 | β 0.0135 | 2066s
+[17:55:45]   [ppo 100] passos 481800/1000000 | retorno treino 5418 | pg -0.0083 v 0.0684 ent 0.175 kl 0.2791 clip 0.05 | β 0.0133 | 2084s
+[17:56:03]   [ppo 101] passos 486180/1000000 | retorno treino 5263 | pg -0.0098 v 0.0796 ent 0.156 kl 0.2655 clip 0.04 | β 0.0130 | 2102s
+[17:56:23]   [ppo 102] passos 490560/1000000 | retorno treino 5407 | pg -0.0069 v 0.0940 ent 0.153 kl 0.2769 clip 0.04 | β 0.0127 | 2122s
+[17:56:43]   [ppo 103] passos 494940/1000000 | retorno treino 5163 | pg -0.0072 v 0.1143 ent 0.154 kl 0.3399 clip 0.03 | β 0.0125 | 2142s
+[17:57:06]   [ppo 104] passos 499320/1000000 | retorno treino 5330 | pg -0.0090 v 0.0756 ent 0.192 kl 0.3155 clip 0.04 | β 0.0122 | 2165s
+[17:57:27]   [ppo 105] passos 503700/1000000 | retorno treino 5419 | pg -0.0100 v 0.0648 ent 0.167 kl 0.2794 clip 0.04 | β 0.0120 | 2186s
+[17:57:47]   [ppo 106] passos 508080/1000000 | retorno treino 5355 | pg -0.0095 v 0.0654 ent 0.173 kl 0.2927 clip 0.05 | β 0.0117 | 2206s
+[17:58:06]   [ppo 107] passos 512460/1000000 | retorno treino 5382 | pg -0.0063 v 0.0786 ent 0.169 kl 0.3502 clip 0.05 | β 0.0115 | 2225s
+[17:58:25]   [ppo 108] passos 516840/1000000 | retorno treino 5338 | pg -0.0099 v 0.0636 ent 0.178 kl 0.2784 clip 0.05 | β 0.0113 | 2244s
+[17:58:44]   [ppo 109] passos 521220/1000000 | retorno treino 5420 | pg -0.0100 v 0.0673 ent 0.192 kl 0.3485 clip 0.05 | β 0.0111 | 2264s
+[17:59:04]   [ppo 110] passos 525600/1000000 | retorno treino 5273 | pg -0.0091 v 0.0840 ent 0.206 kl 0.3548 clip 0.05 | β 0.0108 | 2283s
+[17:59:24]   [ppo 111] passos 529980/1000000 | retorno treino 5276 | pg -0.0109 v 0.0872 ent 0.210 kl 0.3665 clip 0.05 | β 0.0106 | 2303s
+[17:59:42]   [ppo 112] passos 534360/1000000 | retorno treino 5444 | pg -0.0081 v 0.0896 ent 0.181 kl 0.3157 clip 0.03 | β 0.0104 | 2321s
+[18:00:01]   [ppo 113] passos 538740/1000000 | retorno treino 5387 | pg -0.0094 v 0.0724 ent 0.202 kl 0.3270 clip 0.04 | β 0.0102 | 2340s
+[18:00:20]   [ppo 114] passos 543120/1000000 | retorno treino 5431 | pg -0.0078 v 0.0666 ent 0.221 kl 0.3352 clip 0.04 | β 0.0100 | 2359s
+[18:00:39]   [ppo 115] passos 547500/1000000 | retorno treino 5294 | pg -0.0076 v 0.0910 ent 0.199 kl 0.3662 clip 0.03 | β 0.0098 | 2379s
+[18:00:59]   [ppo 116] passos 551880/1000000 | retorno treino 5456 | pg -0.0104 v 0.0662 ent 0.225 kl 0.3791 clip 0.05 | β 0.0096 | 2398s
+[18:01:19]   [ppo 117] passos 556260/1000000 | retorno treino 5255 | pg -0.0101 v 0.1331 ent 0.213 kl 0.3700 clip 0.05 | β 0.0094 | 2418s
+[18:02:03]     [validação-rollback] passos 556260: 5346.9 (Δ_IL -7.6) | melhor 5354.5 @ 0
+[18:02:22]   [ppo 118] passos 560640/1000000 | retorno treino 5282 | pg -0.0109 v 0.1111 ent 0.220 kl 0.3895 clip 0.05 | β 0.0092 | 2481s
+[18:02:41]   [ppo 119] passos 565020/1000000 | retorno treino 5355 | pg -0.0083 v 0.1394 ent 0.223 kl 0.3353 clip 0.05 | β 0.0090 | 2501s
+[18:03:01]   [ppo 120] passos 569400/1000000 | retorno treino 5459 | pg -0.0106 v 0.0950 ent 0.242 kl 0.3674 clip 0.05 | β 0.0089 | 2520s
+[18:03:20]   [ppo 121] passos 573780/1000000 | retorno treino 5228 | pg -0.0116 v 0.1082 ent 0.258 kl 0.4288 clip 0.05 | β 0.0087 | 2540s
+[18:03:40]   [ppo 122] passos 578160/1000000 | retorno treino 5302 | pg -0.0109 v 0.0694 ent 0.235 kl 0.4247 clip 0.05 | β 0.0085 | 2559s
+[18:03:59]   [ppo 123] passos 582540/1000000 | retorno treino 5164 | pg -0.0093 v 0.0962 ent 0.266 kl 0.4791 clip 0.06 | β 0.0083 | 2578s
+[18:04:18]   [ppo 124] passos 586920/1000000 | retorno treino 5454 | pg -0.0107 v 0.0750 ent 0.258 kl 0.4524 clip 0.05 | β 0.0082 | 2597s
+[18:04:38]   [ppo 125] passos 591300/1000000 | retorno treino 5238 | pg -0.0103 v 0.0881 ent 0.245 kl 0.4581 clip 0.06 | β 0.0080 | 2617s
+[18:04:57]   [ppo 126] passos 595680/1000000 | retorno treino 5290 | pg -0.0136 v 0.0749 ent 0.279 kl 0.4357 clip 0.06 | β 0.0078 | 2636s
+[18:05:16]   [ppo 127] passos 600060/1000000 | retorno treino 5260 | pg -0.0108 v 0.1009 ent 0.284 kl 0.4173 clip 0.07 | β 0.0077 | 2655s
+[18:05:36]   [ppo 128] passos 604440/1000000 | retorno treino 5276 | pg -0.0134 v 0.0742 ent 0.300 kl 0.4304 clip 0.06 | β 0.0075 | 2675s
+[18:05:55]   [ppo 129] passos 608820/1000000 | retorno treino 5549 | pg -0.0116 v 0.0572 ent 0.260 kl 0.3822 clip 0.06 | β 0.0074 | 2694s
+[18:06:14]   [ppo 130] passos 613200/1000000 | retorno treino 5336 | pg -0.0112 v 0.0661 ent 0.277 kl 0.3984 clip 0.06 | β 0.0072 | 2713s
+[18:06:33]   [ppo 131] passos 617580/1000000 | retorno treino 5368 | pg -0.0084 v 0.0791 ent 0.248 kl 0.4187 clip 0.04 | β 0.0071 | 2732s
+[18:06:52]   [ppo 132] passos 621960/1000000 | retorno treino 5429 | pg -0.0133 v 0.0585 ent 0.283 kl 0.4685 clip 0.06 | β 0.0069 | 2752s
+[18:07:12]   [ppo 133] passos 626340/1000000 | retorno treino 5449 | pg -0.0112 v 0.0744 ent 0.284 kl 0.4438 clip 0.06 | β 0.0068 | 2771s
+[18:07:31]   [ppo 134] passos 630720/1000000 | retorno treino 5204 | pg -0.0119 v 0.0912 ent 0.295 kl 0.4957 clip 0.06 | β 0.0067 | 2790s
+[18:07:50]   [ppo 135] passos 635100/1000000 | retorno treino 5354 | pg -0.0101 v 0.0668 ent 0.285 kl 0.5025 clip 0.04 | β 0.0065 | 2809s
+[18:08:09]   [ppo 136] passos 639480/1000000 | retorno treino 5329 | pg -0.0112 v 0.0654 ent 0.316 kl 0.4960 clip 0.06 | β 0.0064 | 2828s
+[18:08:28]   [ppo 137] passos 643860/1000000 | retorno treino 5437 | pg -0.0130 v 0.0667 ent 0.288 kl 0.5985 clip 0.07 | β 0.0063 | 2847s
+[18:08:47]   [ppo 138] passos 648240/1000000 | retorno treino 5472 | pg -0.0102 v 0.0649 ent 0.311 kl 0.5418 clip 0.06 | β 0.0062 | 2866s
+[18:09:06]   [ppo 139] passos 652620/1000000 | retorno treino 5418 | pg -0.0098 v 0.0650 ent 0.287 kl 0.5718 clip 0.04 | β 0.0060 | 2885s
+[18:09:25]   [ppo 140] passos 657000/1000000 | retorno treino 5433 | pg -0.0123 v 0.0673 ent 0.326 kl 0.5601 clip 0.07 | β 0.0059 | 2905s
+[18:09:45]   [ppo 141] passos 661380/1000000 | retorno treino 5433 | pg -0.0119 v 0.0630 ent 0.323 kl 0.5823 clip 0.05 | β 0.0058 | 2924s
+[18:10:04]   [ppo 142] passos 665760/1000000 | retorno treino 5435 | pg -0.0126 v 0.0791 ent 0.284 kl 0.5319 clip 0.07 | β 0.0057 | 2943s
+[18:10:24]   [ppo 143] passos 670140/1000000 | retorno treino 5390 | pg -0.0149 v 0.0734 ent 0.313 kl 0.6079 clip 0.07 | β 0.0056 | 2963s
+[18:11:08]     [validação-rollback] passos 670140: 5455.0 (Δ_IL 100.5) | melhor 5455.0 @ 670140
+[18:11:27]   [ppo 144] passos 674520/1000000 | retorno treino 5300 | pg -0.0107 v 0.0774 ent 0.357 kl 0.5687 clip 0.05 | β 0.0055 | 3026s
+[18:11:47]   [ppo 145] passos 678900/1000000 | retorno treino 5430 | pg -0.0129 v 0.0650 ent 0.307 kl 0.5195 clip 0.06 | β 0.0053 | 3046s
+[18:12:06]   [ppo 146] passos 683280/1000000 | retorno treino 5404 | pg -0.0132 v 0.0675 ent 0.320 kl 0.5662 clip 0.06 | β 0.0052 | 3065s
+[18:12:25]   [ppo 147] passos 687660/1000000 | retorno treino 5299 | pg -0.0127 v 0.0612 ent 0.334 kl 0.5476 clip 0.06 | β 0.0051 | 3085s
+[18:12:45]   [ppo 148] passos 692040/1000000 | retorno treino 5401 | pg -0.0132 v 0.0677 ent 0.301 kl 0.5783 clip 0.06 | β 0.0050 | 3104s
+[18:13:05]   [ppo 149] passos 696420/1000000 | retorno treino 5329 | pg -0.0133 v 0.0792 ent 0.333 kl 0.5813 clip 0.07 | β 0.0049 | 3124s
+[18:13:24]   [ppo 150] passos 700800/1000000 | retorno treino 5496 | pg -0.0123 v 0.0607 ent 0.324 kl 0.5900 clip 0.07 | β 0.0048 | 3143s
+[18:13:43]   [ppo 151] passos 705180/1000000 | retorno treino 5389 | pg -0.0100 v 0.0720 ent 0.310 kl 0.5924 clip 0.05 | β 0.0047 | 3162s
+[18:14:02]   [ppo 152] passos 709560/1000000 | retorno treino 5483 | pg -0.0097 v 0.0633 ent 0.313 kl 0.5644 clip 0.05 | β 0.0046 | 3181s
+[18:14:22]   [ppo 153] passos 713940/1000000 | retorno treino 5577 | pg -0.0098 v 0.0547 ent 0.301 kl 0.5126 clip 0.05 | β 0.0045 | 3201s
+[18:14:41]   [ppo 154] passos 718320/1000000 | retorno treino 5495 | pg -0.0085 v 0.0645 ent 0.297 kl 0.5759 clip 0.05 | β 0.0045 | 3220s
+[18:15:00]   [ppo 155] passos 722700/1000000 | retorno treino 5445 | pg -0.0126 v 0.0558 ent 0.302 kl 0.5813 clip 0.05 | β 0.0044 | 3239s
+[18:15:20]   [ppo 156] passos 727080/1000000 | retorno treino 5380 | pg -0.0126 v 0.0750 ent 0.329 kl 0.6417 clip 0.06 | β 0.0043 | 3259s
+[18:15:39]   [ppo 157] passos 731460/1000000 | retorno treino 5536 | pg -0.0097 v 0.0679 ent 0.337 kl 0.5849 clip 0.06 | β 0.0042 | 3278s
+[18:15:58]   [ppo 158] passos 735840/1000000 | retorno treino 5382 | pg -0.0132 v 0.0708 ent 0.348 kl 0.5644 clip 0.06 | β 0.0041 | 3297s
+[18:16:18]   [ppo 159] passos 740220/1000000 | retorno treino 5292 | pg -0.0093 v 0.0892 ent 0.364 kl 0.6493 clip 0.05 | β 0.0040 | 3317s
+[18:16:37]   [ppo 160] passos 744600/1000000 | retorno treino 5384 | pg -0.0104 v 0.0716 ent 0.356 kl 0.6084 clip 0.05 | β 0.0039 | 3336s
+[18:16:56]   [ppo 161] passos 748980/1000000 | retorno treino 5317 | pg -0.0104 v 0.0745 ent 0.343 kl 0.6243 clip 0.05 | β 0.0039 | 3355s
+[18:17:15]   [ppo 162] passos 753360/1000000 | retorno treino 5440 | pg -0.0104 v 0.0716 ent 0.307 kl 0.5144 clip 0.06 | β 0.0038 | 3374s
+[18:17:35]   [ppo 163] passos 757740/1000000 | retorno treino 5426 | pg -0.0133 v 0.0598 ent 0.330 kl 0.6565 clip 0.06 | β 0.0037 | 3394s
+[18:17:54]   [ppo 164] passos 762120/1000000 | retorno treino 5191 | pg -0.0123 v 0.0806 ent 0.381 kl 0.5919 clip 0.05 | β 0.0036 | 3413s
+[18:18:13]   [ppo 165] passos 766500/1000000 | retorno treino 5387 | pg -0.0070 v 0.1147 ent 0.328 kl 0.5422 clip 0.06 | β 0.0036 | 3432s
+[18:18:32]   [ppo 166] passos 770880/1000000 | retorno treino 5474 | pg -0.0078 v 0.0653 ent 0.328 kl 0.5410 clip 0.02 | β 0.0035 | 3451s
+[18:18:51]   [ppo 167] passos 775260/1000000 | retorno treino 5358 | pg -0.0115 v 0.0962 ent 0.345 kl 0.5731 clip 0.06 | β 0.0034 | 3470s
+[18:19:11]   [ppo 168] passos 779640/1000000 | retorno treino 5429 | pg -0.0137 v 0.0606 ent 0.325 kl 0.5508 clip 0.05 | β 0.0034 | 3490s
+[18:19:55]     [validação-rollback] passos 779640: 5392.7 (Δ_IL 38.2) | melhor 5455.0 @ 670140
+[18:20:14]   [ppo 169] passos 784020/1000000 | retorno treino 5403 | pg -0.0141 v 0.0563 ent 0.311 kl 0.5821 clip 0.06 | β 0.0033 | 3553s
+[18:20:34]   [ppo 170] passos 788400/1000000 | retorno treino 5376 | pg -0.0124 v 0.0614 ent 0.311 kl 0.6189 clip 0.05 | β 0.0032 | 3573s
+[18:20:52]   [ppo 171] passos 792780/1000000 | retorno treino 5340 | pg -0.0096 v 0.0741 ent 0.333 kl 0.5859 clip 0.04 | β 0.0032 | 3592s
+[18:21:12]   [ppo 172] passos 797160/1000000 | retorno treino 5400 | pg -0.0103 v 0.0763 ent 0.303 kl 0.5346 clip 0.05 | β 0.0031 | 3611s
+[18:21:31]   [ppo 173] passos 801540/1000000 | retorno treino 5351 | pg -0.0101 v 0.0755 ent 0.346 kl 0.6439 clip 0.05 | β 0.0030 | 3630s
+[18:21:51]   [ppo 174] passos 805920/1000000 | retorno treino 5241 | pg -0.0098 v 0.0649 ent 0.348 kl 0.6107 clip 0.04 | β 0.0030 | 3650s
+[18:22:10]   [ppo 175] passos 810300/1000000 | retorno treino 5390 | pg -0.0094 v 0.0774 ent 0.370 kl 0.6282 clip 0.04 | β 0.0029 | 3669s
+[18:22:29]   [ppo 176] passos 814680/1000000 | retorno treino 5424 | pg -0.0106 v 0.0702 ent 0.343 kl 0.6042 clip 0.05 | β 0.0029 | 3688s
+[18:22:49]   [ppo 177] passos 819060/1000000 | retorno treino 5203 | pg -0.0135 v 0.0762 ent 0.349 kl 0.5961 clip 0.06 | β 0.0028 | 3708s
+[18:23:08]   [ppo 178] passos 823440/1000000 | retorno treino 5388 | pg -0.0106 v 0.0819 ent 0.336 kl 0.6235 clip 0.04 | β 0.0027 | 3727s
+[18:23:28]   [ppo 179] passos 827820/1000000 | retorno treino 5493 | pg -0.0126 v 0.0606 ent 0.355 kl 0.6141 clip 0.07 | β 0.0027 | 3747s
+[18:23:47]   [ppo 180] passos 832200/1000000 | retorno treino 5456 | pg -0.0131 v 0.0605 ent 0.318 kl 0.6502 clip 0.06 | β 0.0026 | 3766s
+[18:24:06]   [ppo 181] passos 836580/1000000 | retorno treino 5252 | pg -0.0134 v 0.0701 ent 0.340 kl 0.7237 clip 0.06 | β 0.0026 | 3785s
+[18:24:25]   [ppo 182] passos 840960/1000000 | retorno treino 5432 | pg -0.0096 v 0.0717 ent 0.331 kl 0.7026 clip 0.05 | β 0.0025 | 3804s
+[18:24:44]   [ppo 183] passos 845340/1000000 | retorno treino 5286 | pg -0.0137 v 0.0542 ent 0.329 kl 0.6382 clip 0.06 | β 0.0025 | 3823s
+[18:25:04]   [ppo 184] passos 849720/1000000 | retorno treino 5411 | pg -0.0117 v 0.0752 ent 0.335 kl 0.6858 clip 0.05 | β 0.0024 | 3843s
+[18:25:24]   [ppo 185] passos 854100/1000000 | retorno treino 5453 | pg -0.0058 v 0.0904 ent 0.341 kl 0.6287 clip 0.03 | β 0.0024 | 3863s
+[18:25:43]   [ppo 186] passos 858480/1000000 | retorno treino 5096 | pg -0.0075 v 0.1241 ent 0.350 kl 0.6527 clip 0.03 | β 0.0023 | 3882s
+[18:26:02]   [ppo 187] passos 862860/1000000 | retorno treino 5458 | pg -0.0123 v 0.0500 ent 0.341 kl 0.6612 clip 0.05 | β 0.0023 | 3901s
+[18:26:22]   [ppo 188] passos 867240/1000000 | retorno treino 5363 | pg -0.0109 v 0.0549 ent 0.390 kl 0.7398 clip 0.06 | β 0.0022 | 3921s
+[18:26:41]   [ppo 189] passos 871620/1000000 | retorno treino 5442 | pg -0.0116 v 0.0556 ent 0.372 kl 0.6685 clip 0.05 | β 0.0022 | 3940s
+[18:27:00]   [ppo 190] passos 876000/1000000 | retorno treino 5444 | pg -0.0139 v 0.0563 ent 0.339 kl 0.6903 clip 0.07 | β 0.0022 | 3959s
+[18:27:19]   [ppo 191] passos 880380/1000000 | retorno treino 5365 | pg -0.0121 v 0.0644 ent 0.338 kl 0.6536 clip 0.05 | β 0.0021 | 3978s
+[18:27:39]   [ppo 192] passos 884760/1000000 | retorno treino 5366 | pg -0.0138 v 0.0575 ent 0.380 kl 0.7644 clip 0.07 | β 0.0021 | 3998s
+[18:27:58]   [ppo 193] passos 889140/1000000 | retorno treino 5340 | pg -0.0114 v 0.0704 ent 0.375 kl 0.6580 clip 0.07 | β 0.0020 | 4017s
+[18:28:42]     [validação-rollback] passos 889140: 5294.2 (Δ_IL -60.4) | melhor 5455.0 @ 670140
+[18:29:01]   [ppo 194] passos 893520/1000000 | retorno treino 5439 | pg -0.0118 v 0.0630 ent 0.368 kl 0.6805 clip 0.07 | β 0.0020 | 4080s
+[18:29:21]   [ppo 195] passos 897900/1000000 | retorno treino 5395 | pg -0.0119 v 0.0607 ent 0.352 kl 0.7052 clip 0.06 | β 0.0019 | 4100s
+[18:29:41]   [ppo 196] passos 902280/1000000 | retorno treino 5398 | pg -0.0117 v 0.0749 ent 0.371 kl 0.6980 clip 0.07 | β 0.0019 | 4120s
+[18:29:59]   [ppo 197] passos 906660/1000000 | retorno treino 5336 | pg -0.0115 v 0.0660 ent 0.357 kl 0.7163 clip 0.06 | β 0.0019 | 4138s
+[18:30:18]   [ppo 198] passos 911040/1000000 | retorno treino 5360 | pg -0.0138 v 0.0621 ent 0.434 kl 0.8181 clip 0.05 | β 0.0018 | 4157s
+[18:30:36]   [ppo 199] passos 915420/1000000 | retorno treino 5327 | pg -0.0126 v 0.0881 ent 0.388 kl 0.8329 clip 0.06 | β 0.0018 | 4175s
+[18:30:55]   [ppo 200] passos 919800/1000000 | retorno treino 5458 | pg -0.0118 v 0.0701 ent 0.369 kl 0.7249 clip 0.06 | β 0.0018 | 4194s
+[18:31:13]   [ppo 201] passos 924180/1000000 | retorno treino 5374 | pg -0.0144 v 0.0710 ent 0.405 kl 0.7934 clip 0.06 | β 0.0017 | 4212s
+[18:31:28]   [ppo 202] passos 928560/1000000 | retorno treino 5509 | pg -0.0131 v 0.0617 ent 0.366 kl 0.7047 clip 0.05 | β 0.0017 | 4227s
+[18:31:48]   [ppo 203] passos 932940/1000000 | retorno treino 5353 | pg -0.0143 v 0.0653 ent 0.383 kl 0.7861 clip 0.07 | β 0.0017 | 4247s
+[18:32:08]   [ppo 204] passos 937320/1000000 | retorno treino 5411 | pg -0.0116 v 0.0768 ent 0.376 kl 0.7577 clip 0.06 | β 0.0016 | 4267s
+[18:32:27]   [ppo 205] passos 941700/1000000 | retorno treino 5441 | pg -0.0098 v 0.0928 ent 0.373 kl 0.7582 clip 0.06 | β 0.0016 | 4286s
+[18:32:46]   [ppo 206] passos 946080/1000000 | retorno treino 5330 | pg -0.0154 v 0.0721 ent 0.401 kl 0.8460 clip 0.06 | β 0.0016 | 4305s
+[18:33:04]   [ppo 207] passos 950460/1000000 | retorno treino 5437 | pg -0.0113 v 0.0786 ent 0.343 kl 0.7521 clip 0.06 | β 0.0015 | 4323s
+[18:33:23]   [ppo 208] passos 954840/1000000 | retorno treino 5283 | pg -0.0119 v 0.0910 ent 0.383 kl 0.8080 clip 0.05 | β 0.0015 | 4342s
+[18:33:42]   [ppo 209] passos 959220/1000000 | retorno treino 5388 | pg -0.0118 v 0.0756 ent 0.383 kl 0.8263 clip 0.05 | β 0.0015 | 4361s
+[18:34:00]   [ppo 210] passos 963600/1000000 | retorno treino 5485 | pg -0.0094 v 0.0653 ent 0.348 kl 0.7917 clip 0.04 | β 0.0014 | 4379s
+[18:34:18]   [ppo 211] passos 967980/1000000 | retorno treino 5387 | pg -0.0134 v 0.0609 ent 0.377 kl 0.8105 clip 0.08 | β 0.0014 | 4397s
+[18:34:37]   [ppo 212] passos 972360/1000000 | retorno treino 5400 | pg -0.0126 v 0.0672 ent 0.362 kl 0.7829 clip 0.05 | β 0.0014 | 4416s
+[18:34:55]   [ppo 213] passos 976740/1000000 | retorno treino 5430 | pg -0.0095 v 0.0682 ent 0.358 kl 0.7457 clip 0.03 | β 0.0014 | 4435s
+[18:35:15]   [ppo 214] passos 981120/1000000 | retorno treino 5428 | pg -0.0119 v 0.0635 ent 0.358 kl 0.7952 clip 0.05 | β 0.0013 | 4454s
+[18:35:34]   [ppo 215] passos 985500/1000000 | retorno treino 5511 | pg -0.0094 v 0.0669 ent 0.394 kl 0.7768 clip 0.05 | β 0.0013 | 4473s
+[18:35:52]   [ppo 216] passos 989880/1000000 | retorno treino 5382 | pg -0.0094 v 0.0694 ent 0.378 kl 0.7593 clip 0.04 | β 0.0013 | 4491s
+[18:36:05]   [ppo 217] passos 994260/1000000 | retorno treino 5206 | pg -0.0103 v 0.1201 ent 0.392 kl 0.8886 clip 0.04 | β 0.0012 | 4504s
+[18:36:18]   [ppo 218] passos 998640/1000000 | retorno treino 5440 | pg -0.0087 v 0.0730 ent 0.386 kl 0.7322 clip 0.03 | β 0.0012 | 4517s
+[18:36:31]   [ppo 219] passos 1003020/1000000 | retorno treino 5389 | pg -0.0128 v 0.0717 ent 0.343 kl 0.8403 clip 0.06 | β 0.0012 | 4530s
+[18:37:02]     [validação-rollback] passos 1003020: 5318.1 (Δ_IL -36.4) | melhor 5455.0 @ 670140
+[18:37:48]     [validacao_objetivo] in_dist  média  5389.4 ±  304.7 IQM  5449.2 norm 0.986 | ocioso 21%
+[18:38:33]     [validacao_objetivo] dry      média  2570.3 ±  211.2 IQM  2610.5 norm 0.862 | ocioso 11%
+[18:39:21]     [validacao_objetivo] humid    média  5108.1 ±  351.1 IQM  5198.3 norm 0.95 | ocioso 19%
+[18:40:40]     [teste             ] in_dist  média  5391.5 ±  279.0 IQM  5438.5 norm 0.988 | ocioso 23%
+[18:41:56]     [teste             ] dry      média  2610.0 ±  188.1 IQM  2632.2 norm 0.873 | ocioso 11%
+[18:43:18]     [teste             ] humid    média  5090.7 ±  348.2 IQM  5162.5 norm 0.945 | ocioso 20%
+[18:44:36]     [teste (argmax)     ] in_dist  média  5267.6 ±  312.0 IQM  5320.2 norm 0.962 | ocioso 25%
+[18:45:52]     [teste (argmax)     ] dry      média  2564.3 ±  191.4 IQM  2586.1 norm 0.856 | ocioso 12%
+[18:47:10]     [teste (argmax)     ] humid    média  5024.9 ±  338.0 IQM  5085.6 norm 0.93 | ocioso 22%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\rl_padrao\ppo_il\seed_123\modelo_final.pt
+[18:47:10] === ppo_il | seed 2024 ===
+[18:47:39]   IL de partida em validação-rollback: 5287.3
+[18:47:53]   [aquec 1/10] passos 4380 | retorno bruto médio 5167 | perda_valor 8.0969
+[18:48:05]   [aquec 2/10] passos 8760 | retorno bruto médio 5315 | perda_valor 6.1095
+[18:48:16]   [aquec 3/10] passos 13140 | retorno bruto médio 5190 | perda_valor 3.3164
+[18:48:28]   [aquec 4/10] passos 17520 | retorno bruto médio 5420 | perda_valor 1.5722
+[18:48:40]   [aquec 5/10] passos 21900 | retorno bruto médio 5472 | perda_valor 0.9728
+[18:48:51]   [aquec 6/10] passos 26280 | retorno bruto médio 5275 | perda_valor 0.7164
+[18:49:02]   [aquec 7/10] passos 30660 | retorno bruto médio 5323 | perda_valor 0.6936
+[18:49:21]   [aquec 8/10] passos 35040 | retorno bruto médio 5368 | perda_valor 0.8548
+[18:49:41]   [aquec 9/10] passos 39420 | retorno bruto médio 5319 | perda_valor 0.6183
+[18:49:59]   [aquec 10/10] passos 43800 | retorno bruto médio 5249 | perda_valor 0.7033
+[18:50:21]   [ppo 1] passos 48180/1000000 | retorno treino 5215 | pg -0.0099 v 0.4837 ent 0.078 kl 0.0211 clip 0.05 | β 0.0980 | 161s
+[18:50:41]   [ppo 2] passos 52560/1000000 | retorno treino 5300 | pg -0.0074 v 0.3601 ent 0.084 kl 0.0231 clip 0.03 | β 0.0960 | 182s
+[18:50:59]   [ppo 3] passos 56940/1000000 | retorno treino 5210 | pg -0.0083 v 0.3240 ent 0.104 kl 0.0317 clip 0.04 | β 0.0941 | 200s
+[18:51:19]   [ppo 4] passos 61320/1000000 | retorno treino 5207 | pg -0.0071 v 0.2767 ent 0.097 kl 0.0380 clip 0.04 | β 0.0922 | 219s
+[18:51:36]   [ppo 5] passos 65700/1000000 | retorno treino 5270 | pg -0.0067 v 0.1863 ent 0.094 kl 0.0342 clip 0.04 | β 0.0904 | 237s
+[18:51:54]   [ppo 6] passos 70080/1000000 | retorno treino 5161 | pg -0.0087 v 0.1869 ent 0.106 kl 0.0395 clip 0.04 | β 0.0886 | 255s
+[18:52:12]   [ppo 7] passos 74460/1000000 | retorno treino 5147 | pg -0.0081 v 0.1617 ent 0.123 kl 0.0585 clip 0.05 | β 0.0868 | 272s
+[18:52:30]   [ppo 8] passos 78840/1000000 | retorno treino 5409 | pg -0.0069 v 0.1582 ent 0.106 kl 0.0491 clip 0.04 | β 0.0851 | 291s
+[18:52:47]   [ppo 9] passos 83220/1000000 | retorno treino 5373 | pg -0.0063 v 0.1409 ent 0.103 kl 0.0415 clip 0.04 | β 0.0834 | 307s
+[18:53:06]   [ppo 10] passos 87600/1000000 | retorno treino 5394 | pg -0.0065 v 0.1885 ent 0.103 kl 0.0509 clip 0.03 | β 0.0817 | 326s
+[18:53:23]   [ppo 11] passos 91980/1000000 | retorno treino 5174 | pg -0.0059 v 0.4250 ent 0.102 kl 0.0498 clip 0.03 | β 0.0801 | 344s
+[18:53:39]   [ppo 12] passos 96360/1000000 | retorno treino 5311 | pg -0.0074 v 0.2068 ent 0.101 kl 0.0497 clip 0.03 | β 0.0785 | 360s
+[18:53:55]   [ppo 13] passos 100740/1000000 | retorno treino 5337 | pg -0.0065 v 0.1326 ent 0.088 kl 0.0385 clip 0.04 | β 0.0769 | 376s
+[18:54:13]   [ppo 14] passos 105120/1000000 | retorno treino 5263 | pg -0.0105 v 0.1207 ent 0.099 kl 0.0668 clip 0.05 | β 0.0754 | 393s
+[18:54:30]   [ppo 15] passos 109500/1000000 | retorno treino 5152 | pg -0.0074 v 0.1712 ent 0.107 kl 0.0628 clip 0.05 | β 0.0739 | 410s
+[18:54:47]   [ppo 16] passos 113880/1000000 | retorno treino 5284 | pg -0.0084 v 0.1305 ent 0.102 kl 0.0695 clip 0.04 | β 0.0724 | 428s
+[18:55:22]     [validação-rollback] passos 113880: 5268.9 (Δ_IL -18.4) | melhor 5287.3 @ 0
+[18:55:38]   [ppo 17] passos 118260/1000000 | retorno treino 5399 | pg -0.0045 v 0.1460 ent 0.079 kl 0.0570 clip 0.03 | β 0.0709 | 479s
+[18:55:55]   [ppo 18] passos 122640/1000000 | retorno treino 5192 | pg -0.0068 v 0.1726 ent 0.107 kl 0.0760 clip 0.03 | β 0.0695 | 495s
+[18:56:12]   [ppo 19] passos 127020/1000000 | retorno treino 5376 | pg -0.0067 v 0.1645 ent 0.101 kl 0.0703 clip 0.04 | β 0.0681 | 513s
+[18:56:30]   [ppo 20] passos 131400/1000000 | retorno treino 5317 | pg -0.0071 v 0.1517 ent 0.103 kl 0.0765 clip 0.04 | β 0.0668 | 530s
+[18:56:47]   [ppo 21] passos 135780/1000000 | retorno treino 5532 | pg -0.0074 v 0.1005 ent 0.088 kl 0.0868 clip 0.03 | β 0.0654 | 548s
+[18:57:04]   [ppo 22] passos 140160/1000000 | retorno treino 5339 | pg -0.0077 v 0.1123 ent 0.099 kl 0.0893 clip 0.04 | β 0.0641 | 565s
+[18:57:21]   [ppo 23] passos 144540/1000000 | retorno treino 5324 | pg -0.0075 v 0.1052 ent 0.098 kl 0.0848 clip 0.04 | β 0.0628 | 582s
+[18:57:38]   [ppo 24] passos 148920/1000000 | retorno treino 5236 | pg -0.0055 v 0.1218 ent 0.102 kl 0.0841 clip 0.03 | β 0.0616 | 599s
+[18:57:55]   [ppo 25] passos 153300/1000000 | retorno treino 5404 | pg -0.0068 v 0.1111 ent 0.093 kl 0.0818 clip 0.04 | β 0.0603 | 616s
+[18:58:12]   [ppo 26] passos 157680/1000000 | retorno treino 5274 | pg -0.0079 v 0.1137 ent 0.102 kl 0.0837 clip 0.04 | β 0.0591 | 632s
+[18:58:28]   [ppo 27] passos 162060/1000000 | retorno treino 5309 | pg -0.0074 v 0.0960 ent 0.111 kl 0.1110 clip 0.04 | β 0.0580 | 649s
+[18:58:45]   [ppo 28] passos 166440/1000000 | retorno treino 5456 | pg -0.0049 v 0.1147 ent 0.092 kl 0.0771 clip 0.02 | β 0.0568 | 665s
+[18:59:01]   [ppo 29] passos 170820/1000000 | retorno treino 5299 | pg -0.0097 v 0.1015 ent 0.105 kl 0.0892 clip 0.04 | β 0.0557 | 682s
+[18:59:18]   [ppo 30] passos 175200/1000000 | retorno treino 5166 | pg -0.0072 v 0.1065 ent 0.096 kl 0.0897 clip 0.03 | β 0.0545 | 699s
+[18:59:35]   [ppo 31] passos 179580/1000000 | retorno treino 5439 | pg -0.0085 v 0.0913 ent 0.104 kl 0.0981 clip 0.04 | β 0.0535 | 715s
+[18:59:51]   [ppo 32] passos 183960/1000000 | retorno treino 5379 | pg -0.0071 v 0.0943 ent 0.098 kl 0.0853 clip 0.04 | β 0.0524 | 732s
+[19:00:08]   [ppo 33] passos 188340/1000000 | retorno treino 5295 | pg -0.0056 v 0.1152 ent 0.114 kl 0.0955 clip 0.03 | β 0.0513 | 749s
+[19:00:25]   [ppo 34] passos 192720/1000000 | retorno treino 5411 | pg -0.0084 v 0.0996 ent 0.121 kl 0.1020 clip 0.04 | β 0.0503 | 766s
+[19:00:42]   [ppo 35] passos 197100/1000000 | retorno treino 5361 | pg -0.0065 v 0.1087 ent 0.110 kl 0.0969 clip 0.03 | β 0.0493 | 783s
+[19:00:58]   [ppo 36] passos 201480/1000000 | retorno treino 5461 | pg -0.0077 v 0.1204 ent 0.088 kl 0.1022 clip 0.04 | β 0.0483 | 799s
+[19:01:15]   [ppo 37] passos 205860/1000000 | retorno treino 5385 | pg -0.0079 v 0.0901 ent 0.121 kl 0.1127 clip 0.05 | β 0.0474 | 816s
+[19:01:32]   [ppo 38] passos 210240/1000000 | retorno treino 5307 | pg -0.0067 v 0.0941 ent 0.092 kl 0.0775 clip 0.03 | β 0.0464 | 833s
+[19:01:49]   [ppo 39] passos 214620/1000000 | retorno treino 5216 | pg -0.0057 v 0.1149 ent 0.101 kl 0.0953 clip 0.02 | β 0.0455 | 849s
+[19:02:06]   [ppo 40] passos 219000/1000000 | retorno treino 5291 | pg -0.0082 v 0.1102 ent 0.101 kl 0.1084 clip 0.04 | β 0.0446 | 866s
+[19:02:22]   [ppo 41] passos 223380/1000000 | retorno treino 5197 | pg -0.0075 v 0.1165 ent 0.096 kl 0.1036 clip 0.03 | β 0.0437 | 883s
+[19:02:58]     [validação-rollback] passos 223380: 5146.2 (Δ_IL -141.1) | melhor 5287.3 @ 0
+[19:03:15]   [ppo 42] passos 227760/1000000 | retorno treino 5306 | pg -0.0077 v 0.0832 ent 0.104 kl 0.0968 clip 0.03 | β 0.0428 | 935s
+[19:03:31]   [ppo 43] passos 232140/1000000 | retorno treino 5314 | pg -0.0095 v 0.0792 ent 0.107 kl 0.0977 clip 0.04 | β 0.0419 | 952s
+[19:03:48]   [ppo 44] passos 236520/1000000 | retorno treino 5339 | pg -0.0071 v 0.0759 ent 0.096 kl 0.1054 clip 0.03 | β 0.0411 | 969s
+[19:04:05]   [ppo 45] passos 240900/1000000 | retorno treino 5201 | pg -0.0087 v 0.0725 ent 0.122 kl 0.1326 clip 0.04 | β 0.0403 | 985s
+[19:04:22]   [ppo 46] passos 245280/1000000 | retorno treino 5160 | pg -0.0099 v 0.0887 ent 0.117 kl 0.1131 clip 0.04 | β 0.0395 | 1002s
+[19:04:39]   [ppo 47] passos 249660/1000000 | retorno treino 5175 | pg -0.0091 v 0.0667 ent 0.125 kl 0.1166 clip 0.05 | β 0.0387 | 1019s
+[19:04:55]   [ppo 48] passos 254040/1000000 | retorno treino 5365 | pg -0.0066 v 0.1076 ent 0.110 kl 0.1201 clip 0.04 | β 0.0379 | 1036s
+[19:05:12]   [ppo 49] passos 258420/1000000 | retorno treino 5463 | pg -0.0067 v 0.1415 ent 0.106 kl 0.1281 clip 0.02 | β 0.0372 | 1053s
+[19:05:29]   [ppo 50] passos 262800/1000000 | retorno treino 5228 | pg -0.0066 v 0.1048 ent 0.113 kl 0.1221 clip 0.03 | β 0.0364 | 1070s
+[19:05:46]   [ppo 51] passos 267180/1000000 | retorno treino 5175 | pg -0.0061 v 0.1077 ent 0.114 kl 0.1389 clip 0.03 | β 0.0357 | 1087s
+[19:06:03]   [ppo 52] passos 271560/1000000 | retorno treino 5432 | pg -0.0088 v 0.0681 ent 0.114 kl 0.1088 clip 0.04 | β 0.0350 | 1104s
+[19:06:20]   [ppo 53] passos 275940/1000000 | retorno treino 5231 | pg -0.0089 v 0.1033 ent 0.121 kl 0.1242 clip 0.04 | β 0.0343 | 1120s
+[19:06:36]   [ppo 54] passos 280320/1000000 | retorno treino 5250 | pg -0.0075 v 0.0837 ent 0.114 kl 0.1311 clip 0.03 | β 0.0336 | 1137s
+[19:06:53]   [ppo 55] passos 284700/1000000 | retorno treino 5193 | pg -0.0089 v 0.0891 ent 0.106 kl 0.1154 clip 0.04 | β 0.0329 | 1153s
+[19:07:10]   [ppo 56] passos 289080/1000000 | retorno treino 5408 | pg -0.0069 v 0.0802 ent 0.113 kl 0.1279 clip 0.03 | β 0.0323 | 1170s
+[19:07:27]   [ppo 57] passos 293460/1000000 | retorno treino 5296 | pg -0.0084 v 0.0877 ent 0.124 kl 0.1459 clip 0.04 | β 0.0316 | 1187s
+[19:07:44]   [ppo 58] passos 297840/1000000 | retorno treino 5339 | pg -0.0070 v 0.0930 ent 0.126 kl 0.1293 clip 0.03 | β 0.0310 | 1204s
+[19:08:00]   [ppo 59] passos 302220/1000000 | retorno treino 5359 | pg -0.0082 v 0.1068 ent 0.124 kl 0.1408 clip 0.04 | β 0.0304 | 1221s
+[19:08:17]   [ppo 60] passos 306600/1000000 | retorno treino 5298 | pg -0.0069 v 0.1428 ent 0.124 kl 0.1319 clip 0.04 | β 0.0298 | 1238s
+[19:08:34]   [ppo 61] passos 310980/1000000 | retorno treino 5360 | pg -0.0098 v 0.1109 ent 0.132 kl 0.1652 clip 0.05 | β 0.0292 | 1255s
+[19:08:51]   [ppo 62] passos 315360/1000000 | retorno treino 5320 | pg -0.0084 v 0.1053 ent 0.143 kl 0.1986 clip 0.05 | β 0.0286 | 1272s
+[19:09:08]   [ppo 63] passos 319740/1000000 | retorno treino 5327 | pg -0.0117 v 0.0695 ent 0.147 kl 0.2107 clip 0.06 | β 0.0280 | 1288s
+[19:09:24]   [ppo 64] passos 324120/1000000 | retorno treino 5271 | pg -0.0077 v 0.0926 ent 0.129 kl 0.1699 clip 0.05 | β 0.0274 | 1305s
+[19:09:41]   [ppo 65] passos 328500/1000000 | retorno treino 5324 | pg -0.0064 v 0.1054 ent 0.132 kl 0.1657 clip 0.04 | β 0.0269 | 1322s
+[19:09:58]   [ppo 66] passos 332880/1000000 | retorno treino 5331 | pg -0.0076 v 0.1141 ent 0.150 kl 0.2002 clip 0.03 | β 0.0264 | 1338s
+[19:10:15]   [ppo 67] passos 337260/1000000 | retorno treino 5249 | pg -0.0089 v 0.0918 ent 0.132 kl 0.1903 clip 0.04 | β 0.0258 | 1355s
+[19:10:50]     [validação-rollback] passos 337260: 5237.7 (Δ_IL -49.6) | melhor 5287.3 @ 0
+[19:11:07]   [ppo 68] passos 341640/1000000 | retorno treino 5294 | pg -0.0077 v 0.0878 ent 0.122 kl 0.1836 clip 0.03 | β 0.0253 | 1408s
+[19:11:24]   [ppo 69] passos 346020/1000000 | retorno treino 5304 | pg -0.0063 v 0.0941 ent 0.127 kl 0.1656 clip 0.04 | β 0.0248 | 1425s
+[19:11:41]   [ppo 70] passos 350400/1000000 | retorno treino 5290 | pg -0.0061 v 0.0824 ent 0.123 kl 0.1818 clip 0.03 | β 0.0243 | 1442s
+[19:11:58]   [ppo 71] passos 354780/1000000 | retorno treino 5457 | pg -0.0064 v 0.0772 ent 0.125 kl 0.1870 clip 0.03 | β 0.0238 | 1459s
+[19:12:15]   [ppo 72] passos 359160/1000000 | retorno treino 5433 | pg -0.0058 v 0.0923 ent 0.123 kl 0.1752 clip 0.03 | β 0.0233 | 1475s
+[19:12:31]   [ppo 73] passos 363540/1000000 | retorno treino 5335 | pg -0.0067 v 0.0625 ent 0.134 kl 0.1809 clip 0.03 | β 0.0229 | 1492s
+[19:12:48]   [ppo 74] passos 367920/1000000 | retorno treino 5372 | pg -0.0079 v 0.0812 ent 0.128 kl 0.1925 clip 0.04 | β 0.0224 | 1509s
+[19:13:05]   [ppo 75] passos 372300/1000000 | retorno treino 5248 | pg -0.0081 v 0.0734 ent 0.113 kl 0.1854 clip 0.04 | β 0.0220 | 1525s
+[19:13:21]   [ppo 76] passos 376680/1000000 | retorno treino 5211 | pg -0.0084 v 0.0943 ent 0.128 kl 0.2136 clip 0.04 | β 0.0215 | 1542s
+[19:13:38]   [ppo 77] passos 381060/1000000 | retorno treino 5349 | pg -0.0064 v 0.0913 ent 0.129 kl 0.2134 clip 0.03 | β 0.0211 | 1559s
+[19:13:55]   [ppo 78] passos 385440/1000000 | retorno treino 5229 | pg -0.0081 v 0.0849 ent 0.135 kl 0.1927 clip 0.04 | β 0.0207 | 1575s
+[19:14:11]   [ppo 79] passos 389820/1000000 | retorno treino 5330 | pg -0.0073 v 0.0817 ent 0.133 kl 0.1759 clip 0.04 | β 0.0203 | 1592s
+[19:14:28]   [ppo 80] passos 394200/1000000 | retorno treino 5384 | pg -0.0083 v 0.0652 ent 0.127 kl 0.1682 clip 0.04 | β 0.0199 | 1609s
+[19:14:44]   [ppo 81] passos 398580/1000000 | retorno treino 5239 | pg -0.0073 v 0.0669 ent 0.129 kl 0.1657 clip 0.04 | β 0.0195 | 1625s
+[19:15:01]   [ppo 82] passos 402960/1000000 | retorno treino 5207 | pg -0.0077 v 0.0774 ent 0.135 kl 0.2189 clip 0.04 | β 0.0191 | 1642s
+[19:15:18]   [ppo 83] passos 407340/1000000 | retorno treino 5295 | pg -0.0067 v 0.0647 ent 0.140 kl 0.2123 clip 0.05 | β 0.0187 | 1659s
+[19:15:35]   [ppo 84] passos 411720/1000000 | retorno treino 5332 | pg -0.0069 v 0.0695 ent 0.110 kl 0.1706 clip 0.04 | β 0.0183 | 1675s
+[19:15:52]   [ppo 85] passos 416100/1000000 | retorno treino 5420 | pg -0.0075 v 0.0675 ent 0.122 kl 0.1994 clip 0.03 | β 0.0180 | 1692s
+[19:16:09]   [ppo 86] passos 420480/1000000 | retorno treino 5212 | pg -0.0082 v 0.0911 ent 0.117 kl 0.1891 clip 0.03 | β 0.0176 | 1709s
+[19:16:25]   [ppo 87] passos 424860/1000000 | retorno treino 5326 | pg -0.0076 v 0.0928 ent 0.132 kl 0.1921 clip 0.04 | β 0.0172 | 1726s
+[19:16:42]   [ppo 88] passos 429240/1000000 | retorno treino 5261 | pg -0.0061 v 0.1376 ent 0.130 kl 0.1678 clip 0.03 | β 0.0169 | 1742s
+[19:16:59]   [ppo 89] passos 433620/1000000 | retorno treino 5271 | pg -0.0078 v 0.1390 ent 0.122 kl 0.2190 clip 0.03 | β 0.0166 | 1759s
+[19:17:15]   [ppo 90] passos 438000/1000000 | retorno treino 5442 | pg -0.0071 v 0.0782 ent 0.120 kl 0.1716 clip 0.03 | β 0.0162 | 1776s
+[19:17:32]   [ppo 91] passos 442380/1000000 | retorno treino 5192 | pg -0.0078 v 0.0918 ent 0.145 kl 0.2038 clip 0.03 | β 0.0159 | 1792s
+[19:17:48]   [ppo 92] passos 446760/1000000 | retorno treino 5545 | pg -0.0079 v 0.0698 ent 0.128 kl 0.1746 clip 0.03 | β 0.0156 | 1809s
+[19:18:24]     [validação-rollback] passos 446760: 5202.2 (Δ_IL -85.1) | melhor 5287.3 @ 0
+[19:18:41]   [ppo 93] passos 451140/1000000 | retorno treino 5401 | pg -0.0066 v 0.0710 ent 0.118 kl 0.1777 clip 0.03 | β 0.0153 | 1862s
+[19:18:58]   [ppo 94] passos 455520/1000000 | retorno treino 5366 | pg -0.0078 v 0.0697 ent 0.131 kl 0.2048 clip 0.03 | β 0.0150 | 1878s
+[19:19:14]   [ppo 95] passos 459900/1000000 | retorno treino 5413 | pg -0.0065 v 0.0843 ent 0.122 kl 0.2067 clip 0.02 | β 0.0147 | 1895s
+[19:19:31]   [ppo 96] passos 464280/1000000 | retorno treino 5251 | pg -0.0085 v 0.0694 ent 0.124 kl 0.1974 clip 0.03 | β 0.0144 | 1912s
+[19:19:48]   [ppo 97] passos 468660/1000000 | retorno treino 5221 | pg -0.0061 v 0.1263 ent 0.131 kl 0.2227 clip 0.03 | β 0.0141 | 1929s
+[19:20:05]   [ppo 98] passos 473040/1000000 | retorno treino 5258 | pg -0.0069 v 0.0831 ent 0.109 kl 0.1864 clip 0.03 | β 0.0138 | 1946s
+[19:20:22]   [ppo 99] passos 477420/1000000 | retorno treino 5364 | pg -0.0068 v 0.0725 ent 0.116 kl 0.2029 clip 0.03 | β 0.0135 | 1963s
+[19:20:39]   [ppo 100] passos 481800/1000000 | retorno treino 5210 | pg -0.0081 v 0.0967 ent 0.121 kl 0.2073 clip 0.03 | β 0.0133 | 1980s
+[19:20:56]   [ppo 101] passos 486180/1000000 | retorno treino 5184 | pg -0.0085 v 0.0843 ent 0.139 kl 0.2228 clip 0.04 | β 0.0130 | 1997s
+[19:21:13]   [ppo 102] passos 490560/1000000 | retorno treino 5323 | pg -0.0094 v 0.0772 ent 0.131 kl 0.2224 clip 0.04 | β 0.0127 | 2014s
+[19:21:30]   [ppo 103] passos 494940/1000000 | retorno treino 5325 | pg -0.0073 v 0.0718 ent 0.109 kl 0.2177 clip 0.03 | β 0.0125 | 2030s
+[19:21:47]   [ppo 104] passos 499320/1000000 | retorno treino 5331 | pg -0.0061 v 0.0788 ent 0.098 kl 0.2316 clip 0.03 | β 0.0122 | 2047s
+[19:22:03]   [ppo 105] passos 503700/1000000 | retorno treino 5437 | pg -0.0063 v 0.0692 ent 0.108 kl 0.2305 clip 0.03 | β 0.0120 | 2064s
+[19:22:20]   [ppo 106] passos 508080/1000000 | retorno treino 5194 | pg -0.0072 v 0.1087 ent 0.115 kl 0.2347 clip 0.03 | β 0.0117 | 2081s
+[19:22:37]   [ppo 107] passos 512460/1000000 | retorno treino 5195 | pg -0.0062 v 0.1028 ent 0.117 kl 0.2420 clip 0.03 | β 0.0115 | 2098s
+[19:22:54]   [ppo 108] passos 516840/1000000 | retorno treino 5374 | pg -0.0086 v 0.0913 ent 0.117 kl 0.2691 clip 0.03 | β 0.0113 | 2114s
+[19:23:11]   [ppo 109] passos 521220/1000000 | retorno treino 5375 | pg -0.0076 v 0.0680 ent 0.108 kl 0.2454 clip 0.03 | β 0.0111 | 2131s
+[19:23:26]   [ppo 110] passos 525600/1000000 | retorno treino 5273 | pg -0.0067 v 0.0981 ent 0.134 kl 0.2537 clip 0.04 | β 0.0108 | 2147s
+[19:23:37]   [ppo 111] passos 529980/1000000 | retorno treino 5293 | pg -0.0058 v 0.1008 ent 0.136 kl 0.2656 clip 0.03 | β 0.0106 | 2158s
+[19:23:48]   [ppo 112] passos 534360/1000000 | retorno treino 5296 | pg -0.0080 v 0.0875 ent 0.122 kl 0.2829 clip 0.03 | β 0.0104 | 2168s
+[19:23:58]   [ppo 113] passos 538740/1000000 | retorno treino 5463 | pg -0.0070 v 0.0720 ent 0.102 kl 0.2651 clip 0.03 | β 0.0102 | 2179s
+[19:24:09]   [ppo 114] passos 543120/1000000 | retorno treino 5190 | pg -0.0083 v 0.0883 ent 0.141 kl 0.3409 clip 0.04 | β 0.0100 | 2190s
+[19:24:20]   [ppo 115] passos 547500/1000000 | retorno treino 5285 | pg -0.0075 v 0.0751 ent 0.133 kl 0.2906 clip 0.03 | β 0.0098 | 2200s
+[19:24:30]   [ppo 116] passos 551880/1000000 | retorno treino 5200 | pg -0.0085 v 0.0973 ent 0.130 kl 0.2757 clip 0.04 | β 0.0096 | 2211s
+[19:24:41]   [ppo 117] passos 556260/1000000 | retorno treino 5367 | pg -0.0075 v 0.0771 ent 0.122 kl 0.2576 clip 0.04 | β 0.0094 | 2222s
+[19:25:06]     [validação-rollback] passos 556260: 5338.1 (Δ_IL 50.8) | melhor 5338.1 @ 556260
+[19:25:17]   [ppo 118] passos 560640/1000000 | retorno treino 5443 | pg -0.0055 v 0.0849 ent 0.118 kl 0.2777 clip 0.03 | β 0.0092 | 2257s
+[19:25:27]   [ppo 119] passos 565020/1000000 | retorno treino 5137 | pg -0.0066 v 0.1248 ent 0.155 kl 0.2861 clip 0.04 | β 0.0090 | 2268s
+[19:25:38]   [ppo 120] passos 569400/1000000 | retorno treino 5392 | pg -0.0099 v 0.0696 ent 0.143 kl 0.3133 clip 0.05 | β 0.0089 | 2279s
+[19:25:48]   [ppo 121] passos 573780/1000000 | retorno treino 5323 | pg -0.0094 v 0.0832 ent 0.163 kl 0.3205 clip 0.04 | β 0.0087 | 2289s
+[19:25:59]   [ppo 122] passos 578160/1000000 | retorno treino 5446 | pg -0.0075 v 0.0810 ent 0.143 kl 0.3273 clip 0.03 | β 0.0085 | 2300s
+[19:26:09]   [ppo 123] passos 582540/1000000 | retorno treino 5343 | pg -0.0087 v 0.0806 ent 0.137 kl 0.3157 clip 0.03 | β 0.0083 | 2310s
+[19:26:20]   [ppo 124] passos 586920/1000000 | retorno treino 5164 | pg -0.0103 v 0.0661 ent 0.187 kl 0.3388 clip 0.05 | β 0.0082 | 2320s
+[19:26:30]   [ppo 125] passos 591300/1000000 | retorno treino 5346 | pg -0.0090 v 0.0607 ent 0.153 kl 0.3111 clip 0.05 | β 0.0080 | 2330s
+[19:26:40]   [ppo 126] passos 595680/1000000 | retorno treino 5355 | pg -0.0094 v 0.0749 ent 0.157 kl 0.3472 clip 0.04 | β 0.0078 | 2341s
+[19:26:51]   [ppo 127] passos 600060/1000000 | retorno treino 5438 | pg -0.0056 v 0.1169 ent 0.172 kl 0.3409 clip 0.04 | β 0.0077 | 2351s
+[19:27:01]   [ppo 128] passos 604440/1000000 | retorno treino 5319 | pg -0.0092 v 0.0855 ent 0.183 kl 0.3791 clip 0.05 | β 0.0075 | 2362s
+[19:27:12]   [ppo 129] passos 608820/1000000 | retorno treino 5267 | pg -0.0090 v 0.0792 ent 0.197 kl 0.3888 clip 0.05 | β 0.0074 | 2372s
+[19:27:22]   [ppo 130] passos 613200/1000000 | retorno treino 5329 | pg -0.0084 v 0.0781 ent 0.166 kl 0.3659 clip 0.05 | β 0.0072 | 2383s
+[19:27:32]   [ppo 131] passos 617580/1000000 | retorno treino 5349 | pg -0.0113 v 0.0626 ent 0.182 kl 0.3322 clip 0.05 | β 0.0071 | 2393s
+[19:27:43]   [ppo 132] passos 621960/1000000 | retorno treino 5117 | pg -0.0105 v 0.0714 ent 0.186 kl 0.3482 clip 0.05 | β 0.0069 | 2403s
+[19:27:53]   [ppo 133] passos 626340/1000000 | retorno treino 5490 | pg -0.0067 v 0.0755 ent 0.172 kl 0.3925 clip 0.03 | β 0.0068 | 2414s
+[19:28:03]   [ppo 134] passos 630720/1000000 | retorno treino 5292 | pg -0.0104 v 0.0712 ent 0.197 kl 0.4246 clip 0.06 | β 0.0067 | 2424s
+[19:28:14]   [ppo 135] passos 635100/1000000 | retorno treino 5324 | pg -0.0095 v 0.0767 ent 0.180 kl 0.3771 clip 0.03 | β 0.0065 | 2434s
+[19:28:24]   [ppo 136] passos 639480/1000000 | retorno treino 5303 | pg -0.0103 v 0.0740 ent 0.172 kl 0.3463 clip 0.04 | β 0.0064 | 2445s
+[19:28:34]   [ppo 137] passos 643860/1000000 | retorno treino 5288 | pg -0.0062 v 0.0780 ent 0.179 kl 0.3636 clip 0.05 | β 0.0063 | 2455s
+[19:28:45]   [ppo 138] passos 648240/1000000 | retorno treino 5196 | pg -0.0094 v 0.0711 ent 0.176 kl 0.3820 clip 0.05 | β 0.0062 | 2465s
+[19:28:55]   [ppo 139] passos 652620/1000000 | retorno treino 5410 | pg -0.0102 v 0.0632 ent 0.158 kl 0.4231 clip 0.05 | β 0.0060 | 2476s
+[19:29:06]   [ppo 140] passos 657000/1000000 | retorno treino 5369 | pg -0.0106 v 0.0568 ent 0.202 kl 0.4456 clip 0.06 | β 0.0059 | 2487s
+[19:29:17]   [ppo 141] passos 661380/1000000 | retorno treino 5344 | pg -0.0079 v 0.1006 ent 0.161 kl 0.3995 clip 0.05 | β 0.0058 | 2497s
+[19:29:28]   [ppo 142] passos 665760/1000000 | retorno treino 5272 | pg -0.0086 v 0.0675 ent 0.162 kl 0.3797 clip 0.03 | β 0.0057 | 2508s
+[19:29:38]   [ppo 143] passos 670140/1000000 | retorno treino 5424 | pg -0.0103 v 0.0543 ent 0.159 kl 0.3851 clip 0.05 | β 0.0056 | 2519s
+[19:30:02]     [validação-rollback] passos 670140: 5255.5 (Δ_IL -31.8) | melhor 5338.1 @ 556260
+[19:30:13]   [ppo 144] passos 674520/1000000 | retorno treino 5263 | pg -0.0108 v 0.0683 ent 0.168 kl 0.3824 clip 0.05 | β 0.0055 | 2553s
+[19:30:23]   [ppo 145] passos 678900/1000000 | retorno treino 5380 | pg -0.0081 v 0.0744 ent 0.173 kl 0.4278 clip 0.03 | β 0.0053 | 2564s
+[19:30:34]   [ppo 146] passos 683280/1000000 | retorno treino 5133 | pg -0.0066 v 0.1003 ent 0.153 kl 0.3573 clip 0.02 | β 0.0052 | 2575s
+[19:30:45]   [ppo 147] passos 687660/1000000 | retorno treino 5323 | pg -0.0099 v 0.0530 ent 0.136 kl 0.3320 clip 0.04 | β 0.0051 | 2585s
+[19:30:55]   [ppo 148] passos 692040/1000000 | retorno treino 5364 | pg -0.0086 v 0.0751 ent 0.150 kl 0.3490 clip 0.04 | β 0.0050 | 2596s
+[19:31:06]   [ppo 149] passos 696420/1000000 | retorno treino 5373 | pg -0.0070 v 0.0756 ent 0.147 kl 0.3704 clip 0.02 | β 0.0049 | 2606s
+[19:31:16]   [ppo 150] passos 700800/1000000 | retorno treino 5369 | pg -0.0085 v 0.0599 ent 0.145 kl 0.4223 clip 0.04 | β 0.0048 | 2617s
+[19:31:27]   [ppo 151] passos 705180/1000000 | retorno treino 5323 | pg -0.0096 v 0.0686 ent 0.157 kl 0.3736 clip 0.05 | β 0.0047 | 2627s
+[19:31:37]   [ppo 152] passos 709560/1000000 | retorno treino 5400 | pg -0.0090 v 0.0615 ent 0.142 kl 0.4101 clip 0.04 | β 0.0046 | 2638s
+[19:31:48]   [ppo 153] passos 713940/1000000 | retorno treino 5230 | pg -0.0092 v 0.0514 ent 0.130 kl 0.3877 clip 0.04 | β 0.0045 | 2649s
+[19:32:03]   [ppo 154] passos 718320/1000000 | retorno treino 5374 | pg -0.0098 v 0.0661 ent 0.130 kl 0.3978 clip 0.04 | β 0.0045 | 2664s
+[19:32:21]   [ppo 155] passos 722700/1000000 | retorno treino 5277 | pg -0.0085 v 0.0621 ent 0.151 kl 0.4079 clip 0.04 | β 0.0044 | 2682s
+[19:32:38]   [ppo 156] passos 727080/1000000 | retorno treino 5365 | pg -0.0093 v 0.0562 ent 0.143 kl 0.4111 clip 0.04 | β 0.0043 | 2699s
+[19:32:55]   [ppo 157] passos 731460/1000000 | retorno treino 5431 | pg -0.0088 v 0.0650 ent 0.144 kl 0.4206 clip 0.04 | β 0.0042 | 2716s
+[19:33:13]   [ppo 158] passos 735840/1000000 | retorno treino 5219 | pg -0.0077 v 0.0809 ent 0.156 kl 0.4532 clip 0.03 | β 0.0041 | 2733s
+[19:33:29]   [ppo 159] passos 740220/1000000 | retorno treino 5319 | pg -0.0075 v 0.0841 ent 0.166 kl 0.5236 clip 0.03 | β 0.0040 | 2750s
+[19:33:47]   [ppo 160] passos 744600/1000000 | retorno treino 5267 | pg -0.0072 v 0.0878 ent 0.157 kl 0.4515 clip 0.02 | β 0.0039 | 2767s
+[19:34:04]   [ppo 161] passos 748980/1000000 | retorno treino 5388 | pg -0.0067 v 0.0564 ent 0.136 kl 0.3939 clip 0.04 | β 0.0039 | 2785s
+[19:34:22]   [ppo 162] passos 753360/1000000 | retorno treino 5204 | pg -0.0058 v 0.0786 ent 0.159 kl 0.4353 clip 0.03 | β 0.0038 | 2802s
+[19:34:38]   [ppo 163] passos 757740/1000000 | retorno treino 5508 | pg -0.0066 v 0.0743 ent 0.139 kl 0.4660 clip 0.02 | β 0.0037 | 2819s
+[19:34:55]   [ppo 164] passos 762120/1000000 | retorno treino 5387 | pg -0.0089 v 0.0633 ent 0.175 kl 0.5355 clip 0.05 | β 0.0036 | 2836s
+[19:35:12]   [ppo 165] passos 766500/1000000 | retorno treino 5406 | pg -0.0076 v 0.0593 ent 0.174 kl 0.4406 clip 0.04 | β 0.0036 | 2852s
+[19:35:29]   [ppo 166] passos 770880/1000000 | retorno treino 5445 | pg -0.0086 v 0.0527 ent 0.160 kl 0.4893 clip 0.04 | β 0.0035 | 2869s
+[19:35:45]   [ppo 167] passos 775260/1000000 | retorno treino 5360 | pg -0.0095 v 0.0501 ent 0.174 kl 0.5008 clip 0.05 | β 0.0034 | 2886s
+[19:36:02]   [ppo 168] passos 779640/1000000 | retorno treino 5417 | pg -0.0097 v 0.0649 ent 0.169 kl 0.4897 clip 0.05 | β 0.0034 | 2902s
+[19:36:40]     [validação-rollback] passos 779640: 5197.9 (Δ_IL -89.4) | melhor 5338.1 @ 556260
+[19:36:56]   [ppo 169] passos 784020/1000000 | retorno treino 5424 | pg -0.0103 v 0.0468 ent 0.192 kl 0.5781 clip 0.06 | β 0.0033 | 2957s
+[19:37:13]   [ppo 170] passos 788400/1000000 | retorno treino 5369 | pg -0.0089 v 0.0607 ent 0.163 kl 0.5067 clip 0.05 | β 0.0032 | 2974s
+[19:37:30]   [ppo 171] passos 792780/1000000 | retorno treino 5452 | pg -0.0103 v 0.0469 ent 0.189 kl 0.5992 clip 0.05 | β 0.0032 | 2990s
+[19:37:46]   [ppo 172] passos 797160/1000000 | retorno treino 5404 | pg -0.0107 v 0.0514 ent 0.185 kl 0.6506 clip 0.06 | β 0.0031 | 3007s
+[19:38:03]   [ppo 173] passos 801540/1000000 | retorno treino 5400 | pg -0.0071 v 0.0726 ent 0.163 kl 0.5634 clip 0.04 | β 0.0030 | 3023s
+[19:38:19]   [ppo 174] passos 805920/1000000 | retorno treino 5376 | pg -0.0097 v 0.0621 ent 0.193 kl 0.6175 clip 0.05 | β 0.0030 | 3040s
+[19:38:35]   [ppo 175] passos 810300/1000000 | retorno treino 5419 | pg -0.0094 v 0.0554 ent 0.171 kl 0.5911 clip 0.04 | β 0.0029 | 3056s
+[19:38:52]   [ppo 176] passos 814680/1000000 | retorno treino 5336 | pg -0.0086 v 0.0791 ent 0.198 kl 0.6880 clip 0.04 | β 0.0029 | 3073s
+[19:39:08]   [ppo 177] passos 819060/1000000 | retorno treino 5332 | pg -0.0103 v 0.0668 ent 0.191 kl 0.6749 clip 0.04 | β 0.0028 | 3089s
+[19:39:25]   [ppo 178] passos 823440/1000000 | retorno treino 5460 | pg -0.0097 v 0.0604 ent 0.166 kl 0.5520 clip 0.04 | β 0.0027 | 3105s
+[19:39:41]   [ppo 179] passos 827820/1000000 | retorno treino 5414 | pg -0.0096 v 0.0515 ent 0.190 kl 0.5886 clip 0.04 | β 0.0027 | 3122s
+[19:39:57]   [ppo 180] passos 832200/1000000 | retorno treino 5302 | pg -0.0078 v 0.0765 ent 0.216 kl 0.6556 clip 0.04 | β 0.0026 | 3138s
+[19:40:14]   [ppo 181] passos 836580/1000000 | retorno treino 5455 | pg -0.0079 v 0.0561 ent 0.196 kl 0.6646 clip 0.04 | β 0.0026 | 3154s
+[19:40:31]   [ppo 182] passos 840960/1000000 | retorno treino 5320 | pg -0.0074 v 0.0717 ent 0.196 kl 0.6556 clip 0.04 | β 0.0025 | 3171s
+[19:40:47]   [ppo 183] passos 845340/1000000 | retorno treino 5251 | pg -0.0095 v 0.0770 ent 0.205 kl 0.6598 clip 0.05 | β 0.0025 | 3188s
+[19:41:03]   [ppo 184] passos 849720/1000000 | retorno treino 5364 | pg -0.0091 v 0.0794 ent 0.189 kl 0.5922 clip 0.04 | β 0.0024 | 3204s
+[19:41:20]   [ppo 185] passos 854100/1000000 | retorno treino 5359 | pg -0.0108 v 0.0492 ent 0.191 kl 0.6392 clip 0.05 | β 0.0024 | 3221s
+[19:41:39]   [ppo 186] passos 858480/1000000 | retorno treino 5242 | pg -0.0123 v 0.0680 ent 0.180 kl 0.6336 clip 0.05 | β 0.0023 | 3239s
+[19:41:55]   [ppo 187] passos 862860/1000000 | retorno treino 5304 | pg -0.0119 v 0.0624 ent 0.199 kl 0.6557 clip 0.05 | β 0.0023 | 3256s
+[19:42:12]   [ppo 188] passos 867240/1000000 | retorno treino 5369 | pg -0.0103 v 0.0540 ent 0.204 kl 0.7198 clip 0.06 | β 0.0022 | 3273s
+[19:42:28]   [ppo 189] passos 871620/1000000 | retorno treino 5414 | pg -0.0092 v 0.0667 ent 0.185 kl 0.6538 clip 0.04 | β 0.0022 | 3289s
+[19:42:45]   [ppo 190] passos 876000/1000000 | retorno treino 5477 | pg -0.0085 v 0.0577 ent 0.178 kl 0.7596 clip 0.04 | β 0.0022 | 3306s
+[19:43:01]   [ppo 191] passos 880380/1000000 | retorno treino 5373 | pg -0.0095 v 0.0713 ent 0.182 kl 0.6036 clip 0.05 | β 0.0021 | 3322s
+[19:43:18]   [ppo 192] passos 884760/1000000 | retorno treino 5323 | pg -0.0103 v 0.0592 ent 0.180 kl 0.5819 clip 0.05 | β 0.0021 | 3338s
+[19:43:34]   [ppo 193] passos 889140/1000000 | retorno treino 5497 | pg -0.0103 v 0.0527 ent 0.181 kl 0.6495 clip 0.04 | β 0.0020 | 3355s
+[19:44:09]     [validação-rollback] passos 889140: 5330.5 (Δ_IL 43.2) | melhor 5338.1 @ 556260
+[19:44:26]   [ppo 194] passos 893520/1000000 | retorno treino 5427 | pg -0.0094 v 0.0629 ent 0.196 kl 0.7312 clip 0.05 | β 0.0020 | 3406s
+[19:44:42]   [ppo 195] passos 897900/1000000 | retorno treino 5510 | pg -0.0101 v 0.0448 ent 0.191 kl 0.7587 clip 0.05 | β 0.0019 | 3423s
+[19:44:59]   [ppo 196] passos 902280/1000000 | retorno treino 5456 | pg -0.0127 v 0.0633 ent 0.207 kl 0.7444 clip 0.06 | β 0.0019 | 3440s
+[19:45:15]   [ppo 197] passos 906660/1000000 | retorno treino 5505 | pg -0.0083 v 0.0640 ent 0.197 kl 0.7464 clip 0.03 | β 0.0019 | 3456s
+[19:45:33]   [ppo 198] passos 911040/1000000 | retorno treino 5287 | pg -0.0102 v 0.0523 ent 0.199 kl 0.7407 clip 0.06 | β 0.0018 | 3473s
+[19:45:50]   [ppo 199] passos 915420/1000000 | retorno treino 5486 | pg -0.0105 v 0.0430 ent 0.193 kl 0.6849 clip 0.05 | β 0.0018 | 3490s
+[19:46:07]   [ppo 200] passos 919800/1000000 | retorno treino 5415 | pg -0.0108 v 0.0562 ent 0.221 kl 0.7748 clip 0.06 | β 0.0018 | 3507s
+[19:46:23]   [ppo 201] passos 924180/1000000 | retorno treino 5247 | pg -0.0099 v 0.0654 ent 0.228 kl 0.8239 clip 0.04 | β 0.0017 | 3524s
+[19:46:40]   [ppo 202] passos 928560/1000000 | retorno treino 5476 | pg -0.0097 v 0.0528 ent 0.213 kl 0.8502 clip 0.06 | β 0.0017 | 3540s
+[19:46:56]   [ppo 203] passos 932940/1000000 | retorno treino 5356 | pg -0.0058 v 0.1016 ent 0.207 kl 0.7445 clip 0.04 | β 0.0017 | 3557s
+[19:47:12]   [ppo 204] passos 937320/1000000 | retorno treino 5461 | pg -0.0084 v 0.0582 ent 0.218 kl 0.7222 clip 0.03 | β 0.0016 | 3573s
+[19:47:29]   [ppo 205] passos 941700/1000000 | retorno treino 5386 | pg -0.0109 v 0.0510 ent 0.222 kl 0.8018 clip 0.06 | β 0.0016 | 3589s
+[19:47:45]   [ppo 206] passos 946080/1000000 | retorno treino 5447 | pg -0.0109 v 0.0568 ent 0.228 kl 0.8210 clip 0.06 | β 0.0016 | 3606s
+[19:48:01]   [ppo 207] passos 950460/1000000 | retorno treino 5537 | pg -0.0117 v 0.0546 ent 0.217 kl 0.7661 clip 0.05 | β 0.0015 | 3622s
+[19:48:18]   [ppo 208] passos 954840/1000000 | retorno treino 5276 | pg -0.0054 v 0.1306 ent 0.213 kl 0.7610 clip 0.04 | β 0.0015 | 3638s
+[19:48:34]   [ppo 209] passos 959220/1000000 | retorno treino 5446 | pg -0.0108 v 0.0489 ent 0.212 kl 0.8283 clip 0.04 | β 0.0015 | 3655s
+[19:48:50]   [ppo 210] passos 963600/1000000 | retorno treino 5383 | pg -0.0103 v 0.0559 ent 0.222 kl 0.8187 clip 0.05 | β 0.0014 | 3671s
+[19:49:07]   [ppo 211] passos 967980/1000000 | retorno treino 5301 | pg -0.0098 v 0.0605 ent 0.199 kl 0.7779 clip 0.05 | β 0.0014 | 3687s
+[19:49:23]   [ppo 212] passos 972360/1000000 | retorno treino 5530 | pg -0.0111 v 0.0449 ent 0.206 kl 0.7941 clip 0.05 | β 0.0014 | 3704s
+[19:49:40]   [ppo 213] passos 976740/1000000 | retorno treino 5412 | pg -0.0095 v 0.0426 ent 0.189 kl 0.7247 clip 0.04 | β 0.0014 | 3721s
+[19:49:58]   [ppo 214] passos 981120/1000000 | retorno treino 5267 | pg -0.0112 v 0.0750 ent 0.213 kl 0.7754 clip 0.05 | β 0.0013 | 3739s
+[19:50:15]   [ppo 215] passos 985500/1000000 | retorno treino 5456 | pg -0.0111 v 0.0555 ent 0.222 kl 0.8001 clip 0.05 | β 0.0013 | 3756s
+[19:50:31]   [ppo 216] passos 989880/1000000 | retorno treino 5368 | pg -0.0096 v 0.0572 ent 0.213 kl 0.7836 clip 0.04 | β 0.0013 | 3772s
+[19:50:48]   [ppo 217] passos 994260/1000000 | retorno treino 5303 | pg -0.0104 v 0.0588 ent 0.209 kl 0.7371 clip 0.04 | β 0.0012 | 3788s
+[19:51:04]   [ppo 218] passos 998640/1000000 | retorno treino 5523 | pg -0.0087 v 0.0625 ent 0.202 kl 0.7766 clip 0.04 | β 0.0012 | 3805s
+[19:51:20]   [ppo 219] passos 1003020/1000000 | retorno treino 5372 | pg -0.0101 v 0.0541 ent 0.206 kl 0.7839 clip 0.04 | β 0.0012 | 3821s
+[19:51:55]     [validação-rollback] passos 1003020: 5371.4 (Δ_IL 84.1) | melhor 5371.4 @ 1003020
+[19:52:47]     [validacao_objetivo] in_dist  média  5395.5 ±  234.3 IQM  5435.8 norm 0.988 | ocioso 26%
+[19:53:37]     [validacao_objetivo] dry      média  2774.5 ±  102.3 IQM  2786.1 norm 0.937 | ocioso 7%
+[19:54:32]     [validacao_objetivo] humid    média  5158.3 ±  240.7 IQM  5185.9 norm 0.961 | ocioso 17%
+[19:56:00]     [teste             ] in_dist  média  5364.3 ±  248.3 IQM  5401.5 norm 0.982 | ocioso 26%
+[19:57:25]     [teste             ] dry      média  2730.6 ±  114.7 IQM  2735.8 norm 0.919 | ocioso 7%
+[19:58:56]     [teste             ] humid    média  5195.3 ±  286.5 IQM  5252.2 norm 0.969 | ocioso 18%
+[20:00:19]     [teste (argmax)     ] in_dist  média  5390.0 ±  235.1 IQM  5426.2 norm 0.988 | ocioso 27%
+[20:01:41]     [teste (argmax)     ] dry      média  2722.5 ±  123.7 IQM  2742.7 norm 0.916 | ocioso 8%
+[20:03:08]     [teste (argmax)     ] humid    média  5079.6 ±  283.5 IQM  5126.0 norm 0.942 | ocioso 20%
+[salvo] C:\Users\Homer\OneDrive\Área de Trabalho\master\Codigos\mimeplant-defesa\results\rodada3\rl_padrao\ppo_il\seed_2024\modelo_final.pt
+[20:03:08]   ppo_il    IQM 0.9469257038606989 | média 0.9383648833282013 ± 0.027830063919560104 (n=5)
+[20:03:08]   ppo_zero  IQM 0.9492524645147897 | média 0.9513424798539343 ± 0.013838822147807699 (n=4)

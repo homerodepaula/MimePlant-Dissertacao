@@ -1,0 +1,302 @@
+{
+ "0": {
+  "id_trabalho": 1,
+  "pasta": "trabalho_1",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "1": {
+  "id_trabalho": 2,
+  "pasta": "trabalho_2",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "2": {
+  "id_trabalho": 0,
+  "pasta": "trabalho_0",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "3": {
+  "id_trabalho": 3,
+  "pasta": "trabalho_3",
+  "estado": "COMPLETE",
+  "valor": 0.9415334891698222
+ },
+ "4": {
+  "id_trabalho": 4,
+  "pasta": "trabalho_4",
+  "estado": "COMPLETE",
+  "valor": 0.9569424786031809
+ },
+ "5": {
+  "id_trabalho": 5,
+  "pasta": "trabalho_5",
+  "estado": "COMPLETE",
+  "valor": 0.929048940515247
+ },
+ "6": {
+  "id_trabalho": 6,
+  "pasta": "trabalho_6",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "7": {
+  "id_trabalho": 8,
+  "pasta": "trabalho_8",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "8": {
+  "id_trabalho": 7,
+  "pasta": "trabalho_7",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "9": {
+  "id_trabalho": 10,
+  "pasta": "trabalho_10",
+  "estado": "COMPLETE",
+  "valor": 0.9766431182495476
+ },
+ "10": {
+  "id_trabalho": 11,
+  "pasta": "trabalho_11",
+  "estado": "COMPLETE",
+  "valor": 0.945761533961647
+ },
+ "11": {
+  "id_trabalho": 9,
+  "pasta": "trabalho_9",
+  "estado": "COMPLETE",
+  "valor": 0.9110279188083853
+ },
+ "12": {
+  "id_trabalho": 13,
+  "pasta": "trabalho_13",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "13": {
+  "id_trabalho": 12,
+  "pasta": "trabalho_12",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "14": {
+  "id_trabalho": 14,
+  "pasta": "trabalho_14",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "15": {
+  "id_trabalho": 16,
+  "pasta": "trabalho_16",
+  "estado": "COMPLETE",
+  "valor": 0.9600749588341658
+ },
+ "16": {
+  "id_trabalho": 15,
+  "pasta": "trabalho_15",
+  "estado": "COMPLETE",
+  "valor": 0.9743717167444688
+ },
+ "17": {
+  "id_trabalho": 17,
+  "pasta": "trabalho_17",
+  "estado": "COMPLETE",
+  "valor": 1.0061370732796187
+ },
+ "18": {
+  "id_trabalho": 18,
+  "pasta": "trabalho_18",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "19": {
+  "id_trabalho": 20,
+  "pasta": "trabalho_20",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "20": {
+  "id_trabalho": 19,
+  "pasta": "trabalho_19",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "21": {
+  "id_trabalho": 23,
+  "pasta": "trabalho_23",
+  "estado": "COMPLETE",
+  "valor": 0.949535547637265
+ },
+ "22": {
+  "id_trabalho": 22,
+  "pasta": "trabalho_22",
+  "estado": "COMPLETE",
+  "valor": 0.9608468209144917
+ },
+ "23": {
+  "id_trabalho": 21,
+  "pasta": "trabalho_21",
+  "estado": "COMPLETE",
+  "valor": 0.945818046890044
+ },
+ "24": {
+  "id_trabalho": 24,
+  "pasta": "trabalho_24",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "25": {
+  "id_trabalho": 25,
+  "pasta": "trabalho_25",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "26": {
+  "id_trabalho": 26,
+  "pasta": "trabalho_26",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "27": {
+  "id_trabalho": 27,
+  "pasta": "trabalho_27",
+  "estado": "COMPLETE",
+  "valor": 0.9825796070110518
+ },
+ "28": {
+  "id_trabalho": 28,
+  "pasta": "trabalho_28",
+  "estado": "COMPLETE",
+  "valor": 0.9703515635720047
+ },
+ "29": {
+  "id_trabalho": 29,
+  "pasta": "trabalho_29",
+  "estado": "COMPLETE",
+  "valor": 0.9574687405703003
+ },
+ "30": {
+  "id_trabalho": 30,
+  "pasta": "trabalho_30",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "31": {
+  "id_trabalho": 32,
+  "pasta": "trabalho_32",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "32": {
+  "id_trabalho": 31,
+  "pasta": "trabalho_31",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "33": {
+  "id_trabalho": 33,
+  "pasta": "trabalho_33",
+  "estado": "COMPLETE",
+  "valor": 0.9257861912749772
+ },
+ "34": {
+  "id_trabalho": 35,
+  "pasta": "trabalho_35",
+  "estado": "COMPLETE",
+  "valor": 0.9260895177579554
+ },
+ "35": {
+  "id_trabalho": 34,
+  "pasta": "trabalho_34",
+  "estado": "COMPLETE",
+  "valor": 0.9759984755802091
+ },
+ "36": {
+  "id_trabalho": 36,
+  "pasta": "trabalho_36",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "37": {
+  "id_trabalho": 37,
+  "pasta": "trabalho_37",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "38": {
+  "id_trabalho": 38,
+  "pasta": "trabalho_38",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "39": {
+  "id_trabalho": 39,
+  "pasta": "trabalho_39",
+  "estado": "COMPLETE",
+  "valor": 0.9783461729981168
+ },
+ "40": {
+  "id_trabalho": 41,
+  "pasta": "trabalho_41",
+  "estado": "COMPLETE",
+  "valor": 0.96117060172018
+ },
+ "41": {
+  "id_trabalho": 40,
+  "pasta": "trabalho_40",
+  "estado": "COMPLETE",
+  "valor": 0.9853179911405071
+ },
+ "42": {
+  "id_trabalho": 42,
+  "pasta": "trabalho_42",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "43": {
+  "id_trabalho": 43,
+  "pasta": "trabalho_43",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "44": {
+  "id_trabalho": 44,
+  "pasta": "trabalho_44",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "45": {
+  "id_trabalho": 46,
+  "pasta": "trabalho_46",
+  "estado": "COMPLETE",
+  "valor": 0.9520285715766904
+ },
+ "46": {
+  "id_trabalho": 45,
+  "pasta": "trabalho_45",
+  "estado": "COMPLETE",
+  "valor": 0.9664998083834612
+ },
+ "47": {
+  "id_trabalho": 47,
+  "pasta": "trabalho_47",
+  "estado": "COMPLETE",
+  "valor": 0.9115775748660147
+ },
+ "48": {
+  "id_trabalho": 48,
+  "pasta": "trabalho_48",
+  "estado": "PRUNED",
+  "valor": null
+ },
+ "49": {
+  "id_trabalho": 49,
+  "pasta": "trabalho_49",
+  "estado": "PRUNED",
+  "valor": null
+ }
+}

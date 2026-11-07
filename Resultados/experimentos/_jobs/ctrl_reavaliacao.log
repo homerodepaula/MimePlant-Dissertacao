@@ -1,0 +1,23 @@
+
+===== 2026-09-25 23:39:01 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/reavaliar_topk.py --study tpe_zero_r3 rs_zero_r3 --k 1 --orcamento 1000000 --saida results\rodada3\hpo_reavaliacao_zero --paralelo 4 --retomar
+[23:39:09] 2 candidatos × 5 sementes | orçamento 1000000 | dispositivo cuda:NVIDIA GeForce RTX 4060
+[23:39:09]   fatia 0/4 lançada (pid 11600)
+[23:39:09]   fatia 1/4 lançada (pid 10236)
+[23:39:09]   fatia 2/4 lançada (pid 7228)
+[23:39:09]   fatia 3/4 lançada (pid 3632)
+[04:03:17]   fatia 0 terminou (exit 0)
+[04:03:31]   fatia 1 terminou (exit 0)
+[04:03:31]   fatia 2 terminou (exit 0)
+[04:03:31]   fatia 3 terminou (exit 0)
+[04:03:31] === tpe_zero_r3_trial41 | seed 42 | hp {'lr': 1.6323447571114735e-05, 'clip': 0.14656393123377812, 'c_ent': 0.00010031786374588984, 'gamma': 0.995, 'lambda_gae': 0.9614551363922945, 'n_epocas': 5, 'minilote_seqs': 20, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:31] === tpe_zero_r3_trial41 | seed 123 | hp {'lr': 1.6323447571114735e-05, 'clip': 0.14656393123377812, 'c_ent': 0.00010031786374588984, 'gamma': 0.995, 'lambda_gae': 0.9614551363922945, 'n_epocas': 5, 'minilote_seqs': 20, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:31] === tpe_zero_r3_trial41 | seed 2024 | hp {'lr': 1.6323447571114735e-05, 'clip': 0.14656393123377812, 'c_ent': 0.00010031786374588984, 'gamma': 0.995, 'lambda_gae': 0.9614551363922945, 'n_epocas': 5, 'minilote_seqs': 20, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:31] === tpe_zero_r3_trial41 | seed 7 | hp {'lr': 1.6323447571114735e-05, 'clip': 0.14656393123377812, 'c_ent': 0.00010031786374588984, 'gamma': 0.995, 'lambda_gae': 0.9614551363922945, 'n_epocas': 5, 'minilote_seqs': 20, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:31] === tpe_zero_r3_trial41 | seed 1337 | hp {'lr': 1.6323447571114735e-05, 'clip': 0.14656393123377812, 'c_ent': 0.00010031786374588984, 'gamma': 0.995, 'lambda_gae': 0.9614551363922945, 'n_epocas': 5, 'minilote_seqs': 20, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:33]   tpe_zero_r3_trial41: tuning 0.9864825017197925 | teste norm 0.958 ± 0.033 | in-dist IQM 5412 [5235, 5518]
+[04:03:33] === rs_zero_r3_trial29 | seed 42 | hp {'lr': 3.746173581749261e-05, 'clip': 0.2781350963238248, 'c_ent': 0.0002795540021667546, 'gamma': 0.995, 'lambda_gae': 0.9173213973003969, 'n_epocas': 4, 'minilote_seqs': 30, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:33] === rs_zero_r3_trial29 | seed 123 | hp {'lr': 3.746173581749261e-05, 'clip': 0.2781350963238248, 'c_ent': 0.0002795540021667546, 'gamma': 0.995, 'lambda_gae': 0.9173213973003969, 'n_epocas': 4, 'minilote_seqs': 30, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:33] === rs_zero_r3_trial29 | seed 2024 | hp {'lr': 3.746173581749261e-05, 'clip': 0.2781350963238248, 'c_ent': 0.0002795540021667546, 'gamma': 0.995, 'lambda_gae': 0.9173213973003969, 'n_epocas': 4, 'minilote_seqs': 30, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:33] === rs_zero_r3_trial29 | seed 7 | hp {'lr': 3.746173581749261e-05, 'clip': 0.2781350963238248, 'c_ent': 0.0002795540021667546, 'gamma': 0.995, 'lambda_gae': 0.9173213973003969, 'n_epocas': 4, 'minilote_seqs': 30, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:33] === rs_zero_r3_trial29 | seed 1337 | hp {'lr': 3.746173581749261e-05, 'clip': 0.2781350963238248, 'c_ent': 0.0002795540021667546, 'gamma': 0.995, 'lambda_gae': 0.9173213973003969, 'n_epocas': 4, 'minilote_seqs': 30, 'escala': 50.0, 'inicializacao': 'zero'}
+[04:03:35]   rs_zero_r3_trial29: tuning 0.9812166587193323 | teste norm 0.915 ± 0.062 | in-dist IQM 5215 [4873, 5399]

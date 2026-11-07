@@ -1,0 +1,41 @@
+{
+ "regra": "maior IQM do retorno normalizado (validacao-objetivo, 3 regimes); empate (<1 EP) -> menor variancia; C abaixo de A e B",
+ "bracos": {
+  "ppo_il": {
+   "n_sementes": 5,
+   "iqm_validacao_objetivo_norm": 0.9469257038606989,
+   "media": 0.9383648833282013,
+   "std_entre_sementes": 0.027830063919560104,
+   "erro_padrao": 0.01391503195978005,
+   "por_semente": [
+    0.9635838882776939,
+    0.9328727562285136,
+    0.9619993458513507,
+    0.9459050095022322,
+    0.8874634167812158
+   ]
+  },
+  "ppo_zero": {
+   "n_sementes": 5,
+   "iqm_validacao_objetivo_norm": 0.9451368646713575,
+   "media": 0.9410731981980195,
+   "std_entre_sementes": 0.02398005382948386,
+   "erro_padrao": 0.011990026914741929,
+   "por_semente": [
+    0.9699593254016645,
+    0.939194952302609,
+    0.899996071574361,
+    0.9593099767269706,
+    0.9369056649844931
+   ]
+  }
+ },
+ "orcamento": 1000000,
+ "seeds": [
+  42,
+  123,
+  2024,
+  7,
+  1337
+ ]
+}

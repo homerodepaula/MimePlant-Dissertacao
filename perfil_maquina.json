@@ -1,0 +1,55 @@
+{
+  "codigo": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\Mestrado - Homero de Paula\\versao final\\codigo",
+  "rapido": false,
+  "maquina": {
+    "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "nucleos_logicos": 16,
+    "nucleos_fisicos": null,
+    "ram_gb": null,
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "vram_gb": 5.99658203125,
+    "torch": "2.6.0+cu124",
+    "python": "3.10.11"
+  },
+  "t_env_ms_random": 1.6153851141525883,
+  "t_env_ms_oraculo": 2.11384904110532,
+  "t_inf_ms_cpu_1thread": 3.988738749991171,
+  "t_inf_ms_cpu_all": 5.344911700012744,
+  "t_inf_ms_gpu": 0.8488642000011168,
+  "t_epoca_s_cpu": 6.646344533325949,
+  "t_epoca_s_gpu": 0.3763752333276595,
+  "escala": {
+    "1": {
+      "passos_s_por_proc": 172.82816434287363,
+      "passos_s_agregado": 172.82816434287363,
+      "parede_s": 8.025274099985836
+    },
+    "2": {
+      "passos_s_por_proc": 165.71917640762962,
+      "passos_s_agregado": 331.43835281525924,
+      "parede_s": 7.736589299980551
+    },
+    "4": {
+      "passos_s_por_proc": 100.74666370591044,
+      "passos_s_agregado": 402.98665482364174,
+      "parede_s": 10.945735899993451
+    },
+    "6": {
+      "passos_s_por_proc": 75.2945250328274,
+      "passos_s_agregado": 451.76715019696434,
+      "parede_s": 14.49732049999875
+    },
+    "8": {
+      "passos_s_por_proc": 59.41340259823235,
+      "passos_s_agregado": 475.3072207858588,
+      "parede_s": 18.020693300000858
+    }
+  },
+  "P_recomendado": 2,
+  "rl_trial_min_150k_seq": 9.428834889821236,
+  "rl_trial_min_150k_vec": 7.132551120793215,
+  "rl_trial_min_250k_seq": 15.35426137203411,
+  "rl_trial_min_250k_vec": 11.614908463004191,
+  "il_warmstart_min_seq": 5.411314706830922,
+  "il_warmstart_min_vec": 4.445660940646319
+}

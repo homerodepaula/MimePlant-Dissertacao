@@ -1,0 +1,118 @@
+{
+ "pid_encadeador": 19408,
+ "inicio": "2026-09-26 04:06:08",
+ "parametros": {
+  "orcamento": 1000000,
+  "n_fre": 32,
+  "n_startup": 5,
+  "trabalhadores": 2,
+  "sementes_hpo": {
+   "a": 1001,
+   "b": 1002,
+   "c": 1003
+  },
+  "k": 1,
+  "inicializacao": "professor",
+  "familias": [
+   "gp",
+   "qmc"
+  ]
+ },
+ "x_gp_r3_a_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 01:16:58"
+ },
+ "x_gp_r3_a_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 01:21:58"
+ },
+ "x_gp_r3_b_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 01:02:58"
+ },
+ "x_gp_r3_b_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 00:46:57"
+ },
+ "x_gp_r3_c_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 01:38:58"
+ },
+ "x_gp_r3_c_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 00:51:58"
+ },
+ "x_reavaliacao_gp": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 06:12:00"
+ },
+ "x_analise_gp": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-27 06:13:00"
+ },
+ "x_qmc_r3_a_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 04:31:50"
+ },
+ "x_qmc_r3_a_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 05:50:51"
+ },
+ "x_qmc_r3_b_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 05:24:51"
+ },
+ "x_qmc_r3_b_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 06:25:51"
+ },
+ "x_qmc_r3_c_w0": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 06:25:51"
+ },
+ "x_qmc_r3_c_w1": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 05:19:51"
+ },
+ "x_reavaliacao_qmc": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 12:27:54"
+ },
+ "x_analise_qmc": {
+  "estado": "pronto",
+  "exit": 0,
+  "lancamento": 1,
+  "fim": "2026-09-28 12:28:54"
+ },
+ "fim": "ok 2026-09-28 12:28:54"
+}

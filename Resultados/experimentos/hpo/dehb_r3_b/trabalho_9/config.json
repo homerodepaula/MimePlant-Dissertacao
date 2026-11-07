@@ -1,0 +1,128 @@
+{
+ "data": "2026-09-23 09:50:02",
+ "maquina": "Homero-PC",
+ "hash_git": "aae16a6",
+ "git_sujo": true,
+ "versoes": {
+  "python": "3.10.11",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.2.6",
+  "gymnasium": "1.2.3",
+  "optuna": "4.8.0",
+  "scipy": "1.15.3"
+ },
+ "dispositivo": "cuda:NVIDIA GeForce RTX 4060",
+ "protocolo": {
+  "versao_ambiente": "FarmGym v4",
+  "passos_maximos": 365,
+  "tamanho_grade": [
+   4,
+   4
+  ],
+  "obs_dim": 176,
+  "n_acoes": 14,
+  "oraculo": {
+   "professor_versao": "v5",
+   "professor_imperfeicao": 0.0,
+   "variante_imperfeicao": 0.14,
+   "lazy_steps": 8,
+   "seed": 12345
+  },
+  "sementes": {
+   "treino": [
+    42,
+    123,
+    2024,
+    7,
+    1337
+   ],
+   "validacao_rollback": [
+    500,
+    "...",
+    519,
+    "n=20"
+   ],
+   "validacao_objetivo": [
+    520,
+    "...",
+    549,
+    "n=30"
+   ],
+   "teste": [
+    999,
+    "...",
+    1048,
+    "n=50"
+   ],
+   "demos": [
+    10000,
+    "...",
+    10199,
+    "n=200"
+   ]
+  },
+  "regimes": {
+   "in_dist": null,
+   "dry": {
+    "temperatura_base": 32.0,
+    "umidade_ar_base": 0.25,
+    "probabilidade_chuva_base": 0.05
+   },
+   "humid": {
+    "temperatura_base": 20.0,
+    "umidade_ar_base": 0.85,
+    "probabilidade_chuva_base": 0.7
+   }
+  },
+  "demos": {
+   "caminho": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\master\\Codigos\\mimeplant-defesa\\results\\demos_v5\\trajetorias_especialista.json",
+   "hash": "9e92a38adce50419d68c310a959899e8ee3de5d3b9da444792f4ca1b2ddbaf11"
+  },
+  "rodada": {
+   "nome": "rodada3",
+   "dir": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\master\\Codigos\\mimeplant-defesa\\results\\rodada3",
+   "orcamento_rl_passos": 1000000,
+   "studies_hpo": [
+    "tpe_r3",
+    "rs_r3"
+   ]
+  }
+ },
+ "experimento": "hpo_dehb",
+ "study": "dehb_r3_b",
+ "id_trabalho": 9,
+ "hp": {
+  "lr": 1.3938896694523263e-05,
+  "clip": 0.17908839508539812,
+  "c_ent": 0.00022572186878530925,
+  "gamma": 0.99,
+  "lambda_gae": 0.9288088421067411,
+  "n_epocas": 4,
+  "minilote_seqs": 10,
+  "beta_kl0": 0.0014923321513045857,
+  "beta_kl_decay": 0.988536975606578,
+  "escala": 100.0,
+  "k_aquec": 0,
+  "temperatura_inicial": 2.1969255211427687,
+  "inicializacao": "professor",
+  "blocos": 9
+ },
+ "fidelidade": 1000000,
+ "orcamento_passos": 1000000,
+ "seeds_trial": [
+  42
+ ],
+ "warmstart": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\master\\Codigos\\mimeplant-defesa\\results\\rodada3\\il_warmstart",
+ "referencias": "C:\\Users\\Homer\\OneDrive\\Área de Trabalho\\master\\Codigos\\mimeplant-defesa\\results\\rodada3\\referencias\\referencias.json",
+ "dehb": {
+  "nivel": 1,
+  "bracket": 3,
+  "degrau": 0,
+  "origem": "evolucao",
+  "pais": {
+   "pool": 2,
+   "global": 2,
+   "uniforme": 0
+  }
+ }
+}

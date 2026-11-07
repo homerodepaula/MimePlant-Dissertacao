@@ -1,0 +1,19 @@
+% GERADO POR gerar_artefatos_final.py (via gerar_artefatos_dissertacao.escrever) — não editar à mão
+\begin{table}[htbp]
+\centering
+\small\setlength{\tabcolsep}{2.5pt}
+\caption{As cinco condições (teste)}
+\label{tab:cinco_condicoes}
+\begin{tabular}{l c c c c c}
+\hline
+\textbf{Agente} & \textbf{Normal} & \textbf{Seco} & \textbf{Úmido} & \textbf{Média} & \textbf{Dif. p/ prof.} \\ \hline
+Professor heurístico & 5.492 & 2.944 & 5.369 & 4.602 & --- \\ \hline
+RL puro & 5.331 & 2.758 & 5.104 & 4.398 & $-204$ \\
+RL com HPO & 5.438 & 2.820 & 5.251 & 4.503 & $-99$ \\
+IL + RL puro & 5.435 & 2.660 & 5.239 & 4.445 & $-157$ \\
+\textbf{IL + RL com HPO (\textit{MimePlant})} & \textbf{5.554} & \textbf{2.870} & \textbf{5.394} & \textbf{4.606} & $+4$ \\
+\hline
+\end{tabular}
+
+{\footnotesize Fonte: elaborada pelo autor. Nota: Recompensa bruta (IQM) no conjunto de teste: 50 episódios por regime no professor e 250 em cada agente treinado (cinco sementes de treino). RL puro e IL~+~RL puro usam a configuração manual; as versões com HPO usam a configuração escolhida em validação.}
+\end{table}

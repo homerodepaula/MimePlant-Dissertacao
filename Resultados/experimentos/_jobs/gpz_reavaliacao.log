@@ -1,0 +1,17 @@
+
+===== 2026-10-05 10:41:32 lançamento 1: C:\Users\Homer\.venvs\mimeplant\Scripts\python.exe -X utf8 hpo/reavaliar_topk.py --study gp_zero_r3 --k 1 --orcamento 1000000 --saida results\rodada3\hpo_reavaliacao_zero_gp --paralelo 4 --retomar
+[10:41:34] 1 candidatos × 5 sementes | orçamento 1000000 | dispositivo cuda:NVIDIA GeForce RTX 4060
+[10:41:34]   fatia 0/4 lançada (pid 18436)
+[10:41:34]   fatia 1/4 lançada (pid 14032)
+[10:41:34]   fatia 2/4 lançada (pid 5560)
+[10:41:34]   fatia 3/4 lançada (pid 3304)
+[13:42:02]   fatia 0 terminou (exit 0)
+[13:42:02]   fatia 1 terminou (exit 0)
+[13:42:02]   fatia 2 terminou (exit 0)
+[13:42:02]   fatia 3 terminou (exit 0)
+[13:42:02] === gp_zero_r3_trial52 | seed 42 | hp {'lr': 1.7635161834325823e-05, 'clip': 0.3, 'c_ent': 0.001479633356307953, 'gamma': 0.995, 'lambda_gae': 0.9480318630097013, 'n_epocas': 4, 'minilote_seqs': 10, 'escala': 100.0, 'inicializacao': 'zero'}
+[13:42:02] === gp_zero_r3_trial52 | seed 123 | hp {'lr': 1.7635161834325823e-05, 'clip': 0.3, 'c_ent': 0.001479633356307953, 'gamma': 0.995, 'lambda_gae': 0.9480318630097013, 'n_epocas': 4, 'minilote_seqs': 10, 'escala': 100.0, 'inicializacao': 'zero'}
+[13:42:02] === gp_zero_r3_trial52 | seed 2024 | hp {'lr': 1.7635161834325823e-05, 'clip': 0.3, 'c_ent': 0.001479633356307953, 'gamma': 0.995, 'lambda_gae': 0.9480318630097013, 'n_epocas': 4, 'minilote_seqs': 10, 'escala': 100.0, 'inicializacao': 'zero'}
+[13:42:02] === gp_zero_r3_trial52 | seed 7 | hp {'lr': 1.7635161834325823e-05, 'clip': 0.3, 'c_ent': 0.001479633356307953, 'gamma': 0.995, 'lambda_gae': 0.9480318630097013, 'n_epocas': 4, 'minilote_seqs': 10, 'escala': 100.0, 'inicializacao': 'zero'}
+[13:42:02] === gp_zero_r3_trial52 | seed 1337 | hp {'lr': 1.7635161834325823e-05, 'clip': 0.3, 'c_ent': 0.001479633356307953, 'gamma': 0.995, 'lambda_gae': 0.9480318630097013, 'n_epocas': 4, 'minilote_seqs': 10, 'escala': 100.0, 'inicializacao': 'zero'}
+[13:42:04]   gp_zero_r3_trial52: tuning 0.9793302264514275 | teste norm 0.968 ± 0.014 | in-dist IQM 5438 [5376, 5495]

@@ -1,0 +1,1244 @@
+{
+ "n_episodios": 200,
+ "n_transicoes": 73000,
+ "sementes": [
+  10000,
+  10001,
+  10002,
+  10003,
+  10004,
+  10005,
+  10006,
+  10007,
+  10008,
+  10009,
+  10010,
+  10011,
+  10012,
+  10013,
+  10014,
+  10015,
+  10016,
+  10017,
+  10018,
+  10019,
+  10020,
+  10021,
+  10022,
+  10023,
+  10024,
+  10025,
+  10026,
+  10027,
+  10028,
+  10029,
+  10030,
+  10031,
+  10032,
+  10033,
+  10034,
+  10035,
+  10036,
+  10037,
+  10038,
+  10039,
+  10040,
+  10041,
+  10042,
+  10043,
+  10044,
+  10045,
+  10046,
+  10047,
+  10048,
+  10049,
+  10050,
+  10051,
+  10052,
+  10053,
+  10054,
+  10055,
+  10056,
+  10057,
+  10058,
+  10059,
+  10060,
+  10061,
+  10062,
+  10063,
+  10064,
+  10065,
+  10066,
+  10067,
+  10068,
+  10069,
+  10070,
+  10071,
+  10072,
+  10073,
+  10074,
+  10075,
+  10076,
+  10077,
+  10078,
+  10079,
+  10080,
+  10081,
+  10082,
+  10083,
+  10084,
+  10085,
+  10086,
+  10087,
+  10088,
+  10089,
+  10090,
+  10091,
+  10092,
+  10093,
+  10094,
+  10095,
+  10096,
+  10097,
+  10098,
+  10099,
+  10100,
+  10101,
+  10102,
+  10103,
+  10104,
+  10105,
+  10106,
+  10107,
+  10108,
+  10109,
+  10110,
+  10111,
+  10112,
+  10113,
+  10114,
+  10115,
+  10116,
+  10117,
+  10118,
+  10119,
+  10120,
+  10121,
+  10122,
+  10123,
+  10124,
+  10125,
+  10126,
+  10127,
+  10128,
+  10129,
+  10130,
+  10131,
+  10132,
+  10133,
+  10134,
+  10135,
+  10136,
+  10137,
+  10138,
+  10139,
+  10140,
+  10141,
+  10142,
+  10143,
+  10144,
+  10145,
+  10146,
+  10147,
+  10148,
+  10149,
+  10150,
+  10151,
+  10152,
+  10153,
+  10154,
+  10155,
+  10156,
+  10157,
+  10158,
+  10159,
+  10160,
+  10161,
+  10162,
+  10163,
+  10164,
+  10165,
+  10166,
+  10167,
+  10168,
+  10169,
+  10170,
+  10171,
+  10172,
+  10173,
+  10174,
+  10175,
+  10176,
+  10177,
+  10178,
+  10179,
+  10180,
+  10181,
+  10182,
+  10183,
+  10184,
+  10185,
+  10186,
+  10187,
+  10188,
+  10189,
+  10190,
+  10191,
+  10192,
+  10193,
+  10194,
+  10195,
+  10196,
+  10197,
+  10198,
+  10199
+ ],
+ "media_recompensa": 5469.762325796694,
+ "std_recompensa": 236.90082241418423,
+ "media_colheitas": 23.14,
+ "acoes_total": {
+  "plantar": 9600,
+  "colher": 4628,
+  "regar": 6446,
+  "fertilizar_N": 1600,
+  "fertilizar_P": 1600,
+  "fertilizar_K": 1600,
+  "fertilizar_C": 1600,
+  "herbicida": 15085,
+  "pesticida": 1896,
+  "colocar_espantalho_basico": 0,
+  "colocar_espantalho_avancado": 2152,
+  "remover_espantalho": 0,
+  "colocar_cerca": 200,
+  "esperar": 26593
+ },
+ "acoes_pct": {
+  "plantar": 13.2,
+  "colher": 6.3,
+  "regar": 8.8,
+  "fertilizar_N": 2.2,
+  "fertilizar_P": 2.2,
+  "fertilizar_K": 2.2,
+  "fertilizar_C": 2.2,
+  "herbicida": 20.7,
+  "pesticida": 2.6,
+  "colocar_espantalho_basico": 0.0,
+  "colocar_espantalho_avancado": 2.9,
+  "remover_espantalho": 0.0,
+  "colocar_cerca": 0.3,
+  "esperar": 36.4
+ },
+ "por_episodio": [
+  {
+   "semente": 10000,
+   "recompensa": 5565.745695891099,
+   "colheitas": 19
+  },
+  {
+   "semente": 10001,
+   "recompensa": 5597.71125412793,
+   "colheitas": 26
+  },
+  {
+   "semente": 10002,
+   "recompensa": 5476.4913396644415,
+   "colheitas": 25
+  },
+  {
+   "semente": 10003,
+   "recompensa": 5645.719933063139,
+   "colheitas": 23
+  },
+  {
+   "semente": 10004,
+   "recompensa": 5300.369321160245,
+   "colheitas": 21
+  },
+  {
+   "semente": 10005,
+   "recompensa": 5698.650557943209,
+   "colheitas": 27
+  },
+  {
+   "semente": 10006,
+   "recompensa": 5290.827838864612,
+   "colheitas": 23
+  },
+  {
+   "semente": 10007,
+   "recompensa": 5509.315504891033,
+   "colheitas": 25
+  },
+  {
+   "semente": 10008,
+   "recompensa": 5876.392592569203,
+   "colheitas": 20
+  },
+  {
+   "semente": 10009,
+   "recompensa": 5482.7068583098735,
+   "colheitas": 23
+  },
+  {
+   "semente": 10010,
+   "recompensa": 5623.339719716303,
+   "colheitas": 24
+  },
+  {
+   "semente": 10011,
+   "recompensa": 5292.61700675047,
+   "colheitas": 23
+  },
+  {
+   "semente": 10012,
+   "recompensa": 5688.715126622966,
+   "colheitas": 23
+  },
+  {
+   "semente": 10013,
+   "recompensa": 5192.367350931375,
+   "colheitas": 23
+  },
+  {
+   "semente": 10014,
+   "recompensa": 5368.898402107308,
+   "colheitas": 24
+  },
+  {
+   "semente": 10015,
+   "recompensa": 5536.221782957722,
+   "colheitas": 23
+  },
+  {
+   "semente": 10016,
+   "recompensa": 4426.709689315185,
+   "colheitas": 19
+  },
+  {
+   "semente": 10017,
+   "recompensa": 5258.598231500747,
+   "colheitas": 25
+  },
+  {
+   "semente": 10018,
+   "recompensa": 5355.221538796805,
+   "colheitas": 20
+  },
+  {
+   "semente": 10019,
+   "recompensa": 5606.600162777958,
+   "colheitas": 26
+  },
+  {
+   "semente": 10020,
+   "recompensa": 5462.384475977238,
+   "colheitas": 25
+  },
+  {
+   "semente": 10021,
+   "recompensa": 5726.34309955247,
+   "colheitas": 19
+  },
+  {
+   "semente": 10022,
+   "recompensa": 5371.681868157435,
+   "colheitas": 21
+  },
+  {
+   "semente": 10023,
+   "recompensa": 5713.93048793225,
+   "colheitas": 26
+  },
+  {
+   "semente": 10024,
+   "recompensa": 5479.095331466728,
+   "colheitas": 22
+  },
+  {
+   "semente": 10025,
+   "recompensa": 5551.922174807335,
+   "colheitas": 26
+  },
+  {
+   "semente": 10026,
+   "recompensa": 5699.7313781022885,
+   "colheitas": 23
+  },
+  {
+   "semente": 10027,
+   "recompensa": 5476.875404717488,
+   "colheitas": 21
+  },
+  {
+   "semente": 10028,
+   "recompensa": 5425.0259131160265,
+   "colheitas": 24
+  },
+  {
+   "semente": 10029,
+   "recompensa": 5846.004171575309,
+   "colheitas": 22
+  },
+  {
+   "semente": 10030,
+   "recompensa": 5674.406347245255,
+   "colheitas": 22
+  },
+  {
+   "semente": 10031,
+   "recompensa": 5631.54853493144,
+   "colheitas": 23
+  },
+  {
+   "semente": 10032,
+   "recompensa": 5530.433852527906,
+   "colheitas": 22
+  },
+  {
+   "semente": 10033,
+   "recompensa": 5361.7879082948075,
+   "colheitas": 22
+  },
+  {
+   "semente": 10034,
+   "recompensa": 5670.408200884106,
+   "colheitas": 25
+  },
+  {
+   "semente": 10035,
+   "recompensa": 5540.520662175798,
+   "colheitas": 24
+  },
+  {
+   "semente": 10036,
+   "recompensa": 5230.881438121487,
+   "colheitas": 20
+  },
+  {
+   "semente": 10037,
+   "recompensa": 5390.4979277610455,
+   "colheitas": 27
+  },
+  {
+   "semente": 10038,
+   "recompensa": 5197.458587114252,
+   "colheitas": 21
+  },
+  {
+   "semente": 10039,
+   "recompensa": 5558.39875024348,
+   "colheitas": 23
+  },
+  {
+   "semente": 10040,
+   "recompensa": 4991.686343188276,
+   "colheitas": 23
+  },
+  {
+   "semente": 10041,
+   "recompensa": 5558.456940302738,
+   "colheitas": 24
+  },
+  {
+   "semente": 10042,
+   "recompensa": 5492.986035081965,
+   "colheitas": 23
+  },
+  {
+   "semente": 10043,
+   "recompensa": 5178.127173760517,
+   "colheitas": 23
+  },
+  {
+   "semente": 10044,
+   "recompensa": 5546.147862065903,
+   "colheitas": 24
+  },
+  {
+   "semente": 10045,
+   "recompensa": 5535.055776006004,
+   "colheitas": 23
+  },
+  {
+   "semente": 10046,
+   "recompensa": 5321.607219446057,
+   "colheitas": 28
+  },
+  {
+   "semente": 10047,
+   "recompensa": 5751.325933955085,
+   "colheitas": 25
+  },
+  {
+   "semente": 10048,
+   "recompensa": 5538.8218524135145,
+   "colheitas": 20
+  },
+  {
+   "semente": 10049,
+   "recompensa": 5600.37231493276,
+   "colheitas": 26
+  },
+  {
+   "semente": 10050,
+   "recompensa": 5723.436918737424,
+   "colheitas": 20
+  },
+  {
+   "semente": 10051,
+   "recompensa": 5585.84428519091,
+   "colheitas": 24
+  },
+  {
+   "semente": 10052,
+   "recompensa": 5003.089535016867,
+   "colheitas": 20
+  },
+  {
+   "semente": 10053,
+   "recompensa": 5802.342042297741,
+   "colheitas": 24
+  },
+  {
+   "semente": 10054,
+   "recompensa": 5352.313939274115,
+   "colheitas": 27
+  },
+  {
+   "semente": 10055,
+   "recompensa": 5455.045706833856,
+   "colheitas": 21
+  },
+  {
+   "semente": 10056,
+   "recompensa": 5545.953205006521,
+   "colheitas": 25
+  },
+  {
+   "semente": 10057,
+   "recompensa": 5584.350806646184,
+   "colheitas": 21
+  },
+  {
+   "semente": 10058,
+   "recompensa": 5659.091301903056,
+   "colheitas": 24
+  },
+  {
+   "semente": 10059,
+   "recompensa": 5903.328622248108,
+   "colheitas": 20
+  },
+  {
+   "semente": 10060,
+   "recompensa": 5260.746542849889,
+   "colheitas": 23
+  },
+  {
+   "semente": 10061,
+   "recompensa": 5735.427869797416,
+   "colheitas": 23
+  },
+  {
+   "semente": 10062,
+   "recompensa": 5381.130186269531,
+   "colheitas": 22
+  },
+  {
+   "semente": 10063,
+   "recompensa": 5605.600841298468,
+   "colheitas": 26
+  },
+  {
+   "semente": 10064,
+   "recompensa": 5544.6653685389765,
+   "colheitas": 20
+  },
+  {
+   "semente": 10065,
+   "recompensa": 5548.8406847468395,
+   "colheitas": 26
+  },
+  {
+   "semente": 10066,
+   "recompensa": 5739.496126869199,
+   "colheitas": 24
+  },
+  {
+   "semente": 10067,
+   "recompensa": 5491.849048278551,
+   "colheitas": 19
+  },
+  {
+   "semente": 10068,
+   "recompensa": 5170.243917862363,
+   "colheitas": 26
+  },
+  {
+   "semente": 10069,
+   "recompensa": 5785.5851313112125,
+   "colheitas": 23
+  },
+  {
+   "semente": 10070,
+   "recompensa": 5491.804385451538,
+   "colheitas": 26
+  },
+  {
+   "semente": 10071,
+   "recompensa": 5638.362522090661,
+   "colheitas": 21
+  },
+  {
+   "semente": 10072,
+   "recompensa": 5576.240439748769,
+   "colheitas": 21
+  },
+  {
+   "semente": 10073,
+   "recompensa": 5051.887926486021,
+   "colheitas": 23
+  },
+  {
+   "semente": 10074,
+   "recompensa": 4563.626197644034,
+   "colheitas": 20
+  },
+  {
+   "semente": 10075,
+   "recompensa": 5372.661908731245,
+   "colheitas": 27
+  },
+  {
+   "semente": 10076,
+   "recompensa": 5540.979366627603,
+   "colheitas": 23
+  },
+  {
+   "semente": 10077,
+   "recompensa": 5279.081692771136,
+   "colheitas": 27
+  },
+  {
+   "semente": 10078,
+   "recompensa": 5309.717330616171,
+   "colheitas": 22
+  },
+  {
+   "semente": 10079,
+   "recompensa": 5520.128286425853,
+   "colheitas": 23
+  },
+  {
+   "semente": 10080,
+   "recompensa": 5664.704451426844,
+   "colheitas": 26
+  },
+  {
+   "semente": 10081,
+   "recompensa": 5392.28806851036,
+   "colheitas": 25
+  },
+  {
+   "semente": 10082,
+   "recompensa": 5583.942948936464,
+   "colheitas": 25
+  },
+  {
+   "semente": 10083,
+   "recompensa": 5788.911758222611,
+   "colheitas": 22
+  },
+  {
+   "semente": 10084,
+   "recompensa": 5681.304226595006,
+   "colheitas": 26
+  },
+  {
+   "semente": 10085,
+   "recompensa": 5576.890795683355,
+   "colheitas": 26
+  },
+  {
+   "semente": 10086,
+   "recompensa": 5871.80045665776,
+   "colheitas": 24
+  },
+  {
+   "semente": 10087,
+   "recompensa": 5365.523509853123,
+   "colheitas": 23
+  },
+  {
+   "semente": 10088,
+   "recompensa": 5105.241973498324,
+   "colheitas": 21
+  },
+  {
+   "semente": 10089,
+   "recompensa": 5597.488854962742,
+   "colheitas": 26
+  },
+  {
+   "semente": 10090,
+   "recompensa": 5449.927933556349,
+   "colheitas": 21
+  },
+  {
+   "semente": 10091,
+   "recompensa": 5609.6632904361795,
+   "colheitas": 23
+  },
+  {
+   "semente": 10092,
+   "recompensa": 5156.372482335081,
+   "colheitas": 21
+  },
+  {
+   "semente": 10093,
+   "recompensa": 5222.478268875713,
+   "colheitas": 21
+  },
+  {
+   "semente": 10094,
+   "recompensa": 5503.990347218194,
+   "colheitas": 25
+  },
+  {
+   "semente": 10095,
+   "recompensa": 4877.917411933447,
+   "colheitas": 21
+  },
+  {
+   "semente": 10096,
+   "recompensa": 5572.482969163023,
+   "colheitas": 26
+  },
+  {
+   "semente": 10097,
+   "recompensa": 5677.9657468761025,
+   "colheitas": 21
+  },
+  {
+   "semente": 10098,
+   "recompensa": 5366.900078839689,
+   "colheitas": 21
+  },
+  {
+   "semente": 10099,
+   "recompensa": 5780.71767811369,
+   "colheitas": 23
+  },
+  {
+   "semente": 10100,
+   "recompensa": 5221.983098598594,
+   "colheitas": 21
+  },
+  {
+   "semente": 10101,
+   "recompensa": 5302.997275622868,
+   "colheitas": 20
+  },
+  {
+   "semente": 10102,
+   "recompensa": 5524.544075330406,
+   "colheitas": 21
+  },
+  {
+   "semente": 10103,
+   "recompensa": 5058.848898303522,
+   "colheitas": 18
+  },
+  {
+   "semente": 10104,
+   "recompensa": 5119.213851178101,
+   "colheitas": 22
+  },
+  {
+   "semente": 10105,
+   "recompensa": 5478.437332614256,
+   "colheitas": 23
+  },
+  {
+   "semente": 10106,
+   "recompensa": 5703.655572604055,
+   "colheitas": 21
+  },
+  {
+   "semente": 10107,
+   "recompensa": 5438.483159779105,
+   "colheitas": 24
+  },
+  {
+   "semente": 10108,
+   "recompensa": 5529.962235796558,
+   "colheitas": 23
+  },
+  {
+   "semente": 10109,
+   "recompensa": 5488.50106595371,
+   "colheitas": 24
+  },
+  {
+   "semente": 10110,
+   "recompensa": 5699.956390574093,
+   "colheitas": 25
+  },
+  {
+   "semente": 10111,
+   "recompensa": 5458.186410077691,
+   "colheitas": 21
+  },
+  {
+   "semente": 10112,
+   "recompensa": 4963.784903037003,
+   "colheitas": 22
+  },
+  {
+   "semente": 10113,
+   "recompensa": 5505.556393027007,
+   "colheitas": 26
+  },
+  {
+   "semente": 10114,
+   "recompensa": 5571.382447387445,
+   "colheitas": 26
+  },
+  {
+   "semente": 10115,
+   "recompensa": 5790.877846682949,
+   "colheitas": 23
+  },
+  {
+   "semente": 10116,
+   "recompensa": 5610.446365365668,
+   "colheitas": 24
+  },
+  {
+   "semente": 10117,
+   "recompensa": 5222.497678707839,
+   "colheitas": 23
+  },
+  {
+   "semente": 10118,
+   "recompensa": 5622.523726210019,
+   "colheitas": 21
+  },
+  {
+   "semente": 10119,
+   "recompensa": 5493.613898348898,
+   "colheitas": 26
+  },
+  {
+   "semente": 10120,
+   "recompensa": 5530.282136182713,
+   "colheitas": 23
+  },
+  {
+   "semente": 10121,
+   "recompensa": 5605.405182017236,
+   "colheitas": 23
+  },
+  {
+   "semente": 10122,
+   "recompensa": 5584.4599977017315,
+   "colheitas": 22
+  },
+  {
+   "semente": 10123,
+   "recompensa": 5763.973451337514,
+   "colheitas": 21
+  },
+  {
+   "semente": 10124,
+   "recompensa": 5318.8519918906695,
+   "colheitas": 25
+  },
+  {
+   "semente": 10125,
+   "recompensa": 5659.544436171128,
+   "colheitas": 25
+  },
+  {
+   "semente": 10126,
+   "recompensa": 5584.713205568955,
+   "colheitas": 25
+  },
+  {
+   "semente": 10127,
+   "recompensa": 5605.479091220261,
+   "colheitas": 28
+  },
+  {
+   "semente": 10128,
+   "recompensa": 5659.115259643304,
+   "colheitas": 24
+  },
+  {
+   "semente": 10129,
+   "recompensa": 5531.91867183043,
+   "colheitas": 22
+  },
+  {
+   "semente": 10130,
+   "recompensa": 5618.184242330155,
+   "colheitas": 25
+  },
+  {
+   "semente": 10131,
+   "recompensa": 5630.686841097548,
+   "colheitas": 22
+  },
+  {
+   "semente": 10132,
+   "recompensa": 5629.683744716193,
+   "colheitas": 23
+  },
+  {
+   "semente": 10133,
+   "recompensa": 5417.938337707411,
+   "colheitas": 19
+  },
+  {
+   "semente": 10134,
+   "recompensa": 5609.48740429655,
+   "colheitas": 24
+  },
+  {
+   "semente": 10135,
+   "recompensa": 5595.300482074136,
+   "colheitas": 26
+  },
+  {
+   "semente": 10136,
+   "recompensa": 5520.113174060505,
+   "colheitas": 23
+  },
+  {
+   "semente": 10137,
+   "recompensa": 5433.406199970074,
+   "colheitas": 24
+  },
+  {
+   "semente": 10138,
+   "recompensa": 5879.750060407639,
+   "colheitas": 25
+  },
+  {
+   "semente": 10139,
+   "recompensa": 4944.727482157133,
+   "colheitas": 22
+  },
+  {
+   "semente": 10140,
+   "recompensa": 5490.620310732363,
+   "colheitas": 23
+  },
+  {
+   "semente": 10141,
+   "recompensa": 5393.972379870501,
+   "colheitas": 22
+  },
+  {
+   "semente": 10142,
+   "recompensa": 5652.920610729589,
+   "colheitas": 23
+  },
+  {
+   "semente": 10143,
+   "recompensa": 5643.225043348077,
+   "colheitas": 27
+  },
+  {
+   "semente": 10144,
+   "recompensa": 5093.032555226422,
+   "colheitas": 19
+  },
+  {
+   "semente": 10145,
+   "recompensa": 5118.9640577264845,
+   "colheitas": 22
+  },
+  {
+   "semente": 10146,
+   "recompensa": 5614.406332447586,
+   "colheitas": 25
+  },
+  {
+   "semente": 10147,
+   "recompensa": 5468.945334675189,
+   "colheitas": 24
+  },
+  {
+   "semente": 10148,
+   "recompensa": 5347.504009951173,
+   "colheitas": 23
+  },
+  {
+   "semente": 10149,
+   "recompensa": 5593.388917370485,
+   "colheitas": 22
+  },
+  {
+   "semente": 10150,
+   "recompensa": 5467.925931643196,
+   "colheitas": 24
+  },
+  {
+   "semente": 10151,
+   "recompensa": 5579.545152277083,
+   "colheitas": 27
+  },
+  {
+   "semente": 10152,
+   "recompensa": 5452.382649270413,
+   "colheitas": 21
+  },
+  {
+   "semente": 10153,
+   "recompensa": 5091.105945266372,
+   "colheitas": 20
+  },
+  {
+   "semente": 10154,
+   "recompensa": 5790.478946577511,
+   "colheitas": 25
+  },
+  {
+   "semente": 10155,
+   "recompensa": 5703.821712184775,
+   "colheitas": 21
+  },
+  {
+   "semente": 10156,
+   "recompensa": 5387.251906459451,
+   "colheitas": 25
+  },
+  {
+   "semente": 10157,
+   "recompensa": 5125.100312060228,
+   "colheitas": 23
+  },
+  {
+   "semente": 10158,
+   "recompensa": 5573.821332671979,
+   "colheitas": 28
+  },
+  {
+   "semente": 10159,
+   "recompensa": 5610.058179543385,
+   "colheitas": 25
+  },
+  {
+   "semente": 10160,
+   "recompensa": 5807.377609726792,
+   "colheitas": 21
+  },
+  {
+   "semente": 10161,
+   "recompensa": 5141.574134642211,
+   "colheitas": 22
+  },
+  {
+   "semente": 10162,
+   "recompensa": 5309.861601789779,
+   "colheitas": 23
+  },
+  {
+   "semente": 10163,
+   "recompensa": 5228.798537328458,
+   "colheitas": 23
+  },
+  {
+   "semente": 10164,
+   "recompensa": 5612.713198132019,
+   "colheitas": 22
+  },
+  {
+   "semente": 10165,
+   "recompensa": 5376.994546023652,
+   "colheitas": 23
+  },
+  {
+   "semente": 10166,
+   "recompensa": 5615.09009232006,
+   "colheitas": 22
+  },
+  {
+   "semente": 10167,
+   "recompensa": 5116.628450570312,
+   "colheitas": 23
+  },
+  {
+   "semente": 10168,
+   "recompensa": 5655.864381689024,
+   "colheitas": 25
+  },
+  {
+   "semente": 10169,
+   "recompensa": 5608.374178712127,
+   "colheitas": 23
+  },
+  {
+   "semente": 10170,
+   "recompensa": 5042.10403855407,
+   "colheitas": 22
+  },
+  {
+   "semente": 10171,
+   "recompensa": 4952.090442653812,
+   "colheitas": 22
+  },
+  {
+   "semente": 10172,
+   "recompensa": 5621.167783580222,
+   "colheitas": 28
+  },
+  {
+   "semente": 10173,
+   "recompensa": 5544.205283481822,
+   "colheitas": 22
+  },
+  {
+   "semente": 10174,
+   "recompensa": 5552.796513496892,
+   "colheitas": 22
+  },
+  {
+   "semente": 10175,
+   "recompensa": 5516.007224267737,
+   "colheitas": 24
+  },
+  {
+   "semente": 10176,
+   "recompensa": 5705.359027755139,
+   "colheitas": 26
+  },
+  {
+   "semente": 10177,
+   "recompensa": 5647.375374867574,
+   "colheitas": 22
+  },
+  {
+   "semente": 10178,
+   "recompensa": 5180.2798531428825,
+   "colheitas": 26
+  },
+  {
+   "semente": 10179,
+   "recompensa": 5370.174600292658,
+   "colheitas": 23
+  },
+  {
+   "semente": 10180,
+   "recompensa": 4904.053676803907,
+   "colheitas": 18
+  },
+  {
+   "semente": 10181,
+   "recompensa": 5350.295297406096,
+   "colheitas": 21
+  },
+  {
+   "semente": 10182,
+   "recompensa": 5416.606673029526,
+   "colheitas": 24
+  },
+  {
+   "semente": 10183,
+   "recompensa": 5485.765159653373,
+   "colheitas": 25
+  },
+  {
+   "semente": 10184,
+   "recompensa": 5479.838940729908,
+   "colheitas": 24
+  },
+  {
+   "semente": 10185,
+   "recompensa": 5119.541897038903,
+   "colheitas": 19
+  },
+  {
+   "semente": 10186,
+   "recompensa": 5540.0051095334575,
+   "colheitas": 23
+  },
+  {
+   "semente": 10187,
+   "recompensa": 5423.827942230457,
+   "colheitas": 24
+  },
+  {
+   "semente": 10188,
+   "recompensa": 5788.941070442661,
+   "colheitas": 23
+  },
+  {
+   "semente": 10189,
+   "recompensa": 5397.861659282507,
+   "colheitas": 20
+  },
+  {
+   "semente": 10190,
+   "recompensa": 5663.161298726935,
+   "colheitas": 25
+  },
+  {
+   "semente": 10191,
+   "recompensa": 5637.431194785978,
+   "colheitas": 21
+  },
+  {
+   "semente": 10192,
+   "recompensa": 5239.405455882197,
+   "colheitas": 25
+  },
+  {
+   "semente": 10193,
+   "recompensa": 5017.982656647317,
+   "colheitas": 23
+  },
+  {
+   "semente": 10194,
+   "recompensa": 5815.021304938551,
+   "colheitas": 27
+  },
+  {
+   "semente": 10195,
+   "recompensa": 5348.346195506399,
+   "colheitas": 22
+  },
+  {
+   "semente": 10196,
+   "recompensa": 5378.040063998438,
+   "colheitas": 22
+  },
+  {
+   "semente": 10197,
+   "recompensa": 5750.867195721998,
+   "colheitas": 21
+  },
+  {
+   "semente": 10198,
+   "recompensa": 5305.493559822152,
+   "colheitas": 25
+  },
+  {
+   "semente": 10199,
+   "recompensa": 5241.667033434545,
+   "colheitas": 21
+  }
+ ],
+ "tempo_s": 958.7551548480988
+}

@@ -1,0 +1,34 @@
+{
+ "trial": 37,
+ "podado": true,
+ "fre": 0.33726,
+ "tempo_s": 1540.4921226501465,
+ "objetivo": null,
+ "por_seed": [
+  {
+   "seed": 42,
+   "passos": 337260,
+   "curva_validacao_rollback": [
+    {
+     "passos": 113880,
+     "media": 4147.80878223495,
+     "proxy_norm": 0.7255243462623548,
+     "ociosidade_pct": 20.972602739726028
+    },
+    {
+     "passos": 223380,
+     "media": 4388.6061432282695,
+     "proxy_norm": 0.7773642545545811,
+     "ociosidade_pct": 22.397260273972602
+    },
+    {
+     "passos": 337260,
+     "media": 4510.417079529365,
+     "proxy_norm": 0.8035882453026119,
+     "ociosidade_pct": 22.945205479452056
+    }
+   ],
+   "podado": true
+  }
+ ]
+}
